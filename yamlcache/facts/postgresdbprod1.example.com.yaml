@@ -1,0 +1,122 @@
+--- !ruby/object:Puppet::Node::Facts
+name: postgresdbprod1.example.com
+values:
+  macaddress: DE:AD:BE:EF:CA:FE
+  system_uptime: hours7741days322uptime322 daysseconds27867717
+  sshfp_dsa: |-
+    SSHFP 2 1 a1c196f106b13024d26c8739eb20d3c44211ea8d
+    SSHFP 2 2 fc9ee89bfa6e7dfd35edc317381a61c2027342d889ccea55e1dadc6a37d530dd
+  root_home: "/root"
+  blockdevice_sdb_vendor: VMware
+  bios_release_date: 06/22/2012
+  kernel: Linux
+  swapsize: 8.00 GB
+  clientversion: 3.8.6
+  rubyplatform: x86_64-linux
+  nr_ruby_found: 'true'
+  blockdevice_sdc_size: '53687091200'
+  puppet_vardir: "/var/lib/puppet"
+  gid: root
+  facterversion: 2.4.4
+  os: familyRedHatreleaseminor6major6full6.6nameCentOS
+  user_exists_infraadm: ''
+  id: root
+  clientcert: postgresdbprod1.example.com
+  blockdevice_sdd_vendor: VMware
+  is_virtual: 'true'
+  architecture: x86_64
+  ps: ps -ef
+  uptime_hours: '7741'
+  ipaddress_lo: 127.0.0.1
+  filesystems: ext4,iso9660
+  fqdn: postgresdbprod1.example.com
+  augeasversion: 1.0.0
+  kernelversion: 2.6.32
+  hardwareisa: x86_64
+  ipaddress_eth0: 10.1.1.1
+  operatingsystemrelease: '6.6'
+  blockdevice_sdb_model: Virtual disk
+  timezone: MDT
+  serialnumber: redacted
+  productname: VMware Virtual Platform
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  selinux: 'false'
+  swapfree: 8.00 GB
+  memoryfree: 7.33 GB
+  blockdevice_sr0_size: '64651264'
+  hostname: postgresdbprod1
+  sshdsakey: redacted
+  blockdevice_sda_model: Virtual disk
+  boardserialnumber: None
+  partitions: sdd1size104857568filesystemLVM2_membersda1uuidd68a3b32-ebaa-4d58-866d-e8331b626993size2097152mount/bootfilesystemext4sda2size207616000filesystemLVM2_membersdc1size104857568filesystemLVM2_membersde1size104857568filesystemLVM2_membersdb1size104857568filesystemLVM2_member
+  blockdevice_sdc_vendor: VMware
+  operatingsystemmajrelease: '6'
+  netmask: 255.255.255.0
+  sshrsakey: redacted
+  user_exists_splex: ''
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  processorcount: '2'
+  memoryfree_mb: '7510.14'
+  kernelrelease: 2.6.32-504.16.2.el6.x86_64
+  domain: example.com
+  sshfp_rsa: |-
+    SSHFP 1 1 7c9997b278bb776a7f2beb0e1cabeeea19a14243
+    SSHFP 1 2 e947315617b5c816db14254e4cde67ec2edf063cfe8392e6fbebbba8c9d09c6b
+  blockdevice_sdb_size: '53687091200'
+  network_eth0: 10.1.1.0
+  blockdevice_sr0_vendor: NECVMWar
+  kernelmajversion: '2.6'
+  concat_basedir: "/var/lib/puppet/concat"
+  is_pe: 'false'
+  mtu_eth0: '1500'
+  blockdevice_sde_vendor: VMware
+  blockdevice_sdd_size: '53687091200'
+  bios_vendor: Phoenix Technologies LTD
+  nr_java_found: 'false'
+  network_lo: 127.0.0.0
+  swapsize_mb: '8192.00'
+  boardproductname: 440BX Desktop Reference Platform
+  memorysize_mb: '7872.62'
+  type: Other
+  boardmanufacturer: Intel Corporation
+  rubyversion: 1.8.7
+  blockdevices: sda,sdb,sdc,sdd,sde,sr0
+  osfamily: RedHat
+  hardwaremodel: x86_64
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  blockdevice_sdc_model: Virtual disk
+  netmask_eth0: 255.255.255.0
+  uptime_seconds: '27867717'
+  uniqueid: 100ac825
+  uptime: 322 days
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  virtual: vmware
+  clientnoop: 'false'
+  netmask_lo: 255.0.0.0
+  ipaddress: 10.16.37.200
+  bios_version: '6.00'
+  swapfree_mb: '8192.00'
+  blockdevice_sde_size: '53687091200'
+  user_exists_oracle: '500'
+  physicalprocessorcount: '2'
+  manufacturer: VMware, Inc.
+  uptime_days: '322'
+  uuid: 422C78F5-6D07-8A0B-3FAD-D7540DFFBA53
+  user_exists_weblogic: ''
+  staging_http_get: curl
+  interfaces: eth0,lo
+  blockdevice_sda_vendor: VMware
+  blockdevice_sda_size: '107374182400'
+  operatingsystem: CentOS
+  blockdevice_sr0_model: VMware IDE CDR10
+  puppetversion: 3.8.6
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  blockdevice_sde_model: Virtual disk
+  memorysize: 7.69 GB
+  sudoversion: 1.8.6p3
+  mtu_lo: '65536'
+  processors: physicalcount2modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzcount2
+  blockdevice_sdd_model: Virtual disk
+timestamp: '2016-05-04T09:33:37.945864000-07:00'
+expiration: '2016-05-04T10:03:00.125657000-07:00'

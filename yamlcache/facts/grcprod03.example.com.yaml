@@ -1,0 +1,125 @@
+--- !ruby/object:Puppet::Node::Facts
+name: grcprod03.example.com
+values:
+  interfaces: eth0,eth1,lo,sit0,vlan737
+  sshdsakey: redacted
+  netmask_lo: 255.0.0.0
+  bios_version: I15
+  processor7: Intel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+  sshfp_rsa: |-
+    SSHFP 1 1 d13f731eabf4213cb948896e19fd1bc31637099b
+    SSHFP 1 2 239c2e072439ece552e26baec19561bd2a5c84993c53c41a43b0d84c3f8658bc
+  user_exists_infraadm: ''
+  mtu_sit0: '1480'
+  memorysize_mb: '28148.57'
+  kernelrelease: 2.6.18-308.el5
+  processor4: Intel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+  lsbdistcodename: Carthage
+  ipaddress_lo: 127.0.0.1
+  memoryfree_mb: '21789.73'
+  network_vlan737: 10.16.37.0
+  is_virtual: 'false'
+  hardwareisa: x86_64
+  blockdevice_cciss!c0d0_size: '73372631040'
+  sshrsakey: redacted
+  user_exists_splex: ''
+  is_pe: 'false'
+  processor1: Intel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+  mtu_eth0: '1500'
+  hostname: grcprod03
+  macaddress: DE:AD:BE:EF:CA:FE
+  network_lo: 127.0.0.0
+  kernelmajversion: '2.6'
+  lsbdistdescription: Enterprise Linux Enterprise Linux Server release 5.8 (Carthage)
+  netmask_vlan737: 255.255.255.0
+  bios_vendor: HP
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  lsbdistid: EnterpriseEnterpriseServer
+  clientcert: grcprod03.example.com
+  facterversion: 2.4.1
+  fqdn: grcprod03.example.com
+  processor6: Intel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+  osfamily: RedHat
+  uuid: 34333534-3539-3255-5837-333730324D4B
+  blockdevice_cciss!c0d0_vendor: HP
+  lsbdistrelease: '5.8'
+  partitions: cciss!c0d0p2cciss!c0d0p1
+  clientnoop: 'false'
+  mtu_vlan737: '1500'
+  gid: root
+  processor3: Intel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+  puppetversion: 3.8.6
+  selinux: 'false'
+  uptime: 1005 days
+  ipaddress: 10.16.37.115
+  system_uptime: seconds86909400hours24141days1005uptime1005 days
+  sudoversion: 1.7.2p1
+  staging_http_get: curl
+  swapsize: 32.00 GB
+  productname: ProLiant BL460c G1
+  os: lsbdistdescriptionEnterprise Linux Enterprise Linux Server release 5.8 (Carthage)minordistrelease8distidEnterpriseEnterpriseServerdistcodenameCarthagedistrelease5.8majdistrelease5release:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchreleaseminor8major5full5.8nameOracleLinuxfamilyRedHat
+  processor0: Intel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+  macaddress_eth1: 00:1C:C4:58:60:2C
+  puppet_vardir: "/var/lib/puppet"
+  id: root
+  ps: ps -ef
+  concat_basedir: "/var/lib/puppet/concat"
+  architecture: x86_64
+  sshfp_dsa: |-
+    SSHFP 2 1 0e9358b0b9e5637fbbe53f65d2ca2bff6979936f
+    SSHFP 2 2 2c9bdc8b0fa0cc3275bca67e9143fdac8f386086ae535874d79124c7881aee7d
+  operatingsystemmajrelease: '5'
+  operatingsystem: OracleLinux
+  virtual: physical
+  operatingsystemrelease: '5.8'
+  augeasversion: 1.2.0
+  uniqueid: 100a7325
+  rubyversion: 1.8.7
+  rubyplatform: x86_64-linux
+  lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+  uptime_hours: '24141'
+  clientversion: 3.8.6
+  domain: example.com
+  type: Rack Mount Chassis
+  processor5: Intel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+  mtu_lo: '16436'
+  lsbmajdistrelease: '5'
+  swapfree_mb: '32767.84'
+  kernelversion: 2.6.18
+  manufacturer: HP
+  bios_release_date: 06/28/2007
+  ipaddress_vlan737: 10.16.37.115
+  nr_java_found: 'false'
+  filesystems: ext2,ext3,iso9660
+  mtu_eth1: '1500'
+  processor2: Intel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+  blockdevice_cciss!c0d0_model: LOGICAL VOLUME
+  blockdevices: cciss!c0d0
+  root_home: "/root"
+  lsbminordistrelease: '8'
+  macaddress_vlan737: 00:1C:C4:58:60:2E
+  processorcount: '8'
+  uptime_days: '1005'
+  nr_ruby_found: 'true'
+  physicalprocessorcount: '2'
+  user_exists_oracle: '500'
+  swapsize_mb: '32767.99'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  processors: physicalcount2count8modelsIntel(R) Xeon(R) CPU           X5355  @ 2.66GHzIntel(R)
+    Xeon(R) CPU           X5355  @ 2.66GHzIntel(R) Xeon(R) CPU           X5355  @
+    2.66GHzIntel(R) Xeon(R) CPU           X5355  @ 2.66GHzIntel(R) Xeon(R) CPU           X5355  @
+    2.66GHzIntel(R) Xeon(R) CPU           X5355  @ 2.66GHzIntel(R) Xeon(R) CPU           X5355  @
+    2.66GHzIntel(R) Xeon(R) CPU           X5355  @ 2.66GHz
+  netmask: 255.255.255.0
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  swapfree: 32.00 GB
+  timezone: MDT
+  serialnumber: redacted
+  hardwaremodel: x86_64
+  uptime_seconds: '86909400'
+  user_exists_weblogic: '501'
+  kernel: Linux
+  memorysize: 27.49 GB
+  memoryfree: 21.28 GB
+timestamp: '2016-05-04T09:49:07.795163000-07:00'
+expiration: '2016-05-04T10:18:29.607002000-07:00'

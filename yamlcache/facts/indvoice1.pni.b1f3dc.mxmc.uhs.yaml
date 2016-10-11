@@ -1,0 +1,123 @@
+--- !ruby/object:Puppet::Node::Facts
+name: indvoice1.pni.b1f3dc.mxmc.uhs
+values:
+  virtual: vmware
+  uniqueid: 0a0a4958
+  physicalprocessorcount: '2'
+  timezone: MDT
+  processor0: Intel(R) Xeon(R) CPU           E5606  @ 2.13GHz
+  is_pe: 'false'
+  interfaces: eth1,lo
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  kernelmajversion: '2.6'
+  uptime_seconds: '26157728'
+  swapsize_mb: '4031.99'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  swapfree_mb: '3996.11'
+  selinux_config_policy: targeted
+  operatingsystemrelease: '6.7'
+  selinux_current_mode: permissive
+  sshdsakey: redacted
+  clientversion: 3.8.6
+  productname: VMware Virtual Platform
+  bios_release_date: 10/13/2009
+  user_exists_splex: ''
+  blockdevice_sda_vendor: VMware
+  hostname: indvoice1
+  blockdevice_sda_model: Virtual disk
+  filesystems: ext4,iso9660
+  network_lo: 127.0.0.0
+  augeasversion: 1.0.0
+  uptime_hours: '7266'
+  kernel: Linux
+  blockdevice_sr0_size: '1073741312'
+  processorcount: '2'
+  memoryfree_mb: '805.95'
+  type: Other
+  sshrsakey: redacted
+  os: lsbmajdistrelease6minordistrelease7release:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchdistdescriptionCentOS
+    release 6.7 (Final)distcodenameFinaldistrelease6.7distidCentOSreleaseminor7major6full6.7nameCentOSfamilyRedHat
+  user_exists_weblogic: ''
+  lsbminordistrelease: '7'
+  uptime: 302 days
+  processors: count2modelsIntel(R) Xeon(R) CPU           E5606  @ 2.13GHzIntel(R)
+    Xeon(R) CPU           E5606  @ 2.13GHzphysicalcount2
+  memoryfree: 805.95 MB
+  bios_vendor: Phoenix Technologies LTD
+  lsbdistid: CentOS
+  ps: ps -ef
+  boardproductname: 440BX Desktop Reference Platform
+  boardmanufacturer: Intel Corporation
+  puppetversion: 3.8.6
+  macaddress: DE:AD:BE:EF:CA:FE
+  sshfp_dsa: |-
+    SSHFP 2 1 5df6cde841b039d06307b79653c0ee80d1ec11f7
+    SSHFP 2 2 955dd287e59286bf2189048e9b2041021b1139294712043d23501279e5cbd36e
+  is_virtual: 'true'
+  osfamily: RedHat
+  ipaddress_eth1: 10.10.88.73
+  lsbmajdistrelease: '6'
+  rubyplatform: x86_64-linux
+  user_exists_oracle: ''
+  mtu_lo: '16436'
+  kernelversion: 2.6.32
+  blockdevice_sda_size: '42949672960'
+  blockdevices: sda,sr0
+  clientcert: indvoice1.pni.b1f3dc.mxmc.uhs
+  id: root
+  swapsize: 3.94 GB
+  selinux_enforced: 'false'
+  ipaddress_lo: 127.0.0.1
+  ipaddress: 10.10.88.73
+  lsbdistcodename: Final
+  processor1: Intel(R) Xeon(R) CPU           E5606  @ 2.13GHz
+  staging_http_get: curl
+  network_eth1: 10.10.88.0
+  clientnoop: 'false'
+  operatingsystemmajrelease: '6'
+  uuid: 423067DD-2444-3F46-69E8-648B4FEB5CFD
+  domain: pni.b1f3dc.mxmc.uhs
+  facterversion: 2.4.4
+  netmask: 255.255.255.0
+  netmask_lo: 255.0.0.0
+  blockdevice_sr0_vendor: NECVMWar
+  operatingsystem: CentOS
+  rubyversion: 1.8.7
+  selinux_policyversion: '24'
+  manufacturer: VMware, Inc.
+  swapfree: 3.90 GB
+  hardwaremodel: x86_64
+  lsbdistdescription: CentOS release 6.7 (Final)
+  gid: root
+  user_exists_infraadm: ''
+  hardwareisa: x86_64
+  partitions: sda1uuid5efddbbf-8512-446e-a0d1-5780e974c38emount/bootfilesystemext4size1024000sda2filesystemLVM2_membersize82860032
+  bios_version: '6.00'
+  root_home: "/root"
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  nr_java_found: 'false'
+  lsbdistrelease: '6.7'
+  boardserialnumber: None
+  serialnumber: redacted
+  sshfp_rsa: |-
+    SSHFP 1 1 35a9d09f2c13d74f6532bf4e173509d1977fd6ca
+    SSHFP 1 2 3d377aad7e6467c4b3bfc86739d8a694a3c32dc886d0bc86b610c13cfc4c9c71
+  selinux_config_mode: disabled
+  system_uptime: days302uptime302 dayshours7266seconds26157728
+  kernelrelease: 2.6.32-279.14.1.el6.x86_64
+  concat_basedir: "/var/lib/puppet/concat"
+  netmask_eth1: 255.255.255.0
+  mtu_eth1: '1500'
+  memorysize_mb: '1877.57'
+  selinux: 'true'
+  uptime_days: '302'
+  macaddress_eth1: 00:50:56:B0:01:5A
+  architecture: x86_64
+  puppet_vardir: "/var/lib/puppet"
+  sudoversion: 1.8.6p3
+  fqdn: indvoice1.pni.b1f3dc.mxmc.uhs
+  memorysize: 1.83 GB
+  nr_ruby_found: 'true'
+  blockdevice_sr0_model: VMware IDE CDR10
+timestamp: '2016-05-04T09:45:11.415980000-07:00'
+expiration: '2016-05-04T10:14:32.824450000-07:00'

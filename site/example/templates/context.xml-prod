@@ -1,0 +1,23 @@
+<!-- This file is controlled by puppet, and is placed here during a code deploy. -->
+
+<Context>
+
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+    <Environment value="<%= @environment %>" type="java.lang.String" name="deploymentEnvironment"/>
+    <Environment value="<%= @environment %>" type="java.lang.String" name="spring.profiles.active"/>
+    <Environment value="obs" type="java.lang.String" name="DBPasswordOBS"/>
+    <Environment value="stroperbew" type="java.lang.String" name="dataSourceCreonPassword"/>
+    <Environment value="cf_apps" type="java.lang.String" name="DBPasswordCF"/>
+    <Environment value="dlm" type="java.lang.String" name="dataSourceDlmPassword"/>
+    <Environment value="tt" type="java.lang.String" name="DBPasswordTT"/>
+    <Environment value="email123" type="java.lang.String" name="DBPasswordEmail"/>
+    <Environment value="email123" type="java.lang.String" name="dataSourceEmailPassword"/>
+    <Environment value="DONOTUSE" type="java.lang.String" name="dataSourceOdsyDataPassword"/>
+    <Environment value="followup" type="java.lang.String" name="DBPasswordFollowUp"/>
+    <Environment value="MYHEALTHHOME" type="java.lang.String" name="DBPasswordHealthyHome"/>
+    <Environment value="obs" type="java.lang.String" name="DBPasswordContent"/>
+    <Environment value="email123" type="java.lang.String" name="dataSourceServ1_RemoteEmailPassword"/>
+    <Environment value="true" type="java.lang.Boolen" name="activeBatchProcessor"/>
+
+</Context>

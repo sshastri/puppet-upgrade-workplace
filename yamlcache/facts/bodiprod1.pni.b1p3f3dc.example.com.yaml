@@ -1,0 +1,130 @@
+--- !ruby/object:Puppet::Node::Facts
+name: bodiprod1.pni.b1p3f3dc.example.com
+values:
+  ipaddress_vlan738: 10.16.38.170
+  user_exists_oracle: ''
+  swapfree_mb: '34175.85'
+  uptime_seconds: '79658930'
+  macaddress_vlan741: 00:26:55:84:FF:44
+  filesystems: ext2,ext3,iso9660
+  processor7: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  rubyversion: 1.8.7
+  bios_vendor: HP
+  lsbdistcodename: Tikanga
+  ipaddress_vlan741: 10.16.41.170
+  hardwareisa: x86_64
+  processor4: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  is_virtual: 'false'
+  blockdevice_cciss!c0d0_size: '299966445568'
+  mtu_lo: '16436'
+  type: Rack Mount Chassis
+  sshrsakey: redacted
+  processor1: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  ps: ps -ef
+  virtual: physical
+  swapsize_mb: '34175.99'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  mtu_sit0: '1480'
+  ipaddress_lo: 127.0.0.1
+  osfamily: RedHat
+  sudoversion: 1.7.2p1
+  operatingsystemmajrelease: '5'
+  mtu_vlan741: '1500'
+  lsbdistid: RedHatEnterpriseServer
+  gid: root
+  manufacturer: HP
+  netmask_lo: 255.0.0.0
+  blockdevice_cciss!c0d0_vendor: '0x103c'
+  augeasversion: 1.2.0
+  puppetversion: 3.8.6
+  lsbminordistrelease: '5'
+  staging_http_get: curl
+  clientnoop: 'false'
+  mtu_vlan738: '1500'
+  hostname: bodiprod1
+  user_exists_infraadm: ''
+  uniqueid: 100aaa26
+  nr_java_found: 'false'
+  lsbdistrelease: '5.5'
+  processor5: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  architecture: x86_64
+  processor2: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  uptime: 921 days
+  rubyplatform: x86_64-linux
+  macaddress_eth1: 00:26:55:84:FF:44
+  processors: count8modelsIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzIntel(R)
+    Xeon(R) CPU           E5640  @ 2.67GHzIntel(R) Xeon(R) CPU           E5640  @
+    2.67GHzIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzIntel(R) Xeon(R) CPU           E5640  @
+    2.67GHzIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzIntel(R) Xeon(R) CPU           E5640  @
+    2.67GHzIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzphysicalcount1
+  kernelmajversion: '2.6'
+  physicalprocessorcount: '1'
+  is_pe: 'false'
+  productname: ProLiant BL460c G6
+  sshfp_dsa: |-
+    SSHFP 2 1 22c21ad3eddb99cb59bf972d95cdba169c3aec68
+    SSHFP 2 2 51c7a719ad5b473cac71710d2ba9537166d26082bca717f4f17bcae8d255faee
+  sshfp_rsa: |-
+    SSHFP 1 1 e3a74c7102d5d4b0ac3613a137eef179b3b10723
+    SSHFP 1 2 74fd1c11b632328f3f569266fc4da5d678edacbb625901178d200a0961873092
+  id: root
+  uptime_hours: '22127'
+  netmask: 255.255.255.0
+  puppet_vardir: "/var/lib/puppet"
+  fqdn: bodiprod1.pni.b1p3f3dc.example.com
+  root_home: "/root"
+  network_lo: 127.0.0.0
+  processorcount: '8'
+  clientversion: 3.8.6
+  hardwaremodel: x86_64
+  sshdsakey: redacted
+  partitions: cciss!c0d0p2cciss!c0d0p1
+  mtu_eth0: '1500'
+  timezone: MDT
+  system_uptime: days921hours22127uptime921 daysseconds79658930
+  bios_version: I24
+  domain: pni.b1p3f3dc.example.com
+  processor6: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  user_exists_splex: ''
+  processor3: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  swapfree: 33.37 GB
+  kernelversion: 2.6.18
+  clientcert: bodiprod1.pni.b1p3f3dc.example.com
+  macaddress: DE:AD:BE:EF:CA:FE
+  processor0: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  memoryfree: 29.55 GB
+  serialnumber: redacted
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  kernelrelease: 2.6.18-194.el5
+  lsbdistdescription: Red Hat Enterprise Linux Server release 5.5 (Tikanga)
+  nr_ruby_found: 'true'
+  os: nameRedHatlsbdistrelease5.5minordistrelease5distdescriptionRed Hat Enterprise
+    Linux Server release 5.5 (Tikanga)release:core-3.1-amd64:core-3.1-ia32:core-3.1-noarch:graphics-3.1-amd64:graphics-3.1-ia32:graphics-3.1-noarchmajdistrelease5distcodenameTikangadistidRedHatEnterpriseServerreleaseminor5full5.5major5familyRedHat
+  bios_release_date: 08/16/2010
+  ipaddress: 10.16.38.170
+  blockdevices: cciss!c0d0
+  memorysize_mb: '32183.89'
+  memoryfree_mb: '30255.95'
+  lsbrelease: ":core-3.1-amd64:core-3.1-ia32:core-3.1-noarch:graphics-3.1-amd64:graphics-3.1-ia32:graphics-3.1-noarch"
+  network_vlan738: 10.16.38.0
+  facterversion: 2.4.1
+  swapsize: 33.37 GB
+  uuid: 37373035-3038-5533-5631-303037435832
+  netmask_vlan738: 255.255.255.0
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  network_vlan741: 10.16.41.0
+  memorysize: 31.43 GB
+  netmask_vlan741: 255.255.255.0
+  user_exists_weblogic: ''
+  selinux: 'false'
+  kernel: Linux
+  operatingsystem: RedHat
+  concat_basedir: "/var/lib/puppet/concat"
+  uptime_days: '921'
+  lsbmajdistrelease: '5'
+  operatingsystemrelease: '5.5'
+  macaddress_vlan738: 00:26:55:84:FF:40
+  interfaces: eth0,eth1,lo,sit0,vlan738,vlan741
+  mtu_eth1: '1500'
+timestamp: '2016-05-04T09:36:30.660376000-07:00'
+expiration: '2016-05-04T10:05:52.387309000-07:00'

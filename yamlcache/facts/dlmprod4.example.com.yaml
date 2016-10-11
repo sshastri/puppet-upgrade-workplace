@@ -1,0 +1,121 @@
+--- !ruby/object:Puppet::Node::Facts
+name: dlmprod4.example.com
+values:
+  id: root
+  productname: VMware Virtual Platform
+  clientnoop: 'false'
+  memoryfree: 53.20 GB
+  boardserialnumber: None
+  staging_http_get: curl
+  timezone: MST
+  augeasversion: 1.0.0
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  facterversion: 2.4.6
+  hardwareisa: x86_64
+  blockdevice_sdb_size: '77309411328'
+  kernelrelease: 2.6.32-220.2.1.el6.x86_64
+  mtu_lo: '16436'
+  puppetversion: 3.8.6
+  uptime_days: '0'
+  network_lo: 127.0.0.0
+  uuid: 422C0BB4-01E4-E7A2-49F7-34D31C658606
+  serialnumber: redacted
+  kernelversion: 2.6.32
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  virtual: vmware
+  nr_java_found: 'false'
+  kernelmajversion: '2.6'
+  gid: root
+  system_uptime: days0uptime0:02 hourshours0seconds159
+  selinux: 'false'
+  partitions: sda1uuidf94fe77a-f1c8-436e-a749-871add45f92ffilesystemext4size786432mount/bootsda2filesystemLVM2_membersize67108864
+  swapsize_mb: '65535.99'
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  user_exists_weblogic: ''
+  sshfp_dsa: |-
+    SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+    SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+  mtu_eth1: '1500'
+  user_exists_splex: ''
+  blockdevice_sda_model: Virtual disk
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  interfaces: eth0,eth1,lo
+  sshdsakey: redacted
+  swapsize: 64.00 GB
+  netmask_eth1: 255.255.254.0
+  bios_vendor: Phoenix Technologies LTD
+  clientversion: 3.8.6
+  operatingsystemrelease: '6.2'
+  boardproductname: 440BX Desktop Reference Platform
+  processor5: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  operatingsystem: CentOS
+  fqdn: dlmprod4.example.com
+  is_virtual: 'true'
+  blockdevices: sda,sdb
+  rubyplatform: x86_64-linux
+  uniqueid: 100a5423
+  filesystems: ext4,iso9660
+  path: "/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin"
+  blockdevice_sda_vendor: VMware
+  boardmanufacturer: Intel Corporation
+  sudoversion: 1.7.4p5
+  blockdevice_sdb_model: Virtual disk
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  memorysize: 55.03 GB
+  network_eth1: 10.16.60.0
+  root_home: "/root"
+  bios_release_date: 04/14/2014
+  architecture: x86_64
+  sshrsakey: redacted
+  is_pe: 'false'
+  macaddress: DE:AD:BE:EF:CA:FE
+  clientcert: dlmprod4.example.com
+  blockdevice_sda_size: '42949672960'
+  processors: modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU
+    E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzcount6physicalcount6
+  swapfree: 64.00 GB
+  swapfree_mb: '65535.99'
+  ipaddress_eth1: 10.16.60.102
+  blockdevice_sdb_vendor: VMware
+  user_exists_oracle: ''
+  macaddress_eth1: 00:50:56:AC:64:86
+  mtu_eth0: '1500'
+  ipaddress_lo: 127.0.0.1
+  bios_version: '6.00'
+  memorysize_mb: '56349.35'
+  rubyversion: 1.8.7
+  sshfp_rsa: |-
+    SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+    SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+  netmask_eth0: 255.255.255.0
+  manufacturer: VMware, Inc.
+  ipaddress: 10.16.35.84
+  netmask_lo: 255.0.0.0
+  operatingsystemmajrelease: '6'
+  os: familyRedHatreleaseminor2full6.2major6nameCentOS
+  nr_ruby_found: 'true'
+  processor4: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  memoryfree_mb: '54473.41'
+  hostname: dlmprod4
+  hardwaremodel: x86_64
+  user_exists_infraadm: ''
+  processorcount: '6'
+  kernel: Linux
+  uptime_seconds: '159'
+  ps: ps -ef
+  type: Other
+  uptime: 0:02 hours
+  uptime_hours: '0'
+  puppet_vardir: "/var/lib/puppet"
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  network_eth0: 10.1.1.0
+  osfamily: RedHat
+  physicalprocessorcount: '6'
+  ipaddress_eth0: 10.1.1.1
+  domain: example.com
+  netmask: 255.255.255.0
+  concat_basedir: "/var/lib/puppet/concat"
+timestamp: '2016-03-10T14:12:38.538536000-08:00'
+expiration: '2016-03-10T14:41:10.118386000-08:00'

@@ -1,0 +1,62 @@
+#!/bin/bash
+#
+# $Id:$
+#
+# xfs:       Starts the X Font Server
+#
+# Version:      @(#) /etc/init.d/xfs 2.0
+#
+# chkconfig: 35 99 01
+# description: Starts and stops the X Font Server at boot time and shutdown. \
+#              It also takes care of (re-)generating font lists.
+#
+# processname: xvfbebs
+# config: /etc/oratab
+
+# Source function library.
+. /etc/init.d/functions
+
+ORA_OWNER=oracle
+export ORA_OWNER
+ 
+
+start() {
+/usr/bin/nohup /bin/su - $ORA_OWNER -c '/usr/bin/Xvfb :1 -screen 0 1024x800x8 -pn -fp /usr/share/X11/fonts/misc  -sp /usr/lib64/xserver/SecurityPolicy & /bin/echo $!>/home/oracle/xvfbebs.pid ; /usr/bin/xhost + ;export DISPLAY=$(hostname | cut -d\. -f1):1.0; /usr/bin/twm &' > /home/oracle/xvfbebsstart.log 2>&1
+touch /var/lock/subsys/xvfbebs
+}	
+
+stop() {
+/bin/su - $ORA_OWNER -c '/bin/kill -9 $(/bin/cat /home/oracle/xvfbebs.pid) ' > /home/oracle/xvfbebsstop.log 2>&1
+rm -f /var/lock/subsys/xvfbebs
+}	
+
+reload() {
+   echo $"Restarting $prog:"
+}
+
+restart() {
+   echo $"Restarting $prog:"
+}
+
+case "$1" in
+  start)
+  	start
+	;;
+  stop)
+  	stop
+	;;
+  restart)
+    restart
+    ;;
+  reload)
+  	reload
+	;;
+  status)
+  	echo "hi"
+	;;
+  *)
+	echo $"Usage: $prog {start|stop|status|restart|reload|condrestart}"
+	exit 1
+esac
+
+exit $?

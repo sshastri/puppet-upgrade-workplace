@@ -1,0 +1,170 @@
+--- !ruby/object:Puppet::Node::Facts
+name: agiledbstage2.example.com
+values:
+  processors: count4physicalcount4modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  blockdevice_sdh_size: '53687091200'
+  blockdevice_sr0_model: VMware SATA CD00
+  bios_version: '6.00'
+  augeasversion: 1.0.0
+  hardwareisa: x86_64
+  blockdevice_sdm_vendor: Nimble
+  swapfree_mb: '8030.80'
+  selinux: 'false'
+  blockdevice_sdr_vendor: Nimble
+  lsbdistdescription: Oracle Linux Server release 6.7
+  blockdevice_sdk_size: '53687091200'
+  uptime_days: '77'
+  clientversion: 3.8.6
+  rubyplatform: x86_64-linux
+  blockdevice_sda_model: Virtual disk
+  blockdevice_sdn_model: Server
+  blockdevice_sda_size: '64424509440'
+  blockdevice_sdo_model: Server
+  macaddress: DE:AD:BE:EF:CA:FE
+  ipaddress_eth0: 10.1.1.1
+  blockdevice_sdq_vendor: Nimble
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  blockdevice_sdf_vendor: Nimble
+  blockdevice_sdr_model: Server
+  blockdevice_sdo_vendor: Nimble
+  blockdevice_sdc_vendor: Nimble
+  puppet_vardir: "/var/lib/puppet"
+  os: releaseminor7full6.7major6familyRedHatlsbrelease:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchminordistrelease7distcodenamen/adistidOracleServermajdistrelease6distrelease6.7distdescriptionOracle
+    Linux Server release 6.7nameOracleLinux
+  memorysize_mb: '15786.36'
+  is_pe: 'false'
+  operatingsystem: OracleLinux
+  swapsize: 7.84 GB
+  netmask: 255.255.255.0
+  blockdevice_sdo_size: '53687091200'
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  ipaddress_lo: 127.0.0.1
+  system_uptime: hours1870days77uptime77 daysseconds6733972
+  blockdevice_sdp_model: Server
+  physicalprocessorcount: '4'
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  blockdevice_sdh_model: Server
+  netmask_lo: 255.0.0.0
+  kernelmajversion: '3.8'
+  blockdevice_sdn_size: '53687091200'
+  blockdevice_sdp_vendor: Nimble
+  operatingsystemmajrelease: '6'
+  timezone: MDT
+  lsbminordistrelease: '7'
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  rubyversion: 1.8.7
+  sshfp_dsa: |-
+    SSHFP 2 1 0f00e3dd1d7517fcff065389a4054cd1c79d2645
+    SSHFP 2 2 cac5218cca4be4418d5d02ff901239ba768913e8ade2d4c7acaa5b76498fc591
+  productname: VMware Virtual Platform
+  hostname: agiledbstage2
+  user_exists_weblogic: ''
+  blockdevice_sdr_size: '53687091200'
+  virtual: vmware
+  blockdevice_sdk_model: Server
+  sshfp_rsa: |-
+    SSHFP 1 1 f4a7138cef939499871a85dc870e67cb1b6dadb9
+    SSHFP 1 2 ef3a4a26b217d6b994a6659f5c4d0a7b7252ae864ab726f03364a3b3253bec76
+  root_home: "/root"
+  user_exists_oracle: '500'
+  filesystems: ext4,iso9660
+  uptime_hours: '1870'
+  uptime_seconds: '6733972'
+  memorysize: 15.42 GB
+  uniqueid: 100aab46
+  swapsize_mb: '8032.00'
+  type: Other
+  blockdevice_sdd_vendor: Nimble
+  blockdevice_sdb_size: '161061273600'
+  blockdevice_sdl_size: '53687091200'
+  lsbmajdistrelease: '6'
+  operatingsystemrelease: '6.7'
+  ps: ps -ef
+  network_lo: 127.0.0.0
+  lsbdistcodename: n/a
+  blockdevice_sdh_vendor: Nimble
+  bios_release_date: 04/14/2014
+  blockdevice_sdq_model: Server
+  fqdn: agiledbstage2.example.com
+  blockdevice_sdn_vendor: Nimble
+  bios_vendor: Phoenix Technologies LTD
+  blockdevice_sdb_vendor: VMware
+  blockdevice_sdq_size: '53687091200'
+  blockdevice_sdd_size: '53687091200'
+  blockdevice_sdd_model: Server
+  blockdevice_sde_size: '53687091200'
+  domain: example.com
+  boardserialnumber: None
+  hardwaremodel: x86_64
+  memoryfree: 14.01 GB
+  sudoversion: 1.8.6p3
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  user_exists_splex: ''
+  mtu_lo: '65536'
+  netmask_eth0: 255.255.255.0
+  blockdevice_sda_vendor: VMware
+  blockdevice_sdc_model: Server
+  lsbdistid: OracleServer
+  blockdevice_sdg_model: Server
+  blockdevice_sdi_size: '53687091200'
+  blockdevice_sdf_model: Server
+  blockdevice_sdc_size: '53687091200'
+  serialnumber: redacted
+  concat_basedir: "/var/lib/puppet/concat"
+  puppetversion: 3.8.6
+  partitions: sdb1size314568702filesystemLVM2_membersda1mount/bootuuidbcc95259-7361-43bd-a715-bfa60a8d9e38size2097152filesystemext4sda2size123729920filesystemLVM2_member
+  blockdevice_sde_vendor: Nimble
+  swapfree: 7.84 GB
+  blockdevice_sdl_model: Server
+  blockdevice_sdp_size: '53687091200'
+  uptime: 77 days
+  ipaddress: 10.16.70.171
+  lsbdistrelease: '6.7'
+  blockdevice_sdf_size: '53687091200'
+  gid: root
+  clientcert: agiledbstage2.example.com
+  blockdevice_sr0_vendor: NECVMWar
+  architecture: x86_64
+  blockdevice_sdm_size: '53687091200'
+  blockdevice_sdg_size: '53687091200'
+  blockdevice_sde_model: Server
+  kernelversion: 3.8.13
+  blockdevice_sdi_model: Server
+  blockdevice_sdm_model: Server
+  mtu_eth0: '1500'
+  sshrsakey: redacted
+  kernelrelease: 3.8.13-68.3.4.el6uek.x86_64
+  boardproductname: 440BX Desktop Reference Platform
+  blockdevice_sdj_size: '53687091200'
+  blockdevice_sdj_model: Server
+  memoryfree_mb: '14342.48'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  blockdevice_sdj_vendor: Nimble
+  processorcount: '4'
+  blockdevice_sdi_vendor: Nimble
+  blockdevice_sdg_vendor: Nimble
+  network_eth0: 10.1.1.0
+  uuid: 422CC7FA-A4A2-D023-C7EA-6C512A3B0946
+  kernel: Linux
+  blockdevice_sdl_vendor: Nimble
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  boardmanufacturer: Intel Corporation
+  blockdevices: fd0,sda,sdb,sdc,sdd,sde,sdf,sdg,sdh,sdi,sdj,sdk,sdl,sdm,sdn,sdo,sdp,sdq,sdr,sr0
+  blockdevice_sdk_vendor: Nimble
+  id: root
+  sshdsakey: redacted
+  interfaces: eth0,lo
+  blockdevice_sr0_size: '1073741312'
+  is_virtual: 'true'
+  blockdevice_sdb_model: Virtual disk
+  user_exists_infraadm: ''
+  clientnoop: 'false'
+  manufacturer: VMware, Inc.
+  blockdevice_fd0_size: '4096'
+  osfamily: RedHat
+  facterversion: 2.4.4
+timestamp: '2016-05-04T09:44:32.388338000-07:00'
+expiration: '2016-05-04T10:13:53.789633000-07:00'

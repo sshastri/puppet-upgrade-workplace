@@ -1,0 +1,176 @@
+--- !ruby/object:Puppet::Node::Facts
+name: odsysrvsdbprod1.example.com
+values:
+  filesystems: ext4,iso9660
+  swapfree_mb: '16096.00'
+  user_exists_oracle: '500'
+  uptime_seconds: '1712051'
+  bios_vendor: Phoenix Technologies LTD
+  blockdevice_sdq_model: Server
+  rubyversion: 1.8.7
+  blockdevice_sdf_size: '26843545600'
+  lsbdistcodename: n/a
+  blockdevice_sdp_size: '26843545600'
+  hardwareisa: x86_64
+  is_virtual: 'true'
+  sshrsakey: redacted
+  blockdevice_sdi_model: Server
+  mtu_lo: '65536'
+  blockdevice_sr0_model: VMware SATA CD00
+  type: Other
+  blockdevice_sdh_vendor: Nimble
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  ps: ps -ef
+  virtual: vmware
+  blockdevice_sdi_size: '26843545600'
+  swapsize_mb: '16096.00'
+  blockdevice_sdj_vendor: Nimble
+  blockdevice_sdr_vendor: Nimble
+  blockdevice_sdh_model: Server
+  ipaddress_lo: 127.0.0.1
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  blockdevice_sdg_vendor: Nimble
+  sudoversion: 1.8.6p3
+  lsbdistid: OracleServer
+  blockdevice_sdf_vendor: Nimble
+  osfamily: RedHat
+  blockdevice_sr0_vendor: NECVMWar
+  operatingsystemmajrelease: '6'
+  network_eth0: 10.1.1.0
+  blockdevice_sdc_vendor: VMware
+  blockdevice_sdc_size: '21474836480'
+  gid: root
+  netmask_lo: 255.0.0.0
+  manufacturer: VMware, Inc.
+  blockdevice_sde_size: '26843545600'
+  augeasversion: 1.0.0
+  blockdevice_sdm_vendor: Nimble
+  blockdevice_sdr_size: '26843545600'
+  blockdevice_sdn_vendor: Nimble
+  blockdevice_sdl_model: Server
+  blockdevice_sdg_size: '26843545600'
+  puppetversion: 3.8.6
+  blockdevice_sdo_vendor: Nimble
+  lsbminordistrelease: '7'
+  blockdevice_sda_size: '107374182400'
+  boardproductname: 440BX Desktop Reference Platform
+  staging_http_get: curl
+  clientnoop: 'false'
+  blockdevice_sds_vendor: Nimble
+  hostname: odsysrvsdbprod1
+  user_exists_infraadm: ''
+  blockdevice_sde_vendor: Nimble
+  blockdevice_sdb_vendor: VMware
+  uniqueid: 100a7a26
+  lsbdistrelease: '6.7'
+  nr_java_found: 'false'
+  blockdevice_sdk_model: Server
+  architecture: x86_64
+  blockdevice_sdk_size: '26843545600'
+  processor2: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  blockdevice_sdn_model: Server
+  netmask_eth0: 255.255.255.0
+  blockdevice_sdd_size: '26843545600'
+  blockdevice_sdd_model: Server
+  uptime: 19 days
+  blockdevice_sds_size: '26843545600'
+  rubyplatform: x86_64-linux
+  blockdevice_sdn_size: '26843545600'
+  processors: modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzphysicalcount4count4
+  blockdevice_sde_model: Server
+  blockdevice_fd0_size: '4096'
+  kernelmajversion: '3.8'
+  blockdevice_sda_model: Virtual disk
+  sshfp_dsa: |-
+    SSHFP 2 1 643867f26b9fbbcfe7f0bad9c348cb522d45d228
+    SSHFP 2 2 a273ee3dbd108e07281d29858bddaa0f3a5c9bc7c8e97c6fbe97e4d6d6436706
+  blockdevice_sdg_model: Server
+  physicalprocessorcount: '4'
+  is_pe: 'false'
+  boardserialnumber: None
+  productname: VMware Virtual Platform
+  sshfp_rsa: |-
+    SSHFP 1 1 c1106d6fd65af9dc911f20625e11e2192d3ba052
+    SSHFP 1 2 30055ab64b2d20894d45b0c0e7e0cb3ce2f8bd23a5b76bd2d24585518223c903
+  blockdevice_sdp_vendor: Nimble
+  id: root
+  blockdevice_sdk_vendor: Nimble
+  blockdevice_sdj_size: '26843545600'
+  ipaddress_eth0: 10.1.1.1
+  uptime_hours: '475'
+  blockdevice_sdh_size: '26843545600'
+  netmask: 255.255.255.0
+  puppet_vardir: "/var/lib/puppet"
+  blockdevice_sdl_size: '26843545600'
+  blockdevice_sdm_size: '26843545600'
+  fqdn: odsysrvsdbprod1.example.com
+  root_home: "/root"
+  network_lo: 127.0.0.0
+  blockdevice_sdq_size: '26843545600'
+  processorcount: '4'
+  clientversion: 3.8.6
+  blockdevice_sdi_vendor: Nimble
+  partitions: sda1size2097152uuid3f54c273-33ad-405b-8ea7-b912b52e2486mount/bootfilesystemext4sda2size207616000filesystemLVM2_membersdc1size41943008filesystemLVM2_membersdb1size52428768filesystemLVM2_member
+  hardwaremodel: x86_64
+  blockdevice_sr0_size: '1073741312'
+  sshdsakey: redacted
+  timezone: MDT
+  blockdevice_sdo_model: Server
+  mtu_eth0: '1500'
+  system_uptime: days19hours475uptime19 daysseconds1712051
+  boardmanufacturer: Intel Corporation
+  domain: example.com
+  bios_version: '6.00'
+  blockdevice_sds_model: Server
+  user_exists_splex: ''
+  blockdevice_sdr_model: Server
+  macaddress: DE:AD:BE:EF:CA:FE
+  swapfree: 15.72 GB
+  blockdevice_sdj_model: Server
+  processor3: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  kernelversion: 3.8.13
+  clientcert: odsysrvsdbprod1.example.com
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  serialnumber: redacted
+  memoryfree: 14.26 GB
+  kernelrelease: 3.8.13-68.3.4.el6uek.x86_64
+  bios_release_date: 04/14/2014
+  blockdevice_sdm_model: Server
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  lsbdistdescription: Oracle Linux Server release 6.7
+  os: releasefull6.7minor7major6familyRedHatlsbrelease:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchminordistrelease7distidOracleServerdistrelease6.7majdistrelease6distdescriptionOracle
+    Linux Server release 6.7distcodenamen/anameOracleLinux
+  nr_ruby_found: 'true'
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  blockdevices: fd0,sda,sdb,sdc,sdd,sde,sdf,sdg,sdh,sdi,sdj,sdk,sdl,sdm,sdn,sdo,sdp,sdq,sdr,sds,sr0
+  ipaddress: 10.16.38.122
+  blockdevice_sdc_model: Virtual disk
+  memorysize_mb: '15786.36'
+  memoryfree_mb: '14604.25'
+  blockdevice_sdb_model: Virtual disk
+  blockdevice_sdl_vendor: Nimble
+  swapsize: 15.72 GB
+  facterversion: 2.4.4
+  blockdevice_sdp_model: Server
+  uuid: 422C85E5-E387-F5A0-A786-84EACE4B52A8
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  blockdevice_sdo_size: '26843545600'
+  memorysize: 15.42 GB
+  blockdevice_sdd_vendor: Nimble
+  kernel: Linux
+  blockdevice_sdb_size: '26843545600'
+  user_exists_weblogic: ''
+  selinux: 'false'
+  operatingsystem: OracleLinux
+  concat_basedir: "/var/lib/puppet/concat"
+  blockdevice_sdq_vendor: Nimble
+  uptime_days: '19'
+  lsbmajdistrelease: '6'
+  blockdevice_sda_vendor: VMware
+  operatingsystemrelease: '6.7'
+  interfaces: eth0,lo
+  blockdevice_sdf_model: Server
+timestamp: '2016-05-04T09:29:20.669897000-07:00'
+expiration: '2016-05-04T09:58:42.814358000-07:00'

@@ -1,0 +1,123 @@
+--- !ruby/object:Puppet::Node::Facts
+name: demantraapptest1.example.com
+values:
+  boardserialnumber: None
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  blockdevice_sr0_vendor: NECVMWar
+  selinux_enforced: 'false'
+  blockdevice_sdb_model: Virtual disk
+  swapsize: 7.85 GB
+  netmask_eth1: 255.255.255.0
+  boardproductname: 440BX Desktop Reference Platform
+  mtu_eth1: '1500'
+  blockdevice_sr0_size: '1073741312'
+  network_eth1: 10.16.102.0
+  ipaddress_eth0: 10.1.1.1
+  netmask_lo: 255.0.0.0
+  kernelversion: 3.8.13
+  os: familyRedHatnameOracleLinuxreleaseminor6full6.6major6
+  memorysize_mb: '16046.63'
+  selinux_config_mode: permissive
+  processorcount: '4'
+  root_home: "/root"
+  path: "/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin"
+  ps: ps -ef
+  concat_basedir: "/var/lib/puppet/concat"
+  puppetversion: 3.8.1
+  netmask: 255.255.255.0
+  macaddress: DE:AD:BE:EF:CA:FE
+  kernel: Linux
+  memoryfree: 14.64 GB
+  facterversion: 2.4.4
+  blockdevice_sdb_size: '85899345920'
+  kernelrelease: 3.8.13-44.1.4.el6uek.x86_64
+  operatingsystem: OracleLinux
+  bios_vendor: Phoenix Technologies LTD
+  kernelmajversion: '3.8'
+  processor2: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  partitions: sdc1filesystemLVM2_membersize209712447sda1filesystemext4uuid4e5db963-283d-4509-9703-c8831c44f59fmount/bootsize1024000sda2filesystemLVM2_membersize166746112sdb1filesystemLVM2_membersize167766732
+  serialnumber: redacted
+  rubyplatform: x86_64-linux
+  macaddress_eth1: 00:50:56:AC:35:46
+  uptime_seconds: '7354992'
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  processors: physicalcount1modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2640 0 @ 2.50GHzcount4
+  bios_release_date: 08/16/2013
+  clientcert: demantraapptest1.example.com
+  clientversion: 3.8.1
+  blockdevice_sdc_model: Virtual disk
+  id: root
+  netmask_eth0: 255.255.255.0
+  blockdevice_fd0_size: '4096'
+  uniqueid: 100a9869
+  sshrsakey: redacted
+  virtual: vmware
+  uptime: 85 days
+  selinux: 'true'
+  network_eth0: 10.1.1.0
+  network_lo: 127.0.0.0
+  mtu_eth0: '1500'
+  type: Other
+  blockdevice_sda_size: '85899345920'
+  blockdevice_sda_vendor: VMware
+  uptime_hours: '2043'
+  ipaddress_lo: 127.0.0.1
+  gid: root
+  sshfp_dsa: |-
+    SSHFP 2 1 8316c01e01ec8c2487e1535e7780eb186f5ccc98
+    SSHFP 2 2 7ef1acdb3d4702ad69867084a84054076b6ebb8261cc5ac84c6d4122bcbb6cc0
+  domain: example.com
+  augeasversion: 1.0.0
+  architecture: x86_64
+  operatingsystemrelease: '6.6'
+  interfaces: eth0,eth1,lo
+  operatingsystemmajrelease: '6'
+  clientnoop: 'false'
+  manufacturer: VMware, Inc.
+  swapfree_mb: '8040.00'
+  filesystems: ext4,iso9660
+  puppet_vardir: "/var/lib/puppet"
+  blockdevice_sdc_size: '107374182400'
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  blockdevice_sr0_model: VMware IDE CDR10
+  memoryfree_mb: '14995.04'
+  blockdevice_sda_model: Virtual disk
+  hostname: demantraapptest1
+  mtu_lo: '65536'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  osfamily: RedHat
+  physicalprocessorcount: '1'
+  blockdevice_sdc_vendor: VMware
+  bios_version: '6.00'
+  swapsize_mb: '8040.00'
+  fqdn: demantraapptest1.example.com
+  ipaddress_eth1: 10.16.102.152
+  rubyversion: 1.8.7
+  blockdevice_sdb_vendor: VMware
+  ipaddress: 10.16.105.152
+  is_virtual: 'true'
+  memorysize: 15.67 GB
+  hardwaremodel: x86_64
+  blockdevices: fd0,sda,sdb,sdc,sr0
+  uuid: 422C84A2-420D-7091-3DA8-841DB4532BB2
+  selinux_config_policy: targeted
+  selinux_current_mode: permissive
+  hardwareisa: x86_64
+  productname: VMware Virtual Platform
+  processor3: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  timezone: MDT
+  sudoversion: 1.8.6p3
+  sshfp_rsa: |-
+    SSHFP 1 1 7d0b2066165fdacead771af36591f54b6cf2efd1
+    SSHFP 1 2 e7b8daae5a4fed754b209aab910a8b947bf4e5518d5a01f2fc4e2c08a2868b99
+  selinux_policyversion: '28'
+  system_uptime: hours2043seconds7354992days85uptime85 days
+  swapfree: 7.85 GB
+  boardmanufacturer: Intel Corporation
+  sshdsakey: redacted
+  uptime_days: '85'
+  is_pe: 'false'
+timestamp: '2015-08-24T15:12:44.013249000-07:00'
+expiration: '2015-08-25T14:16:38.185965000-07:00'

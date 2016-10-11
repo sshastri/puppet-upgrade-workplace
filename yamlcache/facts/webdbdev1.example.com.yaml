@@ -1,0 +1,140 @@
+--- !ruby/object:Puppet::Node::Facts
+name: webdbdev1.example.com
+values:
+  blockdevice_sde_size: '536870912000'
+  memoryfree: 62.10 GB
+  macaddress: DE:AD:BE:EF:CA:FE
+  blockdevice_sr0_vendor: NECVMWar
+  swapsize: 24.00 GB
+  blockdevice_sdg_vendor: VMware
+  mtu_lo: '65536'
+  timezone: MDT
+  clientnoop: 'false'
+  clientcert: webdbdev1.example.com
+  network_lo: 127.0.0.0
+  blockdevice_sdf_vendor: VMware
+  blockdevice_sdc_vendor: VMware
+  selinux: 'false'
+  sshdsakey: redacted
+  blockdevice_sde_model: Virtual disk
+  sshrsakey: redacted
+  is_pe: 'false'
+  processorcount: '8'
+  serialnumber: redacted
+  filesystems: ext4,iso9660
+  memorysize: 62.67 GB
+  blockdevice_sdf_size: '536870912000'
+  kernelrelease: 3.8.13-68.1.3.el6uek.x86_64
+  blockdevice_sde_vendor: VMware
+  mtu_eth0: '1500'
+  root_home: "/root"
+  network_eth0: 10.1.1.0
+  bios_vendor: Phoenix Technologies LTD
+  augeasversion: 1.0.0
+  processor5: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  swapfree: 24.00 GB
+  boardproductname: 440BX Desktop Reference Platform
+  swapfree_mb: '24575.98'
+  processor2: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  ps: ps -ef
+  blockdevice_sdb_vendor: VMware
+  blockdevice_sdi_size: '536870912000'
+  blockdevice_sdc_size: '17179869184'
+  blockdevice_sdj_size: '53687091200'
+  processors: count8physicalcount8modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  manufacturer: VMware, Inc.
+  blockdevice_sdg_size: '536870912000'
+  os: releasefull6.6major6minor6nameOracleLinuxfamilyRedHat
+  uuid: 422C3A0A-3F30-09E6-771A-9C6DF9833B6D
+  virtual: vmware
+  operatingsystemrelease: '6.6'
+  memoryfree_mb: '63594.85'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  boardmanufacturer: Intel Corporation
+  uptime: 0:00 hours
+  is_virtual: 'true'
+  blockdevice_sda_size: '107374182400'
+  swapsize_mb: '24575.98'
+  blockdevice_sdh_vendor: VMware
+  architecture: x86_64
+  uniqueid: 100aba86
+  blockdevice_sdc_model: Virtual disk
+  blockdevice_sdg_model: Virtual disk
+  blockdevice_sdf_model: Virtual disk
+  blockdevice_sr0_size: '1073741312'
+  netmask: 255.255.255.0
+  uptime_days: '0'
+  memorysize_mb: '64173.06'
+  facterversion: 2.4.3
+  blockdevice_sdd_size: '536870912000'
+  concat_basedir: "/var/lib/puppet/concat"
+  processor6: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  uptime_hours: '0'
+  processor3: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  ipaddress: 10.16.134.186
+  type: Other
+  blockdevice_sda_model: Virtual disk
+  sshfp_dsa: |-
+    SSHFP 2 1 d4ec73b8e0de4fe17b108fa4db49772c3ed377f5
+    SSHFP 2 2 219f5697a17890c9276fb862b4ffd29202eb973322e051fa3a5fbc5dd45fd471
+  blockdevice_sr0_model: VMware IDE CDR10
+  blockdevice_sdd_model: Virtual disk
+  blockdevice_sdd_vendor: VMware
+  blockdevice_sda_vendor: VMware
+  blockdevice_sdh_model: Virtual disk
+  ipaddress_lo: 127.0.0.1
+  blockdevice_sdh_size: '53687091200'
+  sshfp_rsa: |-
+    SSHFP 1 1 4e9775971f3a3547df0925753ea8431170fa73fd
+    SSHFP 1 2 09408b41249368bc71fd43d3ef68df7b6e26927000644502f75a3d78e0eabca0
+  clientversion: 3.7.5
+  uptime_seconds: '28'
+  blockdevice_sdb_size: '53687091200'
+  bios_release_date: 08/16/2013
+  id: root
+  puppetversion: 3.7.5
+  hardwareisa: x86_64
+  productname: VMware Virtual Platform
+  system_uptime: uptime0:00 hoursseconds28hours0days0
+  operatingsystemmajrelease: '6'
+  hardwaremodel: x86_64
+  bios_version: '6.00'
+  blockdevice_sdj_vendor: Nimble
+  blockdevice_sdb_model: Virtual disk
+  blockdevice_fd0_size: '4096'
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  kernel: Linux
+  rubyversion: 1.8.7
+  blockdevices: fd0,sda,sdb,sdc,sdd,sde,sdf,sdg,sdh,sdi,sdj,sr0
+  blockdevice_sdi_vendor: VMware
+  blockdevice_sdj_model: Server
+  kernelversion: 3.8.13
+  netmask_eth0: 255.255.255.0
+  kernelmajversion: '3.8'
+  blockdevice_sdi_model: Virtual disk
+  osfamily: RedHat
+  processor7: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  sudoversion: 1.8.6p3
+  puppet_vardir: "/var/lib/puppet"
+  processor4: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  interfaces: eth0,lo
+  partitions: sdi1filesystemLVM2_membersize1048562487sdf1filesystemLVM2_membersize1048562487sdc1uuida4c63cfa-1830-4a9f-a186-55bc06a6de04filesystemswapsize33554400sda1uuidccd0a8f8-77c7-49a4-b5d1-ccc814699936filesystemext4size2097152mount/bootsda2filesystemLVM2_membersize207616000sdh1filesystemLVM2_membersize104857568sde1filesystemLVM2_membersize1048562487sdg1filesystemLVM2_membersize1048562487sdd1filesystemLVM2_membersize1048562487sdb1filesystemLVM2_membersize104857568
+  ipaddress_eth0: 10.1.1.1
+  physicalprocessorcount: '8'
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  boardserialnumber: None
+  gid: root
+  domain: example.com
+  rubyplatform: x86_64-linux
+  hostname: webdbdev1
+  fqdn: webdbdev1.example.com
+  netmask_lo: 255.0.0.0
+  operatingsystem: OracleLinux
+timestamp: '2015-06-30T09:41:31.850292000-07:00'
+expiration: '2015-06-30T10:12:57.792646000-07:00'

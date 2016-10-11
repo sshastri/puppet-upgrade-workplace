@@ -1,0 +1,16 @@
+# This file is controlled by puppet, and is placed here during a code deploy.
+
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+export CATALINA_HOME=/opt/tomcat
+# Uncomment the line below to enable jmxremote management (UNIX-1668)
+#export CATALINA_OPTS="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9024 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=true"
+export JAVA_HOME=/opt/java
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$CATALINA_HOME/bin
+
+export PATH

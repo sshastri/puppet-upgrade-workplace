@@ -1,0 +1,102 @@
+--- !ruby/object:Puppet::Node::Facts
+name: interviewtest2.example.com
+values:
+  staging_http_get: curl
+  osfamily: RedHat
+  blockdevices: sda,sr0
+  is_virtual: 'true'
+  mtu_eth0: '1500'
+  hardwaremodel: x86_64
+  clientversion: 3.8.1
+  physicalprocessorcount: '1'
+  partitions: sda1filesystemext4uuid94ecef6a-44f8-4dd5-922a-2d60cd6a4865size2097152mount/bootsda2filesystemLVM2_membersize123729920
+  blockdevice_sr0_size: '401604608'
+  timezone: MDT
+  netmask_lo: 255.0.0.0
+  id: root
+  mtu_lo: '65536'
+  fqdn: interviewtest2.example.com
+  puppet_vardir: "/var/lib/puppet"
+  hostname: interviewtest2
+  virtual: vmware
+  swapfree_mb: '8192.00'
+  serialnumber: redacted
+  operatingsystemrelease: '6.6'
+  type: Other
+  netmask_eth0: 255.255.255.0
+  boardserialnumber: None
+  network_eth0: 10.1.1.0
+  blockdevice_sda_vendor: VMware
+  processorcount: '1'
+  ipaddress_lo: 127.0.0.1
+  sshdsakey: redacted
+  sudoversion: 1.8.6p3
+  uptime_days: '0'
+  rubyversion: 1.8.7
+  netmask: 255.255.255.0
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  sshfp_dsa: |-
+    SSHFP 2 1 f6d4b19a817ccce6ee67269b66cb439fee80d135
+    SSHFP 2 2 63d37ef78822886c7607dd42eac715356b65d3ba4e586e1c82d3a0a5af473691
+  network_lo: 127.0.0.0
+  operatingsystem: CentOS
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  uniqueid: '00000000'
+  rubyplatform: x86_64-linux
+  boardproductname: 440BX Desktop Reference Platform
+  puppetversion: 3.8.1
+  productname: VMware Virtual Platform
+  ipaddress: 10.16.47.251
+  architecture: x86_64
+  concat_basedir: "/var/lib/puppet/concat"
+  bios_vendor: Phoenix Technologies LTD
+  boardmanufacturer: Intel Corporation
+  blockdevice_sda_model: Virtual disk
+  kernelversion: 2.6.32
+  kernelrelease: 2.6.32-504.16.2.el6.x86_64
+  swapsize: 8.00 GB
+  interfaces: eth0,lo
+  is_pe: 'false'
+  filesystems: ext4,iso9660
+  ipaddress_eth0: 10.1.1.1
+  selinux: 'false'
+  domain: example.com
+  memoryfree_mb: '1702.73'
+  gid: root
+  hardwareisa: x86_64
+  blockdevice_sr0_vendor: NECVMWar
+  root_home: "/root"
+  processors: physicalcount1count1modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  uptime: 0:00 hours
+  kernel: Linux
+  operatingsystemmajrelease: '6'
+  system_uptime: seconds32uptime0:00 hoursdays0hours0
+  uptime_hours: '0'
+  bios_version: '6.00'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  sshfp_rsa: |-
+    SSHFP 1 1 cd0167fe9b5ac54b38261f3fc366a8b894607507
+    SSHFP 1 2 db0efba4726a0aa784675a142e6325cb5bc9b022f5ec9287086bd07c4f557442
+  bios_release_date: 08/16/2013
+  memoryfree: 1.66 GB
+  uptime_seconds: '32'
+  kernelmajversion: '2.6'
+  clientcert: interviewtest2.example.com
+  sshrsakey: redacted
+  memorysize: 1.83 GB
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  augeasversion: 1.0.0
+  swapsize_mb: '8192.00'
+  facterversion: 2.4.4
+  memorysize_mb: '1877.32'
+  macaddress: DE:AD:BE:EF:CA:FE
+  os: nameCentOSreleasefull6.6minor6major6familyRedHat
+  uuid: 422C09B8-2F83-DCE1-EB76-BB7594CE969F
+  blockdevice_sda_size: '64424509440'
+  blockdevice_sr0_model: VMware IDE CDR10
+  manufacturer: VMware, Inc.
+  ps: ps -ef
+  swapfree: 8.00 GB
+  clientnoop: 'false'
+timestamp: '2015-08-14T10:35:46.098713000-07:00'
+expiration: '2015-08-14T11:07:59.046264000-07:00'

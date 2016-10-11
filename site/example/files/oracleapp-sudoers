@@ -1,0 +1,18 @@
+#
+# Dev Env Exceptions to Sudoers
+#
+shannonc06   ALL=(ALL) /usr/bin/su - oracle,/bin/su - oracle,/bin/su oracle,/usr/bin/su oracle
+adamd15   ALL=(ALL) /usr/bin/su - oracle,/bin/su - oracle,/bin/su oracle,/usr/bin/su oracle
+
+User_Alias      DBA = oracle, applmgr
+
+DBA     ALL=(oracle)    NOPASSWD: ALL
+DBA     ALL=(applmgr)   NOPASSWD: ALL
+DBA     ALL=(ALL) /usr/bin/su - oracle,/usr/bin/su oracle
+DBA     ALL=(ALL) /usr/bin/su - applmgr,/usr/bin/su applmgr
+DBA     ALL=(root) NOPASSWD: /u00/oracle/stagedb/11.2.0/root.sh
+DBA     ALL=(root) NOPASSWD: /u00/oracle/oraInventory/orainstRoot.sh
+DBA     ALL=(root) NOPASSWD: /u01/stay-linked/strserver.sh
+DBA     ALL=(root) NOPASSWD: /u01/stay-linked/root-wrapper-kill.sh
+
+%xuhs   ALL=(oracle)    NOPASSWD: /u01/oracle/devmiddleware/10.1.3/ant/bin/ant

@@ -1,0 +1,108 @@
+--- !ruby/object:Puppet::Node::Facts
+name: hubot.example.com
+values:
+  blockdevice_sr0_size: '401604608'
+  puppet_vardir: "/var/lib/puppet"
+  uuid: 422C626A-A03C-7597-0A2C-5F92DEAE0B4E
+  blockdevice_sda_model: Virtual disk
+  staging_http_get: curl
+  blockdevices: sda,sr0
+  system_uptime: hours2258uptime94 daysdays94seconds8130645
+  kernelrelease: 2.6.32-504.16.2.el6.x86_64
+  clientcert: hubot.example.com
+  processors: count1physicalcount1modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  netmask_lo: 255.0.0.0
+  memoryfree: 1.17 GB
+  memoryfree_mb: '1200.14'
+  os: releasefull6.6major6minor6familyRedHatnameCentOS
+  memorysize: 1.83 GB
+  sshfp_dsa: |-
+    SSHFP 2 1 663a785f65cf71695f5ec54e30fe2be801c5b471
+    SSHFP 2 2 f4731120fb6302689e9466207e7dcddcbab296c36731365aa19bceb0802be059
+  swapsize: 8.00 GB
+  uptime_days: '94'
+  processorcount: '1'
+  fqdn: hubot.example.com
+  facterversion: 2.4.4
+  ps: ps -ef
+  bios_release_date: 08/16/2013
+  virtual: vmware
+  netmask: 255.255.255.0
+  uptime_seconds: '8130645'
+  user_exists_weblogic: ''
+  productname: VMware Virtual Platform
+  uniqueid: 100af02f
+  serialnumber: redacted
+  mtu_lo: '65536'
+  operatingsystemrelease: '6.6'
+  bios_version: '6.00'
+  user_exists_splex: ''
+  user_exists_oracle: ''
+  osfamily: RedHat
+  kernelmajversion: '2.6'
+  root_home: "/root"
+  boardproductname: 440BX Desktop Reference Platform
+  ipaddress: 10.16.47.240
+  partitions: sda1uuid2b8ce9aa-8ade-4eb6-838d-65f08d7d1622size2097152filesystemext4mount/bootsda2size207616000filesystemLVM2_member
+  clientversion: 3.8.4
+  swapfree: 7.94 GB
+  network_eth0: 10.1.1.0
+  boardmanufacturer: Intel Corporation
+  memorysize_mb: '1877.32'
+  bios_vendor: Phoenix Technologies LTD
+  is_virtual: 'true'
+  architecture: x86_64
+  mtu_eth0: '1500'
+  blockdevice_sr0_vendor: NECVMWar
+  selinux: 'false'
+  manufacturer: VMware, Inc.
+  ipaddress_eth0: 10.1.1.1
+  sshdsakey: redacted
+  blockdevice_sda_size: '107374182400'
+  sshrsakey: redacted
+  network_lo: 127.0.0.0
+  augeasversion: 1.0.0
+  hardwareisa: x86_64
+  sshfp_rsa: |-
+    SSHFP 1 1 ad4ff5abdb958760a3696a4a6b6f1f217dbd49b0
+    SSHFP 1 2 e72853ca4fe4765508007675630df9c9e574193def0988a4ff67c5a59b394afa
+  blockdevice_sda_vendor: VMware
+  nr_ruby_found: 'true'
+  clientnoop: 'false'
+  hostname: hubot
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  blockdevice_sr0_model: VMware IDE CDR10
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  is_pe: 'false'
+  physicalprocessorcount: '1'
+  user_exists_infraadm: ''
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  timezone: MST
+  rubyversion: 1.8.7
+  boardserialnumber: None
+  uptime: 94 days
+  id: root
+  nr_java_found: 'false'
+  interfaces: eth0,lo
+  domain: example.com
+  netmask_eth0: 255.255.255.0
+  puppetversion: 3.8.4
+  swapsize_mb: '8192.00'
+  filesystems: ext4,iso9660
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  ipaddress_lo: 127.0.0.1
+  kernelversion: 2.6.32
+  sudoversion: 1.8.6p3
+  operatingsystem: CentOS
+  uptime_hours: '2258'
+  rubyplatform: x86_64-linux
+  gid: root
+  hardwaremodel: x86_64
+  concat_basedir: "/var/lib/puppet/concat"
+  kernel: Linux
+  type: Other
+  macaddress: DE:AD:BE:EF:CA:FE
+  operatingsystemmajrelease: '6'
+  swapfree_mb: '8133.05'
+timestamp: '2015-11-09T12:51:54.462090000-08:00'
+expiration: '2015-11-09T13:21:49.812653000-08:00'

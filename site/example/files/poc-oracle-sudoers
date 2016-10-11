@@ -1,0 +1,2 @@
+# Oracle run as splex user
+oracle	ALL=(ALL)	NOPASSWD: ALL

@@ -1,0 +1,116 @@
+--- !ruby/object:Puppet::Node::Facts
+name: monimoni.example.com
+values:
+  timezone: MDT
+  is_pe: 'false'
+  uniqueid: 020a8dbc
+  network_eth0: 10.1.1.0
+  virtual: vmware
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  physicalprocessorcount: '4'
+  interfaces: eth0,lo
+  uptime_seconds: '1026013'
+  kernelmajversion: '2.6'
+  operatingsystemrelease: '6.7'
+  swapfree_mb: '8192.00'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  swapsize_mb: '8192.00'
+  sshdsakey: redacted
+  clientversion: 3.8.6
+  blockdevice_sda_vendor: VMware
+  productname: VMware Virtual Platform
+  user_exists_splex: ''
+  netmask_eth0: 255.255.255.0
+  bios_release_date: 04/14/2014
+  network_lo: 127.0.0.0
+  kernel: Linux
+  filesystems: ext4,iso9660,xfs
+  uptime_hours: '285'
+  augeasversion: 1.0.0
+  blockdevice_sda_model: Virtual disk
+  processor2: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  mtu_eth0: '1500'
+  blockdevice_sr0_size: '1073741312'
+  hostname: monimoni
+  memoryfree_mb: '7533.01'
+  user_exists_weblogic: ''
+  os: releasefull6.7minor7major6nameCentOSfamilyRedHat
+  sshrsakey: redacted
+  type: Other
+  uptime: 11 days
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  processors: count4modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzphysicalcount4
+  processorcount: '4'
+  blockdevice_sdb_model: Virtual disk
+  bios_vendor: Phoenix Technologies LTD
+  ps: ps -ef
+  boardmanufacturer: Intel Corporation
+  boardproductname: 440BX Desktop Reference Platform
+  memoryfree: 7.36 GB
+  puppetversion: 3.8.6
+  sshfp_dsa: |-
+    SSHFP 2 1 dc9782b300369c555fc7c3f02dc402c7b6ec0271
+    SSHFP 2 2 184306e8230872721b8642eb44a7446e7e26453cd48e45e26c0848196540404a
+  osfamily: RedHat
+  blockdevice_sdb_size: '107374182400'
+  is_virtual: 'true'
+  macaddress: DE:AD:BE:EF:CA:FE
+  rubyplatform: x86_64-linux
+  mtu_lo: '65536'
+  id: root
+  blockdevices: sda,sdb,sr0
+  blockdevice_sda_size: '64424509440'
+  kernelversion: 2.6.32
+  clientcert: monimoni.example.com
+  user_exists_oracle: ''
+  swapsize: 8.00 GB
+  ipaddress_lo: 127.0.0.1
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  domain: example.com
+  uuid: 422C0564-5D0D-5047-B847-C9E20C081CE4
+  blockdevice_sdb_vendor: VMware
+  ipaddress: 10.2.188.141
+  staging_http_get: curl
+  clientnoop: 'false'
+  operatingsystemmajrelease: '6'
+  blockdevice_sr0_vendor: NECVMWar
+  netmask: 255.255.255.0
+  facterversion: 2.4.6
+  netmask_lo: 255.0.0.0
+  operatingsystem: CentOS
+  manufacturer: VMware, Inc.
+  swapfree: 8.00 GB
+  rubyversion: 1.8.7
+  hardwaremodel: x86_64
+  bios_version: '6.00'
+  user_exists_infraadm: ''
+  gid: root
+  partitions: sdb1uuid84d11e09-be3f-4112-8193-2f4212a423ccsize209712447mount/opt/serviced/var/isvcsfilesystemxfssda1uuid6ffbe8db-a61c-4d85-870c-b40e082fe361size2097152mount/bootfilesystemext4sda2size123729920filesystemLVM2_member
+  hardwareisa: x86_64
+  root_home: "/root"
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  ipaddress_eth0: 10.1.1.1
+  concat_basedir: "/var/lib/puppet/concat"
+  boardserialnumber: None
+  serialnumber: redacted
+  sshfp_rsa: |-
+    SSHFP 1 1 fdd6c8b95578e20512dd1ee952a67616efcd0cd6
+    SSHFP 1 2 4d969879557e586c6b147d8fc8b6168016ce720a0a0e4236a9e8e629c508d2ba
+  nr_java_found: 'false'
+  system_uptime: hours285uptime11 daysdays11seconds1026013
+  kernelrelease: 2.6.32-573.22.1.el6.x86_64
+  memorysize_mb: '7872.27'
+  processor3: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  blockdevice_sr0_model: VMware IDE CDR10
+  sudoversion: 1.8.6p3
+  architecture: x86_64
+  fqdn: monimoni.example.com
+  puppet_vardir: "/var/lib/puppet"
+  memorysize: 7.69 GB
+  nr_ruby_found: 'true'
+  selinux: 'false'
+  uptime_days: '11'
+timestamp: '2016-05-04T09:28:21.033730000-07:00'
+expiration: '2016-05-04T09:57:43.238411000-07:00'

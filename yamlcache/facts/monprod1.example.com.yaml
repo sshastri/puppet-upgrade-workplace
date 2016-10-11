@@ -1,0 +1,118 @@
+--- !ruby/object:Puppet::Node::Facts
+name: monprod1.example.com
+values:
+  user_exists_oracle: ''
+  user_exists_weblogic: ''
+  concat_basedir: "/var/lib/puppet/concat"
+  uptime_seconds: '12982973'
+  physicalprocessorcount: '2'
+  operatingsystemmajrelease: '7'
+  uuid: 422C1104-C6D9-3E12-54C6-D7D2285358FA
+  swapsize_mb: '8080.00'
+  sshrsakey: redacted
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  architecture: x86_64
+  kernel: Linux
+  facterversion: 2.4.4
+  netmask_ens192: 255.255.255.0
+  user_exists_splex: ''
+  kernelversion: 3.10.0
+  interfaces: ens192,lo
+  memoryfree_mb: '6927.51'
+  sshecdsakey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMIgdmjE0r+7SDU0zZDjg7A8vyqW2+ON+bd5sAWVSTY+XrytHaDBETYBJOzmxd5De6AjQOdX2tvuCQnwg7HCimQ=
+  blockdevice_sda_vendor: VMware
+  staging_http_get: curl
+  sshfp_ecdsa: |-
+    SSHFP 3 1 a547d34101c32e5cb0ff0386edb96f4159ffce87
+    SSHFP 3 2 7ea34d10109bc64ea8a1e8130fc3671ff80583cc9b7ecec63e2c7d12cf26a9b1
+  kernelrelease: 3.10.0-229.11.1.el7.x86_64
+  ipaddress_lo: 127.0.0.1
+  blockdevice_sr0_size: '64651264'
+  operatingsystem: CentOS
+  is_pe: 'false'
+  puppetversion: 3.8.2
+  network_ens192: 10.16.47.0
+  ipaddress: 10.16.47.210
+  boardserialnumber: None
+  blockdevice_sr0_model: VMware IDE CDR10
+  netmask_lo: 255.0.0.0
+  network_lo: 127.0.0.0
+  kernelmajversion: '3.10'
+  uniqueid: 100ad22f
+  system_uptime: '{"seconds"=>12982973, "hours"=>3606, "days"=>150, "uptime"=>"150
+    days"}'
+  puppet_vardir: "/var/lib/puppet"
+  uptime_hours: '3606'
+  processors: '{"models"=>["Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz", "Intel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHz"], "count"=>2, "physicalcount"=>2}'
+  selinux: 'false'
+  ipaddress_ens192: 10.16.47.210
+  macaddress_ens192: 00:50:56:ac:e0:2f
+  blockdevices: fd0,sda,sr0
+  mtu_lo: '65536'
+  boardproductname: 440BX Desktop Reference Platform
+  hardwaremodel: x86_64
+  osfamily: RedHat
+  blockdevice_sda_size: '128849018880'
+  hardwareisa: x86_64
+  augeasversion: 1.1.0
+  fqdn: monprod1.example.com
+  root_home: "/root"
+  netmask: 255.255.255.0
+  sshed25519key: AAAAC3NzaC1lZDI1NTE5AAAAIFPK8/+kgpdQC1pW1MNdPA9EeZIuQKCdPPUR32b65URU
+  mtu_ens192: '1500'
+  sshfp_rsa: |-
+    SSHFP 1 1 93c9f1691573304d5bf821dee0d703c08d47c384
+    SSHFP 1 2 9b2f0882024537c7c8afdb62bd66cbfb325750272d8b9b7dbeb6c31de0ad2fed
+  memorysize: 7.64 GB
+  user_exists_infraadm: ''
+  blockdevice_sda_model: Virtual disk
+  os: '{"name"=>"CentOS", "family"=>"RedHat", "release"=>{"major"=>"7", "minor"=>"1",
+    "full"=>"7.1.1503"}}'
+  blockdevice_sr0_vendor: NECVMWar
+  bios_version: '6.00'
+  bios_release_date: 06/22/2012
+  clientversion: 3.8.2
+  clientcert: monprod1.example.com
+  nr_java_found: 'false'
+  ps: ps -ef
+  processorcount: '2'
+  nr_ruby_found: 'true'
+  sudoversion: 1.8.6p7
+  swapsize: 7.89 GB
+  rubyplatform: x86_64-linux
+  manufacturer: VMware, Inc.
+  rubysitedir: "/usr/local/share/ruby/site_ruby/"
+  hostname: monprod1
+  uptime_days: '150'
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  type: Other
+  macaddress: DE:AD:BE:EF:CA:FE
+  productname: VMware Virtual Platform
+  clientnoop: 'false'
+  uptime: 150 days
+  partitions: '{"sda1"=>{"uuid"=>"4d1b82cf-0455-4213-a205-0f0ca348eb64", "size"=>"1024000",
+    "mount"=>"/boot", "filesystem"=>"xfs"}, "sda2"=>{"size"=>"250632192", "filesystem"=>"LVM2_member"}}'
+  rubyversion: 2.0.0
+  blockdevice_fd0_size: '0'
+  id: root
+  swapfree_mb: '8080.00'
+  operatingsystemrelease: 7.1.1503
+  serialnumber: redacted
+  timezone: MST
+  virtual: vmware
+  bios_vendor: Phoenix Technologies LTD
+  domain: example.com
+  boardmanufacturer: Intel Corporation
+  filesystems: xfs
+  is_virtual: 'true'
+  swapfree: 7.89 GB
+  memorysize_mb: '7824.00'
+  path: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin"
+  memoryfree: 6.77 GB
+  sshfp_ed25519: |-
+    SSHFP 4 1 a7604e6c2fa4de653c9fdb6c1dca3aaec99ae580
+    SSHFP 4 2 96eaca83712e089ef82d21c70ec912d7668a4429540e414403f4c3ccda43cb3f
+  gid: root
+timestamp: '2016-01-25T15:26:28.388323000-08:00'
+expiration: '2016-01-25T15:59:07.891616000-08:00'

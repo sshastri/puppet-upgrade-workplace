@@ -1,0 +1,122 @@
+--- !ruby/object:Puppet::Node::Facts
+name: agileappstage2.example.com
+values:
+  macaddress: DE:AD:BE:EF:CA:FE
+  sshfp_dsa: |-
+    SSHFP 2 1 eac6d6f589f53fa4d7b02f71ee4341ed4c3f32bc
+    SSHFP 2 2 bf4fbfa72e39305840cefe31942fe2d0c061fb0b0a851e29ded72daa2c90cbfb
+  lsbdistid: OracleServer
+  system_uptime: hours2832days118uptime118 daysseconds10195285
+  root_home: "/root"
+  blockdevice_sdb_vendor: VMware
+  kernel: Linux
+  swapsize: 31.50 GB
+  clientversion: 3.8.6
+  rubyplatform: x86_64-linux
+  puppet_vardir: "/var/lib/puppet"
+  gid: root
+  facterversion: 2.4.4
+  bios_release_date: 04/14/2014
+  os: nameOracleLinuxfamilyRedHatlsbmajdistrelease6minordistrelease7distcodenamen/adistdescriptionOracle
+    Linux Server release 6.7distrelease6.7distidOracleServerrelease:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchreleasemajor6minor7full6.7
+  user_exists_infraadm: ''
+  lsbdistdescription: Oracle Linux Server release 6.7
+  is_virtual: 'true'
+  architecture: x86_64
+  ps: ps -ef
+  uptime_hours: '2832'
+  clientcert: agileappstage2.example.com
+  id: root
+  augeasversion: 1.0.0
+  ipaddress_lo: 127.0.0.1
+  filesystems: ext4,iso9660
+  kernelversion: 3.8.13
+  fqdn: agileappstage2.example.com
+  timezone: MDT
+  ipaddress_eth0: 10.1.1.1
+  blockdevice_sdb_model: Virtual disk
+  operatingsystemrelease: '6.7'
+  hardwareisa: x86_64
+  swapfree: 31.50 GB
+  productname: VMware Virtual Platform
+  memoryfree: 25.47 GB
+  selinux: 'false'
+  serialnumber: redacted
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  netmask: 255.255.255.0
+  sshdsakey: redacted
+  boardserialnumber: None
+  hostname: agileappstage2
+  blockdevice_sda_model: Virtual disk
+  partitions: sda1mount/bootfilesystemext4uuide39ce663-5544-4535-b234-db8089bd3a80size2097152sda2filesystemLVM2_membersize207616000sdb1filesystemLVM2_membersize335533527
+  blockdevice_sr0_size: '1073741312'
+  operatingsystemmajrelease: '6'
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  sshrsakey: redacted
+  lsbmajdistrelease: '6'
+  user_exists_splex: ''
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  processorcount: '4'
+  memoryfree_mb: '26081.41'
+  kernelrelease: 3.8.13-68.3.4.el6uek.x86_64
+  lsbdistcodename: n/a
+  sshfp_rsa: |-
+    SSHFP 1 1 1b9b4dfcf4271f3a6c91234247dc520836def383
+    SSHFP 1 2 9cc42e2b8c30f6261b6eeed6a4a4c25669124bf07a341fec8cbbb155e12dc02a
+  domain: example.com
+  blockdevice_sdb_size: '171798691840'
+  concat_basedir: "/var/lib/puppet/concat"
+  network_eth0: 10.1.1.0
+  kernelmajversion: '3.8'
+  blockdevice_sr0_vendor: NECVMWar
+  mtu_eth0: '1500'
+  is_pe: 'false'
+  bios_vendor: Phoenix Technologies LTD
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  boardproductname: 440BX Desktop Reference Platform
+  network_lo: 127.0.0.0
+  swapsize_mb: '32256.00'
+  lsbdistrelease: '6.7'
+  memorysize_mb: '31913.29'
+  type: Other
+  netmask_eth0: 255.255.255.0
+  rubyversion: 1.8.7
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  hardwaremodel: x86_64
+  osfamily: RedHat
+  boardmanufacturer: Intel Corporation
+  blockdevices: fd0,sda,sdb,sr0
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  uptime_seconds: '10195285'
+  uptime: 118 days
+  lsbminordistrelease: '7'
+  uniqueid: 100a7443
+  virtual: vmware
+  ipaddress: 10.16.67.116
+  bios_version: '6.00'
+  clientnoop: 'false'
+  netmask_lo: 255.0.0.0
+  physicalprocessorcount: '4'
+  user_exists_oracle: '500'
+  swapfree_mb: '32256.00'
+  blockdevice_fd0_size: '4096'
+  manufacturer: VMware, Inc.
+  user_exists_weblogic: ''
+  uuid: 422CB19F-64F6-5E23-3364-8A7387C98D90
+  interfaces: eth0,lo
+  uptime_days: '118'
+  memorysize: 31.17 GB
+  puppetversion: 3.8.6
+  blockdevice_sr0_model: VMware SATA CD00
+  blockdevice_sda_vendor: VMware
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  operatingsystem: OracleLinux
+  blockdevice_sda_size: '107374182400'
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  mtu_lo: '65536'
+  processors: count4physicalcount4modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  sudoversion: 1.8.6p3
+timestamp: '2016-05-04T09:32:00.436675000-07:00'
+expiration: '2016-05-04T10:01:22.608258000-07:00'

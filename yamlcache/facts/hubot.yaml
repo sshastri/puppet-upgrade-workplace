@@ -1,0 +1,99 @@
+--- !ruby/object:Puppet::Node::Facts
+name: hubot
+values:
+  selinux_enforced: 'false'
+  ps: ps -ef
+  sudoversion: 1.8.6p3
+  interfaces: eth0,lo
+  ipaddress_lo: 127.0.0.1
+  memoryfree: 1.50 GB
+  augeasversion: 1.0.0
+  processors: physicalcount1count1modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  ipaddress: 10.16.47.240
+  bios_release_date: 08/16/2013
+  memorysize: 1.96 GB
+  processorcount: '1'
+  hostname: hubot
+  hardwaremodel: x86_64
+  kernelrelease: 2.6.32-504.el6.x86_64
+  boardproductname: 440BX Desktop Reference Platform
+  netmask_lo: 255.0.0.0
+  uptime_days: '0'
+  selinux_current_mode: permissive
+  operatingsystem: CentOS
+  blockdevice_fd0_size: '4096'
+  physicalprocessorcount: '1'
+  mtu_eth0: '1500'
+  netmask_eth0: 255.255.255.0
+  kernelversion: 2.6.32
+  id: root
+  puppet_vardir: "/var/lib/puppet"
+  selinux_policyversion: '24'
+  osfamily: RedHat
+  uptime: 0:04 hours
+  uniqueid: '00000000'
+  blockdevice_sda_model: Virtual disk
+  clientcert: hubot
+  macaddress: DE:AD:BE:EF:CA:FE
+  swapfree_mb: '8192.00'
+  kernel: Linux
+  blockdevice_sr0_vendor: NECVMWar
+  staging_http_get: curl
+  productname: VMware Virtual Platform
+  fqdn: hubot
+  netmask: 255.255.255.0
+  boardmanufacturer: Intel Corporation
+  manufacturer: VMware, Inc.
+  swapsize: 8.00 GB
+  gid: root
+  uptime_hours: '0'
+  blockdevice_sda_vendor: VMware
+  partitions: sda1uuid2b8ce9aa-8ade-4eb6-838d-65f08d7d1622size2097152mount/bootfilesystemext4sda2size207616000filesystemLVM2_member
+  clientnoop: 'false'
+  memorysize_mb: '2006.32'
+  network_lo: 127.0.0.0
+  operatingsystemmajrelease: '6'
+  uptime_seconds: '259'
+  rubyplatform: x86_64-linux
+  selinux: 'true'
+  root_home: "/root"
+  virtual: vmware
+  bios_version: '6.00'
+  timezone: MDT
+  facterversion: 2.4.4
+  filesystems: cramfs,ext4,iso9660,squashfs
+  blockdevice_sda_size: '107374182400'
+  rubyversion: 1.8.7
+  memoryfree_mb: '1536.57'
+  type: Other
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  blockdevices: fd0,sda,sr0
+  system_uptime: days0seconds259uptime0:04 hourshours0
+  clientversion: 3.8.1
+  bios_vendor: Phoenix Technologies LTD
+  network_eth0: 10.1.1.0
+  selinux_config_mode: enforcing
+  hardwareisa: x86_64
+  is_virtual: 'true'
+  swapsize_mb: '8192.00'
+  path: "/tmp/product:/tmp/updates:/usr/bin:/bin:/sbin:/usr/sbin:/mnt/sysimage/bin:/mnt/sysimage/usr/bin:/mnt/sysimage/usr/sbin:/mnt/sysimage/sbin:/mnt/sysimage/usr/X11R6/bin:/tmp/DD/bin:/tmp/DD/sbin:/tmp/DD/usr/bin:/tmp/DD/usr/bin:/sbin:/usr/sbin"
+  uuid: 422C626A-A03C-7597-0A2C-5F92DEAE0B4E
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  operatingsystemrelease: '6.6'
+  swapfree: 8.00 GB
+  boardserialnumber: None
+  puppetversion: 3.8.1
+  concat_basedir: "/var/lib/puppet/concat"
+  ipaddress_eth0: 10.1.1.1
+  blockdevice_sr0_model: VMware IDE CDR10
+  blockdevice_sr0_size: '401604608'
+  serialnumber: redacted
+  is_pe: 'false'
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  mtu_lo: '65536'
+  architecture: x86_64
+  selinux_config_policy: targeted
+  kernelmajversion: '2.6'
+  os: familyRedHatreleasemajor6minor6full6.6nameCentOS
+timestamp: '2015-08-07T11:14:33.780626000-07:00'
+expiration: '2015-08-07T11:46:39.726380000-07:00'

@@ -1,0 +1,107 @@
+--- !ruby/object:Puppet::Node::Facts
+name: mailemoprod1.example.com
+values:
+  kernelversion: 2.6.32
+  productname: VMware Virtual Platform
+  netmask_eth0: 255.255.255.0
+  uniqueid: 007f0100
+  interfaces: eth0,lo
+  blockdevice_sda_model: Virtual disk
+  sudoversion: 1.8.6p3
+  swapsize: 8.00 GB
+  ipaddress: 10.16.35.76
+  operatingsystem: CentOS
+  uptime_days: '186'
+  user_exists_infraadm: ''
+  blockdevice_sda_vendor: VMware
+  root_home: "/root"
+  swapfree_mb: '8191.99'
+  operatingsystemrelease: '6.5'
+  user_exists_splex: ''
+  mtu_eth0: '1500'
+  osfamily: RedHat
+  user_exists_oracle: ''
+  sshdsakey: redacted
+  gid: root
+  blockdevices: sda
+  boardmanufacturer: Intel Corporation
+  hardwaremodel: x86_64
+  uptime_hours: '4475'
+  architecture: x86_64
+  memoryfree_mb: '3310.00'
+  nr_java_found: 'true'
+  macaddress: DE:AD:BE:EF:CA:FE
+  is_virtual: 'true'
+  kernelmajversion: '2.6'
+  sshfp_rsa: |-
+    SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+    SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+  memorysize: 3.74 GB
+  partitions: sda1uuidf94fe77a-f1c8-436e-a749-871add45f92ffilesystemext4mount/bootsize786432sda2filesystemLVM2_membersize67108864
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  staging_http_get: curl
+  sshrsakey: redacted
+  bios_version: '6.00'
+  hardwareisa: x86_64
+  memorysize_mb: '3832.70'
+  ipaddress_lo: 127.0.0.1
+  rubyplatform: x86_64-linux
+  bios_vendor: Phoenix Technologies LTD
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  fqdn: mailemoprod1.example.com
+  domain: example.com
+  netmask: 255.255.255.0
+  puppet_vardir: "/var/lib/puppet"
+  filesystems: ext4,iso9660
+  kernelrelease: 2.6.32-431.11.2.el6.x86_64
+  memoryfree: 3.23 GB
+  sshfp_dsa: |-
+    SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+    SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+  user_exists_weblogic: ''
+  boardserialnumber: None
+  manufacturer: VMware, Inc.
+  swapfree: 8.00 GB
+  network_lo: 127.0.0.0
+  kernel: Linux
+  boardproductname: 440BX Desktop Reference Platform
+  blockdevice_sda_size: '42949672960'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  ipaddress_eth0: 10.1.1.1
+  facterversion: 2.4.4
+  serialnumber: redacted
+  rubyversion: 1.8.7
+  type: Other
+  uptime_seconds: '16110775'
+  timezone: MST
+  processors: physicalcount2modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzcount2
+  physicalprocessorcount: '2'
+  os: familyRedHatreleaseminor5major6full6.5nameCentOS
+  processorcount: '2'
+  ps: ps -ef
+  uptime: 186 days
+  clientcert: mailemoprod1.example.com
+  puppetversion: 3.8.4
+  swapsize_mb: '8191.99'
+  system_uptime: days186seconds16110775hours4475uptime186 days
+  augeasversion: 1.0.0
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  is_pe: 'false'
+  bios_release_date: 06/22/2012
+  clientnoop: 'false'
+  clientversion: 3.8.4
+  network_eth0: 10.1.1.0
+  concat_basedir: "/var/lib/puppet/concat"
+  nr_ruby_found: 'true'
+  operatingsystemmajrelease: '6'
+  mtu_lo: '16436'
+  uuid: 4230AB78-1B41-E325-50DB-66FAA58F1549
+  id: root
+  virtual: vmware
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  selinux: 'false'
+  hostname: mailemoprod1
+  netmask_lo: 255.0.0.0
+timestamp: '2015-12-03T13:28:41.950627000-08:00'
+expiration: '2015-12-03T13:58:20.025359000-08:00'

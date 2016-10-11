@@ -1,0 +1,3 @@
+#qcsoftware ALL = /etc/init.d/serviceMgr
+qcsoftware ALL=(ALL) NOPASSWD: ALL
+williamk16 ALL = /etc/init.d/

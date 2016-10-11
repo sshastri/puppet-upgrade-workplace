@@ -1,0 +1,123 @@
+--- !ruby/object:Puppet::Node::Facts
+name: biapptest1.example.com
+values:
+  lsbmajdistrelease: '5'
+  uptime_hours: '0'
+  uptime: 0:36 hours
+  hostname: biapptest1
+  interfaces: eth0,eth1,lo
+  swapfree: 16.00 GB
+  type: Other
+  hardwareisa: x86_64
+  is_virtual: 'true'
+  boardproductname: 440BX Desktop Reference Platform
+  domain: example.com
+  mtu_lo: '16436'
+  rubyversion: 1.8.7
+  ipaddress: 10.16.99.140
+  lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+  swapsize_mb: '16383.99'
+  rubyplatform: x86_64-linux
+  operatingsystemrelease: '5.7'
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  blockdevice_sda_vendor: VMware
+  memoryfree: 15.50 GB
+  ipaddress_lo: 127.0.0.1
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  kernelmajversion: '2.6'
+  sshfp_rsa: |-
+    SSHFP 1 1 78e4f0f8d4f06fea94ebc7eea115c6b68ecf915e
+    SSHFP 1 2 69a34bf21c5ea379ebe0ab25ff56eff6af14c93c9ee67f220464e93bbedfb29e
+  physicalprocessorcount: '2'
+  sshdsakey: redacted
+  uniqueid: 100a8c63
+  clientcert: biapptest1.example.com
+  hardwaremodel: x86_64
+  kernelversion: 2.6.18
+  macaddress_eth1: 00:50:56:B0:01:A6
+  fqdn: biapptest1.example.com
+  manufacturer: VMware, Inc.
+  swapfree_mb: '16383.99'
+  network_eth0: 10.1.1.0
+  operatingsystemmajrelease: '5'
+  system_uptime: uptime0:36 hoursseconds2177hours0days0
+  path: "/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin"
+  processorcount: '2'
+  netmask_eth1: 255.255.255.0
+  clientnoop: 'false'
+  netmask: 255.255.255.0
+  ipaddress_eth1: 10.16.105.139
+  mtu_eth0: '1500'
+  lsbdistid: EnterpriseEnterpriseServer
+  uptime_days: '0'
+  boardmanufacturer: Intel Corporation
+  id: root
+  selinux: 'false'
+  blockdevice_sdc_vendor: VMware
+  blockdevice_sda_size: '21474836480'
+  is_pe: 'false'
+  macaddress: DE:AD:BE:EF:CA:FE
+  blockdevice_sdd_size: '161061273600'
+  memoryfree_mb: '15876.47'
+  virtual: vmware
+  blockdevice_sdb_model: Virtual disk
+  kernel: Linux
+  clientversion: 3.8.1
+  osfamily: RedHat
+  concat_basedir: "/var/lib/puppet/concat"
+  timezone: MDT
+  uptime_seconds: '2177'
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  blockdevice_sdb_size: '60129542144'
+  bios_version: '6.00'
+  root_home: "/root"
+  serialnumber: redacted
+  lsbdistrelease: '5.7'
+  blockdevice_sda_model: Virtual disk
+  sshrsakey: redacted
+  partitions: sdd1size314568702sda2size41399505sda1size530082mount/bootlabel/bootfilesystemext2uuidc2089a00-2f7c-41f1-9e41-bc2f5a99e23c
+  augeasversion: 1.2.0
+  lsbdistdescription: Enterprise Linux Enterprise Linux Server release 5.7 (Carthage)
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  netmask_lo: 255.0.0.0
+  blockdevices: fd0,sda,sdb,sdc,sdd
+  sshfp_dsa: |-
+    SSHFP 2 1 32556e54abcffcb15db683498ffa96af5a349abd
+    SSHFP 2 2 f436efcbff78bf4a6ed9c84bdea6bb733d8f3ddaadc9869d9077de0227c36256
+  blockdevice_sdc_model: Virtual disk
+  ipaddress_eth0: 10.1.1.1
+  netmask_eth0: 255.255.255.0
+  bios_release_date: 06/22/2012
+  memorysize_mb: '16050.95'
+  bios_vendor: Phoenix Technologies LTD
+  blockdevice_fd0_size: '4096'
+  uuid: 42307D54-698E-18B3-8FAB-B66FF83F9171
+  blockdevice_sdd_vendor: VMware
+  blockdevice_sdd_model: Virtual disk
+  productname: VMware Virtual Platform
+  puppet_vardir: "/var/lib/puppet"
+  sudoversion: 1.7.2p1
+  os: nameOracleLinuxlsbdistcodenameCarthagedistdescriptionEnterprise Linux Enterprise
+    Linux Server release 5.7 (Carthage)minordistrelease7distrelease5.7majdistrelease5distidEnterpriseEnterpriseServerrelease:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchfamilyRedHatreleaseminor7full5.7major5
+  swapsize: 16.00 GB
+  processors: modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzphysicalcount2count2
+  facterversion: 2.4.4
+  puppetversion: 3.8.1
+  gid: root
+  boardserialnumber: None
+  ps: ps -ef
+  operatingsystem: OracleLinux
+  memorysize: 15.67 GB
+  lsbminordistrelease: '7'
+  network_eth1: 10.16.105.0
+  network_lo: 127.0.0.0
+  mtu_eth1: '1500'
+  kernelrelease: 2.6.18-274.el5
+  blockdevice_sdb_vendor: VMware
+  lsbdistcodename: Carthage
+  architecture: x86_64
+  filesystems: ext2,ext3,iso9660
+  blockdevice_sdc_size: '17179869184'
+timestamp: '2015-08-24T11:46:16.787718000-07:00'
+expiration: '2015-08-25T10:50:10.520838000-07:00'

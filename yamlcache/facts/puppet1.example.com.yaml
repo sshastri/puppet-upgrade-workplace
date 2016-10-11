@@ -1,0 +1,113 @@
+--- !ruby/object:Puppet::Node::Facts
+name: puppet1.example.com
+values:
+  operatingsystem: CentOS
+  uuid: 422C8554-3390-31A9-F794-7BD2B968FB09
+  rubyversion: 1.8.7
+  boardserialnumber: None
+  swapfree: 8.00 GB
+  memoryfree_mb: '15667.69'
+  sshfp_rsa: |-
+    SSHFP 1 1 53ce9654e2415c912c16b3e16c7fd566996bf161
+    SSHFP 1 2 9f45e1c9c10f817a6a9c3001340c85636dd49588ac129a708647f70f133dbcb8
+  blockdevice_sr0_size: '1073741312'
+  processor3: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  bios_version: '6.00'
+  root_home: "/root"
+  swapsize: 8.00 GB
+  nr_java_found: 'false'
+  uniqueid: 100acf2f
+  concat_basedir: "/var/lib/puppet/concat"
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  kernelrelease: 2.6.32-573.22.1.el6.x86_64
+  mtu_lo: '65536'
+  hardwaremodel: x86_64
+  bios_vendor: Phoenix Technologies LTD
+  bios_release_date: 04/14/2014
+  facterversion: 2.4.6
+  blockdevice_sr0_vendor: NECVMWar
+  netmask_lo: 255.0.0.0
+  puppet_vardir: "/var/lib/puppet"
+  mtu_eth0: '1500'
+  memorysize: 15.58 GB
+  user_exists_splex: ''
+  sshrsakey: redacted
+  os: familyRedHatnameCentOSreleaseminor7full6.7major6
+  uptime_hours: '70'
+  swapsize_mb: '8192.00'
+  sshdsakey: redacted
+  kernelversion: 2.6.32
+  selinux: 'false'
+  macaddress: DE:AD:BE:EF:CA:FE
+  ps: ps -ef
+  memorysize_mb: '15951.22'
+  virtual: vmware
+  network_lo: 127.0.0.0
+  user_exists_infraadm: ''
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  blockdevice_sr0_model: VMware SATA CD00
+  processor2: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  blockdevices: sda,sr0
+  puppetversion: 3.8.6
+  blockdevice_sda_model: Virtual disk
+  physicalprocessorcount: '4'
+  nr_ruby_found: 'true'
+  partitions: sda1size2097152uuidfde19a25-bcd6-4039-8a6d-11a003f1833afilesystemext4mount/bootsda2size123729920filesystemLVM2_member
+  processors: modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R)
+    CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzphysicalcount4count4
+  ipaddress_eth0: 10.1.1.1
+  kernel: Linux
+  productname: VMware Virtual Platform
+  interfaces: eth0,lo
+  ipaddress_lo: 127.0.0.1
+  augeasversion: 1.0.0
+  id: root
+  network_eth0: 10.1.1.0
+  netmask_eth0: 255.255.255.0
+  clientversion: 3.8.6
+  netmask: 255.255.255.0
+  rubyplatform: x86_64-linux
+  uptime: 2 days
+  boardmanufacturer: Intel Corporation
+  timezone: MDT
+  uptime_days: '2'
+  memoryfree: 15.30 GB
+  sshfp_dsa: |-
+    SSHFP 2 1 c50cae61b0bcf47f4db5dd195766fca866aa1715
+    SSHFP 2 2 2cbe1d29d67de6ed6e62d71d26280eb6f6c04f55d6845bb6a22c61b978704881
+  sudoversion: 1.8.6p3
+  swapfree_mb: '8192.00'
+  boardproductname: 440BX Desktop Reference Platform
+  system_uptime: hours70seconds252062uptime2 daysdays2
+  staging_http_get: curl
+  domain: example.com
+  filesystems: ext4,iso9660
+  clientcert: puppet1.example.com
+  osfamily: RedHat
+  serialnumber: redacted
+  architecture: x86_64
+  kernelmajversion: '2.6'
+  hardwareisa: x86_64
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  gid: root
+  operatingsystemrelease: '6.7'
+  clientnoop: 'false'
+  type: Other
+  processorcount: '4'
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  blockdevice_sda_size: '64424509440'
+  operatingsystemmajrelease: '6'
+  is_virtual: 'true'
+  blockdevice_sda_vendor: VMware
+  is_pe: 'false'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  ipaddress: 10.16.47.207
+  hostname: puppet1
+  user_exists_weblogic: ''
+  fqdn: puppet1.example.com
+  user_exists_oracle: ''
+  uptime_seconds: '252062'
+  manufacturer: VMware, Inc.
+timestamp: '2016-05-02T12:56:30.298909000-07:00'
+expiration: '2016-05-02T13:25:54.424400000-07:00'

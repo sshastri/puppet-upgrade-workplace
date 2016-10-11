@@ -1,0 +1,10 @@
+.bundle
+.pe_build
+.ruby-version
+.vagrant
+Gemfile.local
+Gemfile.lock
+bin
+src/puppetlabs
+catalog_preview_overview-baseline.json
+preview_report.html

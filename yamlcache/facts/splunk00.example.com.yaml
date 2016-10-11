@@ -1,0 +1,121 @@
+--- !ruby/object:Puppet::Node::Facts
+name: splunk00.example.com
+values:
+  sshfp_dsa: |-
+    SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+    SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+  root_home: "/root"
+  system_uptime: seconds2851264uptime33 dayshours792days33
+  macaddress: DE:AD:BE:EF:CA:FE
+  clientversion: 3.8.6
+  swapsize: 8.00 GB
+  kernel: Linux
+  rubyplatform: x86_64-linux
+  nr_ruby_found: 'true'
+  processor7: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  puppet_vardir: "/var/lib/puppet"
+  facterversion: 2.4.1
+  gid: root
+  bios_release_date: 06/22/2012
+  os: familyRedHatnameCentOSreleaseminor6full6.6major6
+  clientcert: splunk00.example.com
+  mtu_eth1: '1500'
+  network_eth1: 10.16.173.0
+  is_virtual: 'true'
+  user_exists_infraadm: ''
+  uptime_hours: '792'
+  ps: ps -ef
+  architecture: x86_64
+  id: root
+  fqdn: splunk00.example.com
+  ipaddress_lo: 127.0.0.1
+  processor4: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  augeasversion: 1.0.0
+  filesystems: ext4,iso9660
+  kernelversion: 2.6.32
+  netmask_eth1: 255.255.255.0
+  operatingsystemrelease: '6.6'
+  hardwareisa: x86_64
+  ipaddress_eth0: 10.1.1.1
+  timezone: MDT
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  selinux: 'false'
+  productname: VMware Virtual Platform
+  serialnumber: redacted
+  memoryfree: 19.92 GB
+  swapfree: 8.00 GB
+  sshdsakey: redacted
+  blockdevice_sda_model: Virtual disk
+  netmask: 255.255.255.0
+  boardserialnumber: None
+  partitions: sda1uuidf94fe77a-f1c8-436e-a749-871add45f92fsize786432filesystemext4mount/bootsda2size67108864filesystemLVM2_member
+  operatingsystemmajrelease: '6'
+  hostname: splunk00
+  user_exists_splex: ''
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  processorcount: '8'
+  memoryfree_mb: '20403.15'
+  sshrsakey: redacted
+  processor6: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  kernelrelease: 2.6.32-504.8.1.el6.x86_64
+  domain: example.com
+  sshfp_rsa: |-
+    SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+    SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+  kernelmajversion: '2.6'
+  concat_basedir: "/var/lib/puppet/concat"
+  mtu_eth0: '1500'
+  is_pe: 'false'
+  network_eth0: 10.1.1.0
+  bios_vendor: Phoenix Technologies LTD
+  boardproductname: 440BX Desktop Reference Platform
+  macaddress_eth1: 00:50:56:AC:5A:E1
+  nr_java_found: 'true'
+  network_lo: 127.0.0.0
+  swapsize_mb: '8192.00'
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  memorysize_mb: '24030.76'
+  type: Other
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  boardmanufacturer: Intel Corporation
+  blockdevices: sda
+  hardwaremodel: x86_64
+  rubyversion: 1.8.7
+  osfamily: RedHat
+  netmask_eth0: 255.255.255.0
+  uptime_seconds: '2851264'
+  uniqueid: 100a202f
+  uptime: 33 days
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  virtual: vmware
+  clientnoop: 'false'
+  bios_version: '6.00'
+  netmask_lo: 255.0.0.0
+  ipaddress: 10.16.47.32
+  user_exists_oracle: ''
+  physicalprocessorcount: '8'
+  swapfree_mb: '8192.00'
+  manufacturer: VMware, Inc.
+  processor5: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  uptime_days: '33'
+  uuid: 42300DE4-0782-18EE-E656-1387A2845ECB
+  ipaddress_eth1: 10.16.173.32
+  staging_http_get: curl
+  interfaces: eth0,eth1,lo
+  user_exists_weblogic: ''
+  operatingsystem: CentOS
+  memorysize: 23.47 GB
+  puppetversion: 3.8.6
+  blockdevice_sda_vendor: VMware
+  blockdevice_sda_size: '42949672960'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  mtu_lo: '65536'
+  sudoversion: 1.8.6p3
+  processors: count8modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzphysicalcount8
+timestamp: '2016-05-04T09:32:47.178501000-07:00'
+expiration: '2016-05-04T10:02:09.321005000-07:00'

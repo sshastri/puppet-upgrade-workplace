@@ -1,0 +1,34 @@
+<!-- This file is controlled by puppet, and is placed here during a code deploy. -->
+
+<Context>
+
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+    <!-- Uncomment this to disable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="" />
+    -->
+    <Environment value="<%= @environment %>" type="java.lang.String" name="deploymentEnvironment"/>
+    <Environment value="<%= @environment %>" type="java.lang.String" name="spring.profiles.active"/>
+    <Environment value="matrix" type="java.lang.String" name="DBPasswordOBS"/>
+    <Environment value="stroperbew" type="java.lang.String" name="dataSourceCreonPassword"/>
+    <Environment value="matrix" type="java.lang.String" name="DBPasswordCF"/>
+    <Environment value="matrix" type="java.lang.String" name="dataSourceDlmPassword"/>
+    <Environment value="matrix" type="java.lang.String" name="DBPasswordTT"/>
+    <Environment value="matrix" type="java.lang.String" name="DBPasswordEmail"/>
+    <Environment value="matrix" type="java.lang.String" name="dataSourceEmailPassword"/>
+    <Environment value="matrix" type="java.lang.String" name="dataSourceOdsyDataPassword"/>
+    <Environment value="matrix" type="java.lang.String" name="DBPasswordFollowUp"/>
+    <Environment value="matrix" type="java.lang.String" name="DBPasswordHealthyHome"/>
+    <Environment value="matrix" type="java.lang.String" name="DBPasswordContent"/>
+    <Environment value="email123" type="java.lang.String" name="dataSourceServ1_RemoteEmailPassword"/>
+    <Environment value="true" type="java.lang.Boolen" name="activeBatchProcessor"/>
+
+    <!-- Uncomment this to enable Comet connection tacking (provides events
+         on session expiration as well as webapp lifecycle) -->
+    <!--
+    <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
+    -->
+
+</Context>

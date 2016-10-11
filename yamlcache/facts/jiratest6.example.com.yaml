@@ -1,0 +1,116 @@
+--- !ruby/object:Puppet::Node::Facts
+name: jiratest6.example.com
+values:
+  sshdsakey: redacted
+  interfaces: eth0,lo
+  netmask_lo: 255.0.0.0
+  boardmanufacturer: Intel Corporation
+  bios_version: '6.00'
+  processor7: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  user_exists_infraadm: ''
+  sshfp_rsa: |-
+    SSHFP 1 1 5234f62e7a5d2ffce7c75799e0d449d4eec9e285
+    SSHFP 1 2 24907fda32a4d366180b7ec858222460b376df41d6c134f2739e111ff1d69422
+  memorysize_mb: '48268.54'
+  ipaddress_lo: 127.0.0.1
+  blockdevice_sda_vendor: VMware
+  kernelrelease: 2.6.32-573.8.1.el6.x86_64
+  processor4: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  memoryfree_mb: '47748.42'
+  sshrsakey: redacted
+  hardwareisa: x86_64
+  user_exists_splex: ''
+  ipaddress_eth0: 10.1.1.1
+  is_virtual: 'true'
+  macaddress: DE:AD:BE:EF:CA:FE
+  network_lo: 127.0.0.0
+  kernelmajversion: '2.6'
+  blockdevice_sr0_vendor: NECVMWar
+  mtu_eth0: '1500'
+  hostname: jiratest6
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  is_pe: 'false'
+  bios_vendor: Phoenix Technologies LTD
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  clientcert: jiratest6.example.com
+  fqdn: jiratest6.example.com
+  blockdevice_sr0_model: VMware SATA CD00
+  blockdevice_sr0_size: '1073741312'
+  facterversion: 2.4.4
+  processor6: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  osfamily: RedHat
+  netmask_eth0: 255.255.255.0
+  uuid: 422C445C-7758-4D3C-371C-0A65A04ECE27
+  blockdevice_sda_model: Virtual disk
+  clientnoop: 'false'
+  processor3: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  partitions: sda1uuid352a1212-9ed5-462d-aa73-0f738be3fc74filesystemext4size2097152mount/bootsda2filesystemLVM2_membersize199227392
+  gid: root
+  network_eth0: 10.1.1.0
+  selinux: 'false'
+  puppetversion: 3.8.6
+  system_uptime: uptime50 daysseconds4388364hours1218days50
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  swapsize: 8.00 GB
+  ipaddress: 10.16.111.121
+  uptime: 50 days
+  productname: VMware Virtual Platform
+  os: familyRedHatreleasemajor6minor7full6.7nameCentOS
+  sudoversion: 1.8.6p3
+  ps: ps -ef
+  concat_basedir: "/var/lib/puppet/concat"
+  architecture: x86_64
+  sshfp_dsa: |-
+    SSHFP 2 1 3d3e511f944270d1a397c50eba5d2cc2a7e3b625
+    SSHFP 2 2 e6a538b646488b7c41f27e8ca593201087e75ef7977a2ec0ef588e34cd8136e2
+  id: root
+  puppet_vardir: "/var/lib/puppet"
+  operatingsystemmajrelease: '6'
+  operatingsystem: CentOS
+  operatingsystemrelease: '6.7'
+  virtual: vmware
+  augeasversion: 1.0.0
+  uniqueid: 100a796f
+  processor5: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  uptime_hours: '1218'
+  boardproductname: 440BX Desktop Reference Platform
+  clientversion: 3.8.6
+  domain: example.com
+  rubyversion: 1.8.7
+  type: Other
+  rubyplatform: x86_64-linux
+  mtu_lo: '65536'
+  kernelversion: 2.6.32
+  swapfree_mb: '8192.00'
+  bios_release_date: 04/14/2014
+  filesystems: ext4,iso9660
+  manufacturer: VMware, Inc.
+  processor2: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  user_exists_oracle: ''
+  uptime_days: '50'
+  processorcount: '8'
+  blockdevices: sda,sr0
+  blockdevice_sda_size: '103079215104'
+  physicalprocessorcount: '8'
+  swapsize_mb: '8192.00'
+  root_home: "/root"
+  processors: modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R)
+    CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzcount8physicalcount8
+  swapfree: 8.00 GB
+  hardwaremodel: x86_64
+  uptime_seconds: '4388364'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  memoryfree: 46.63 GB
+  boardserialnumber: None
+  user_exists_weblogic: ''
+  netmask: 255.255.255.0
+  kernel: Linux
+  memorysize: 47.14 GB
+  serialnumber: redacted
+  timezone: MDT
+timestamp: '2016-05-04T09:44:16.694883000-07:00'
+expiration: '2016-05-04T10:13:38.865392000-07:00'

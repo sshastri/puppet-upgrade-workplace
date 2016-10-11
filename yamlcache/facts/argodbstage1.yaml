@@ -1,0 +1,122 @@
+--- !ruby/object:Puppet::Node::Facts
+name: argodbstage1
+values:
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  swapfree: 7.98 GB
+  physicalprocessorcount: '1'
+  bios_release_date: 04/14/2014
+  fqdn: argodbstage1.cato.uhs
+  rubyplatform: x86_64-linux
+  processor0: Intel(R) Xeon(R) CPU E5-2450 v2 @ 2.50GHz
+  timezone: MST
+  blockdevice_sdc_size: '34359738368'
+  facterversion: 2.4.1
+  processorcount: '2'
+  kernel: Linux
+  blockdevice_sr0_model: VMware IDE CDR10
+  bios_version: '6.00'
+  sudoversion: 1.8.6p3
+  clientcert: argodbstage1
+  blockdevice_sdb_model: Virtual disk
+  blockdevice_fd0_size: '4096'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  user_exists_infraadm: ''
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  os: familyRedHatreleaseminor6major6full6.6lsbmajdistrelease6minordistrelease6distrelease6.6distdescriptionOracle
+    Linux Server release 6.6release:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchdistidOracleServerdistcodenamen/anameOracleLinux
+  concat_basedir: "/var/lib/puppet/concat"
+  blockdevice_sdc_vendor: VMware
+  uptime_seconds: '5951839'
+  productname: VMware Virtual Platform
+  root_home: "/root"
+  blockdevice_sdb_size: '34359738368'
+  ps: ps -ef
+  puppetversion: 3.8.4
+  clientnoop: 'false'
+  processors: count2physicalcount1modelsIntel(R) Xeon(R) CPU E5-2450 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2450 v2 @ 2.50GHz
+  ipaddress_lo: 127.0.0.1
+  macaddress: DE:AD:BE:EF:CA:FE
+  memorysize: 5.84 GB
+  operatingsystem: OracleLinux
+  sshfp_dsa: |-
+    SSHFP 2 1 df3b078e5931b77a2832ee27f8bbe1d96d9e6a2e
+    SSHFP 2 2 797d9b8377dd0e60489a61c158fe00accdede5a8959b4782298c7ebc062ff995
+  operatingsystemmajrelease: '6'
+  blockdevice_sda_vendor: VMware
+  lsbminordistrelease: '6'
+  rubyversion: 1.8.7
+  serialnumber: redacted
+  uniqueid: 0a0a5350
+  lsbdistdescription: Oracle Linux Server release 6.6
+  hardwareisa: x86_64
+  selinux: 'false'
+  type: Other
+  kernelversion: 2.6.39
+  memorysize_mb: '5982.25'
+  hardwaremodel: x86_64
+  virtual: vmware
+  ipaddress: 10.10.80.83
+  is_pe: 'false'
+  user_exists_weblogic: ''
+  manufacturer: VMware, Inc.
+  ipaddress_eth0: 10.1.1.1
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  netmask_eth0: 255.255.255.0
+  lsbdistid: OracleServer
+  boardmanufacturer: Intel Corporation
+  uptime: 68 days
+  uuid: 422C3A84-F28A-1DD4-8169-2DEF0C494248
+  blockdevice_sdc_model: Virtual disk
+  partitions: sdb1size67108832filesystemLVM2_membersda1uuid9150aa15-34fe-4073-a02a-e0e37f66a8f4size524288mount/bootfilesystemext3sda2size66582528filesystemLVM2_membersdc1size67108832filesystemLVM2_member
+  blockdevice_sr0_vendor: NECVMWar
+  memoryfree: 5.53 GB
+  system_uptime: days68seconds5951839uptime68 dayshours1653
+  user_exists_oracle: '500'
+  hostname: argodbstage1
+  uptime_days: '68'
+  uptime_hours: '1653'
+  mtu_eth0: '1500'
+  lsbdistrelease: '6.6'
+  netmask_lo: 255.0.0.0
+  swapfree_mb: '8170.94'
+  processor1: Intel(R) Xeon(R) CPU E5-2450 v2 @ 2.50GHz
+  mtu_lo: '16436'
+  filesystems: ext3,ext4,iso9660
+  domain: cato.uhs
+  architecture: x86_64
+  blockdevice_sr0_size: '1073741312'
+  puppet_vardir: "/var/lib/puppet"
+  blockdevice_sdb_vendor: VMware
+  lsbmajdistrelease: '6'
+  user_exists_splex: ''
+  network_eth0: 10.1.1.0
+  interfaces: eth0,lo
+  is_virtual: 'true'
+  lsbdistcodename: n/a
+  netmask: 255.255.255.0
+  clientversion: 3.8.4
+  blockdevice_sda_size: '34359738368'
+  id: root
+  osfamily: RedHat
+  operatingsystemrelease: '6.6'
+  network_lo: 127.0.0.0
+  sshdsakey: redacted
+  swapsize: 8.00 GB
+  kernelrelease: 2.6.39-400.17.1.el6uek.x86_64
+  gid: root
+  memoryfree_mb: '5665.16'
+  augeasversion: 1.0.0
+  blockdevices: fd0,sda,sdb,sdc,sr0
+  sshfp_rsa: |-
+    SSHFP 1 1 c2f2412ea80f7fa0b2e172f65020316a2bc29e9f
+    SSHFP 1 2 e59d744010385408ccde53870d494a6c5a5ea6fdf79304287f715ec00345dca6
+  bios_vendor: Phoenix Technologies LTD
+  sshrsakey: redacted
+  boardproductname: 440BX Desktop Reference Platform
+  swapsize_mb: '8192.00'
+  boardserialnumber: None
+  blockdevice_sda_model: Virtual disk
+  kernelmajversion: '2.6'
+timestamp: '2016-02-14T11:32:05.302534000-08:00'
+expiration: '2016-02-14T12:00:51.915597000-08:00'

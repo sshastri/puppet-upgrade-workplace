@@ -1,0 +1,101 @@
+--- !ruby/object:Puppet::Node::Facts
+name: qualitycenter1.example.com
+values:
+  bios_vendor: Phoenix Technologies LTD
+  mtu_lo: '65536'
+  uniqueid: 100a0f25
+  blockdevice_sr0_vendor: NECVMWar
+  root_home: "/root"
+  uptime_days: '1'
+  uptime_hours: '45'
+  ipaddress_eth0: 10.1.1.1
+  blockdevice_sda_size: '107374182400'
+  facterversion: 2.4.1
+  serialnumber: redacted
+  concat_basedir: "/var/lib/puppet/concat"
+  operatingsystemmajrelease: '6'
+  domain: example.com
+  puppetversion: 3.7.4
+  network_eth0: 10.1.1.0
+  timezone: MDT
+  memorysize_mb: '3832.81'
+  rubyversion: 1.8.7
+  bios_version: '6.00'
+  memoryfree: 3.56 GB
+  mtu_eth0: '1500'
+  macaddress: DE:AD:BE:EF:CA:FE
+  is_virtual: 'true'
+  kernelrelease: 2.6.32-504.8.1.el6.x86_64
+  selinux: 'false'
+  kernel: Linux
+  boardmanufacturer: Intel Corporation
+  osfamily: RedHat
+  netmask_eth0: 255.255.255.0
+  operatingsystemrelease: '6.6'
+  clientcert: qualitycenter1.example.com
+  ipaddress: 10.16.37.15
+  os: nameCentOSfamilyRedHatreleasemajor6full6.6minor6
+  augeasversion: 1.0.0
+  ps: ps -ef
+  physicalprocessorcount: '1'
+  hardwaremodel: x86_64
+  architecture: x86_64
+  system_uptime: uptime1 dayseconds163826hours45days1
+  bios_release_date: 08/16/2013
+  sshfp_dsa: |-
+    SSHFP 2 1 a925bf3e6079c00eae8c4d10dd9f518e55193fa0
+    SSHFP 2 2 96d37652eb04b703ba081f41addf0498287cbdf4781cb20c2a36ea49cf4a17d6
+  sudoversion: 1.8.6p3
+  interfaces: eth0,lo
+  is_pe: 'false'
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  processorcount: '1'
+  id: root
+  kernelversion: 2.6.32
+  hostname: qualitycenter1
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  type: Other
+  memoryfree_mb: '3641.50'
+  gid: root
+  clientversion: 3.7.4
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  boardproductname: 440BX Desktop Reference Platform
+  blockdevice_sr0_size: '401604608'
+  blockdevice_sda_model: Virtual disk
+  operatingsystem: CentOS
+  rubyplatform: x86_64-linux
+  hardwareisa: x86_64
+  blockdevice_sr0_model: VMware IDE CDR10
+  filesystems: ext4,iso9660
+  swapsize: 8.00 GB
+  manufacturer: VMware, Inc.
+  blockdevice_sda_vendor: VMware
+  blockdevices: sda,sr0
+  netmask: 255.255.255.0
+  kernelmajversion: '2.6'
+  clientnoop: 'false'
+  processors: physicalcount1count1modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  fqdn: qualitycenter1.example.com
+  uptime_seconds: '163826'
+  partitions: sda1uuidd54e1d3a-fb4f-402a-b398-1c633db40afefilesystemext4mount/bootsize2097152sda2filesystemLVM2_membersize207616000
+  sshdsakey: redacted
+  virtual: vmware
+  uuid: 422C82CC-7E52-9EF6-CCEC-74DF1D57F7E3
+  sshfp_rsa: |-
+    SSHFP 1 1 5d91e1b73868472e38c6295ea2be24a773bc9466
+    SSHFP 1 2 82d2fde46d297e84271beb2a7d22ccc6f2007c303650be4d01f3bd95f15f1105
+  swapfree_mb: '8192.00'
+  puppet_vardir: "/var/lib/puppet"
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  ipaddress_lo: 127.0.0.1
+  productname: VMware Virtual Platform
+  network_lo: 127.0.0.0
+  swapsize_mb: '8192.00'
+  netmask_lo: 255.0.0.0
+  memorysize: 3.74 GB
+  boardserialnumber: None
+  uptime: 1 day
+  swapfree: 8.00 GB
+  sshrsakey: redacted
+timestamp: '2015-06-03T12:48:34.589449000-07:00'
+expiration: '2015-06-03T13:19:33.614572000-07:00'

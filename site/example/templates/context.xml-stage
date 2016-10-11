@@ -1,0 +1,7 @@
+<Context>
+    <Environment value="<%= @environment %>" type="java.lang.String" name="deploymentEnvironment"/>
+    <Environment value="stroperbew" type="java.lang.String" name="dataSourceCreonPassword"/>
+    <Environment value="matrix" type="java.lang.String" name="dataSourceDlmPassword"/>
+    <Environment value="matrix" type="java.lang.String" name="dataSourceEmailPassword"/>
+    <Environment value="true" type="java.lang.Boolean" name="activeBatchProcessor"/>
+</Context>

@@ -1,0 +1,4 @@
+# We're setting the facts_terminus to 'yaml' with Hiera so that
+# the initial install of PE and any ongoing management of this setting
+# stays set to 'yaml' rather than the default value of 'puppetdb'.
+puppet_enterprise::profile::master::facts_terminus: 'yaml'

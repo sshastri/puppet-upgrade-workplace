@@ -1,0 +1,5 @@
+# Execute access on scripts:
+%erp	ALL=(weblogic) NOPASSWD: ALL
+%erp	ALL=(oracle) NOPASSWD: ALL
+%erp	ALL = NOPASSWD: /bin/su - oracle
+

@@ -1,0 +1,103 @@
+--- !ruby/object:Puppet::Node::Facts
+name: cachetest1.example.com
+values:
+  virtual: vmware
+  uptime_seconds: '7165329'
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  clientversion: 3.8.1
+  boardserialnumber: None
+  timezone: MDT
+  netmask_lo: 255.0.0.0
+  memoryfree: 4.53 GB
+  puppet_vardir: "/var/lib/puppet"
+  uptime: 82 days
+  uptime_hours: '1990'
+  netmask_eth0: 255.255.255.0
+  manufacturer: VMware, Inc.
+  memorysize_mb: '5852.57'
+  filesystems: ext4,iso9660
+  operatingsystem: CentOS
+  bios_vendor: Phoenix Technologies LTD
+  ipaddress: 10.16.99.37
+  processor2: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  netmask: 255.255.255.0
+  ipaddress_eth0: 10.1.1.1
+  bios_version: '6.00'
+  kernelmajversion: '2.6'
+  sshrsakey: redacted
+  processors: modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzcount4physicalcount4
+  mtu_eth0: '1500'
+  gid: root
+  blockdevice_sda_size: '42949672960'
+  uuid: 4230753E-EE19-DE99-4716-65CFB33D6F1A
+  sudoversion: 1.8.6p3
+  is_virtual: 'true'
+  clientcert: cachetest1.example.com
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  kernel: Linux
+  swapsize: 8.00 GB
+  hardwareisa: x86_64
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  os: releasemajor6full6.5minor5nameCentOSfamilyRedHat
+  mtu_lo: '16436'
+  puppetversion: 3.8.1
+  ps: ps -ef
+  kernelversion: 2.6.32
+  architecture: x86_64
+  boardmanufacturer: Intel Corporation
+  osfamily: RedHat
+  sshfp_dsa: |-
+    SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+    SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+  physicalprocessorcount: '4'
+  productname: VMware Virtual Platform
+  network_lo: 127.0.0.0
+  system_uptime: hours1990uptime82 daysseconds7165329days82
+  blockdevice_sda_vendor: VMware
+  operatingsystemrelease: '6.5'
+  concat_basedir: "/var/lib/puppet/concat"
+  rubyversion: 1.8.7
+  selinux: 'false'
+  partitions: sda1uuidf94fe77a-f1c8-436e-a749-871add45f92fsize786432mount/bootfilesystemext4sda2size67108864filesystemLVM2_member
+  facterversion: 2.4.4
+  swapfree_mb: '8191.99'
+  id: root
+  clientnoop: 'false'
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  bios_release_date: 08/16/2013
+  rubyplatform: x86_64-linux
+  blockdevice_sda_model: Virtual disk
+  memorysize: 5.72 GB
+  uniqueid: 007f0100
+  kernelrelease: 2.6.32-358.23.2.el6.x86_64
+  interfaces: eth0,lo
+  serialnumber: redacted
+  network_eth0: 10.1.1.0
+  fqdn: cachetest1.example.com
+  ipaddress_lo: 127.0.0.1
+  swapfree: 8.00 GB
+  uptime_days: '82'
+  operatingsystemmajrelease: '6'
+  swapsize_mb: '8191.99'
+  root_home: "/root"
+  type: Other
+  domain: example.com
+  augeasversion: 1.0.0
+  hardwaremodel: x86_64
+  hostname: cachetest1
+  macaddress: DE:AD:BE:EF:CA:FE
+  path: "/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin"
+  sshdsakey: redacted
+  boardproductname: 440BX Desktop Reference Platform
+  processor3: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  is_pe: 'false'
+  sshfp_rsa: |-
+    SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+    SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+  blockdevices: sda
+  processorcount: '4'
+  memoryfree_mb: '4642.41'
+timestamp: '2015-08-24T13:38:48.194690000-07:00'
+expiration: '2015-08-25T12:42:42.343146000-07:00'

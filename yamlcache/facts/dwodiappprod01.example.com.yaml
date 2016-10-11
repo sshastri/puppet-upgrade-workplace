@@ -1,0 +1,114 @@
+--- !ruby/object:Puppet::Node::Facts
+name: dwodiappprod01.example.com
+values:
+  uuid: 422C0BC9-B430-E863-119E-C462E6E7450D
+  domain: example.com
+  user_exists_oracle: ''
+  manufacturer: VMware, Inc.
+  operatingsystem: OracleLinux
+  gid: root
+  sshrsakey: redacted
+  kernelrelease: 3.8.13-68.3.4.el6uek.x86_64
+  nr_java_found: 'false'
+  root_home: "/root"
+  os: familyRedHatreleasefull6.7minor7major6nameOracleLinux
+  osfamily: RedHat
+  blockdevice_fd0_size: '4096'
+  uptime_seconds: '5331668'
+  kernelmajversion: '3.8'
+  filesystems: ext4,iso9660
+  ps: ps -ef
+  user_exists_splex: ''
+  id: root
+  processorcount: '4'
+  virtual: vmware
+  sshfp_rsa: |-
+    SSHFP 1 1 6cc90642e09d3e16ab02652f3664be3ff1162497
+    SSHFP 1 2 c6e716beb54e09fc95408340352edafbffad855a5e96d882f3bb4851aca37c1e
+  selinux: 'false'
+  productname: VMware Virtual Platform
+  serialnumber: redacted
+  operatingsystemrelease: '6.7'
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  network_eth0: 10.1.1.0
+  ipaddress: 10.16.35.175
+  rubyplatform: x86_64-linux
+  is_pe: 'false'
+  macaddress: DE:AD:BE:EF:CA:FE
+  user_exists_weblogic: ''
+  hardwaremodel: x86_64
+  fqdn: dwodiappprod01.example.com
+  puppet_vardir: "/var/lib/puppet"
+  memoryfree_mb: '31451.75'
+  netmask: 255.255.255.0
+  ipaddress_lo: 127.0.0.1
+  blockdevice_sda_vendor: VMware
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  netmask_lo: 255.0.0.0
+  memorysize: 31.17 GB
+  timezone: MST
+  partitions: sda1mount/bootfilesystemext4size2097152uuidceab5a48-ba8a-4741-a53d-7adcd84f37e2sda2filesystemLVM2_membersize207616000
+  clientcert: dwodiappprod01.example.com
+  uptime_hours: '1481'
+  is_virtual: 'true'
+  blockdevice_sr0_vendor: NECVMWar
+  clientnoop: 'false'
+  blockdevice_sda_size: '107374182400'
+  hardwareisa: x86_64
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  bios_vendor: Phoenix Technologies LTD
+  bios_release_date: 04/14/2014
+  mtu_lo: '65536'
+  bios_version: '6.00'
+  system_uptime: seconds5331668hours1481days61uptime61 days
+  mtu_eth0: '1500'
+  swapsize_mb: '32256.00'
+  blockdevice_sr0_model: VMware SATA CD00
+  rubyversion: 1.8.7
+  interfaces: eth0,lo
+  ipaddress_eth0: 10.1.1.1
+  puppetversion: 3.8.6
+  swapsize: 31.50 GB
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  blockdevice_sda_model: Virtual disk
+  physicalprocessorcount: '4'
+  nr_ruby_found: 'true'
+  kernelversion: 3.8.13
+  hostname: dwodiappprod01
+  boardproductname: 440BX Desktop Reference Platform
+  memoryfree: 30.71 GB
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  concat_basedir: "/var/lib/puppet/concat"
+  network_lo: 127.0.0.0
+  type: Other
+  sshfp_dsa: |-
+    SSHFP 2 1 6db2ca1a1fcaa2318bc3d2cee66389ef51adf82d
+    SSHFP 2 2 3256210df1e3df902d819ce7420801e13b4a29e0d36442a8cb62e0dcab025d16
+  netmask_eth0: 255.255.255.0
+  swapfree_mb: '32256.00'
+  augeasversion: 1.0.0
+  uptime_days: '61'
+  blockdevices: fd0,sda,sr0
+  clientversion: 3.8.6
+  kernel: Linux
+  sudoversion: 1.8.6p3
+  staging_http_get: curl
+  facterversion: 2.4.4
+  uptime: 61 days
+  architecture: x86_64
+  blockdevice_sr0_size: '1073741312'
+  swapfree: 31.50 GB
+  boardmanufacturer: Intel Corporation
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  operatingsystemmajrelease: '6'
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  uniqueid: 100aaf23
+  boardserialnumber: None
+  user_exists_infraadm: ''
+  sshdsakey: redacted
+  memorysize_mb: '31913.29'
+  processors: modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU
+    E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzcount4physicalcount4
+timestamp: '2016-02-16T09:45:58.434882000-08:00'
+expiration: '2016-02-16T10:14:46.012114000-08:00'

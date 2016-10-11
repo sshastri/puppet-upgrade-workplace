@@ -1,0 +1,158 @@
+---
+roles:
+  add_bootstap_gems:
+    provisioners:
+      -
+        inline: "/opt/puppet/bin/gem install markaby --no-ri --no-rdoc"
+        type: shell
+
+  run_r10k_deploy:
+    provisioners:
+      -
+        inline: '/opt/puppet/bin/r10k deploy environment --puppetfile -v debug2 -c /vagrant/config/r10k.yaml 2>&1'
+        type: shell
+
+  copy_yaml_cache:
+    provisioners:
+      -
+        inline: 'cp -Rvp /vagrant/yamlcache/* /var/opt/lib/pe-puppet/yaml'
+        type: shell
+
+  chown_yaml_cache:
+    provisioners:
+      -
+        inline: 'chown -R pe-puppet:pe-puppet /var/opt/lib/pe-puppet/yaml'
+        type: shell
+
+  set_noop_master:
+    provisioners:
+      -
+        inline: '/opt/puppet/bin/puppet config set noop true --section main'
+        type: shell
+
+  pe-201621-master:
+    provisioners:
+      - {type: pe_bootstrap, role: !ruby/sym master, version: '2016.2.1'}
+
+  pe-386-master:
+    provisioners:
+      - {type: pe_bootstrap, role: !ruby/sym master, version: '3.8.6'}
+
+  pe-386-agent:
+    provisioners:
+      - {type: pe_bootstrap, role: !ruby/sym agent, master: 'pe-386-master', version: '3.8.6'}
+
+# Generic Roles for all VM's
+# =================
+
+  base:
+    provisioners:
+      # A generic hosts provisioner is defined here so that networking is one
+      # of the first things configured. Other roles can hook into the
+      # 'base networking' provisioner and override settings.
+      - {type: hosts, name: 'base networking'}
+    providers:
+      - type: virtualbox
+        linked_clone: true
+        overrides:
+          vm_defaults:
+            private_networks:
+              - {auto_network: true}
+            provisioners:
+              - type: hosts
+                name: 'base networking'
+                preserve_order: true
+                sync_hosts: true
+                add_localhost_hostnames: false
+                hosts:
+                  - ['@vagrant_private_networks', ['@vagrant_hostnames']]
+                imports: ['global', 'virtualbox', 'vmware']
+                exports:
+                  virtualbox:
+                    - ['@vagrant_private_networks', ['@vagrant_hostnames']]
+
+  el-stop-firewall:
+    provisioners:
+      - type: shell
+        inline: |
+          RH_VERS=$(rpm -q --qf "%{VERSION}" $(rpm -q --whatprovides redhat-release)|grep -o '^[0-9]')
+          if [ "$RH_VERS" -gt "6" ]; then
+            systemctl stop firewalld.service
+            systemctl disable firewalld.service
+          else
+            service iptables stop
+            chkconfig iptables off
+          fi
+
+          # Some templates have firewalls configured weird. Just return success.
+          exit 0
+
+  # Adds /usr/local/bin to the PATH
+  el-fix-path:
+    provisioners:
+      - type: shell
+        inline: |
+          echo "export PATH=$PATH:/usr/local/bin" > /etc/profile.d/path_fix.sh
+
+  1gb-memory:
+    providers:
+      - type: virtualbox
+        customize:
+          - [modifyvm, !ruby/sym id, '--memory', 1024]
+      - type: vmware_fusion
+        vmx:
+          memsize: 1024
+
+  2gb-memory:
+    providers:
+      - type: virtualbox
+        customize:
+          - [modifyvm, !ruby/sym id, '--memory', 2048]
+      - type: vmware_fusion
+        vmx:
+          memsize: 2048
+
+# PE Specific Roles
+# =================
+
+  # This role adjusts the default memory usage of PE to run on VMs with 1 GB of
+  # RAM and should always be applied before any provisioner which installs
+  # PE.
+  #
+  # This role requires PE 3.7.2 or newer to function properly.
+  pe-memory-tuning:
+    provisioners:
+      # Upload to /tmp and then use a shell script to copy into place. This
+      # method works with remote machines.
+      - type: file
+        source: 'config/pe-memory-tuning.yaml'
+        destination: '/tmp/defaults.yaml'
+      - type: shell
+        inline: |-
+          mkdir -p /var/lib/hiera
+          if [ -e /tmp/defaults.yaml ]; then
+            install -m 0644 /tmp/defaults.yaml /var/lib/hiera/
+          fi
+
+  # Exact same as the above role, but for PE 2015.2 and newer.
+  #
+  # I hate this, but if we consolidate it into 1 role, all PE 3.x boxes break
+  # because the installer freaks out if `/etc/puppetlabs` exists.
+  pe-memory-tuning2:
+    provisioners:
+      # Upload to /tmp and then use a shell script to copy into place. This
+      # method works with remote machines.
+      - type: file
+        source: 'config/pe-memory-tuning.yaml'
+        destination: '/tmp/common.yaml'
+      - type: shell
+        inline: |-
+          mkdir -p /etc/puppetlabs/code/environments/production/hieradata
+          if [ -e /tmp/common.yaml ]; then
+            install -m 0644 /tmp/common.yaml /etc/puppetlabs/code/environments/production/hieradata
+          fi
+
+  pe-forward-console:
+    forwarded_ports:
+      - {guest: 443, host: 4443, auto_correct: true}
+

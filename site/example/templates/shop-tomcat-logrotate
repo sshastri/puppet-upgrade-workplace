@@ -1,0 +1,7 @@
+/odyssey/<%= @location %>/<%= @hostname %>/tomcat/logs/catalina.<%= @hostname %>.out {
+  copytruncate
+  daily
+  rotate 30
+  delaycompress
+  missingok
+}

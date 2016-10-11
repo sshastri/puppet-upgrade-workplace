@@ -1,0 +1,124 @@
+--- !ruby/object:Puppet::Node::Facts
+name: jiraprod6.example.com
+values:
+  macaddress: DE:AD:BE:EF:CA:FE
+  system_uptime: hours889seconds3202345days37uptime37 days
+  root_home: "/root"
+  sshfp_dsa: |-
+    SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+    SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+  blockdevice_sdb_vendor: VMware
+  puppet_vardir: "/var/lib/puppet"
+  facterversion: 2.4.4
+  kernel: Linux
+  swapsize: 40.00 GB
+  clientversion: 3.8.6
+  rubyplatform: x86_64-linux
+  processor7: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  nr_ruby_found: 'true'
+  gid: root
+  os: nameCentOSreleasemajor6full6.2minor2familyRedHat
+  bios_release_date: 04/14/2014
+  network_eth1: 10.2.7.0
+  uptime_hours: '889'
+  user_exists_infraadm: ''
+  is_virtual: 'true'
+  architecture: x86_64
+  ps: ps -ef
+  mtu_eth1: '1500'
+  clientcert: jiraprod6.example.com
+  id: root
+  kernelversion: 2.6.32
+  fqdn: jiraprod6.example.com
+  ipaddress_lo: 127.0.0.1
+  augeasversion: 1.0.0
+  processor4: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  filesystems: ext4,iso9660
+  timezone: MDT
+  netmask_eth1: 255.255.255.0
+  ipaddress_eth0: 10.1.1.1
+  blockdevice_sdb_model: Virtual disk
+  operatingsystemrelease: '6.2'
+  hardwareisa: x86_64
+  memoryfree: 33.80 GB
+  serialnumber: redacted
+  selinux: 'false'
+  productname: VMware Virtual Platform
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  swapfree: 40.00 GB
+  boardserialnumber: None
+  blockdevice_sda_model: Virtual disk
+  partitions: sda1filesystemext4size786432uuidf94fe77a-f1c8-436e-a749-871add45f92fmount/bootsda2filesystemLVM2_membersize67108864sda3size133429236
+  operatingsystemmajrelease: '6'
+  sshdsakey: redacted
+  hostname: jiraprod6
+  netmask: 255.255.255.0
+  processorcount: '8'
+  user_exists_splex: ''
+  memoryfree_mb: '34606.32'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  sshrsakey: redacted
+  domain: example.com
+  sshfp_rsa: |-
+    SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+    SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+  kernelrelease: 2.6.32-220.2.1.el6.x86_64
+  processor6: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  blockdevice_sdb_size: '34359738368'
+  concat_basedir: "/var/lib/puppet/concat"
+  mtu_eth0: '1500'
+  kernelmajversion: '2.6'
+  is_pe: 'false'
+  network_eth0: 10.1.1.0
+  network_lo: 127.0.0.0
+  memorysize_mb: '48269.16'
+  bios_vendor: Phoenix Technologies LTD
+  macaddress_eth1: 00:50:56:AC:52:4B
+  nr_java_found: 'false'
+  swapsize_mb: '40959.98'
+  boardproductname: 440BX Desktop Reference Platform
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  type: Other
+  netmask_eth0: 255.255.255.0
+  blockdevices: sda,sdb
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  hardwaremodel: x86_64
+  boardmanufacturer: Intel Corporation
+  rubyversion: 1.8.7
+  osfamily: RedHat
+  uptime: 37 days
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  uptime_seconds: '3202345'
+  uniqueid: 100a792f
+  virtual: vmware
+  bios_version: '6.00'
+  ipaddress: 10.16.47.121
+  clientnoop: 'false'
+  netmask_lo: 255.0.0.0
+  swapfree_mb: '40959.98'
+  user_exists_oracle: ''
+  physicalprocessorcount: '8'
+  processor5: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  manufacturer: VMware, Inc.
+  user_exists_weblogic: ''
+  uuid: 422C64C6-DDCE-5601-8FB3-6CE66C6445E8
+  uptime_days: '37'
+  ipaddress_eth1: 10.2.7.123
+  staging_http_get: curl
+  interfaces: eth0,eth1,lo
+  operatingsystem: CentOS
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  puppetversion: 3.8.6
+  blockdevice_sda_size: '103079215104'
+  blockdevice_sda_vendor: VMware
+  memorysize: 47.14 GB
+  processors: physicalcount8count8modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  sudoversion: 1.7.4p5
+  mtu_lo: '16436'
+timestamp: '2016-05-04T09:34:23.184179000-07:00'
+expiration: '2016-05-04T10:03:45.357353000-07:00'

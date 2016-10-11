@@ -1,0 +1,127 @@
+--- !ruby/object:Puppet::Node::Facts
+name: dwodiappstage1.example.com
+values:
+  user_exists_weblogic: ''
+  blockdevice_sdb_model: Virtual disk
+  manufacturer: VMware, Inc.
+  blockdevice_fd0_size: '4096'
+  domain: example.com
+  mtu_eth0: '1500'
+  kernelrelease: 3.8.13-55.1.8.el6uek.x86_64
+  selinux: 'false'
+  boardserialnumber: None
+  lsbdistid: OracleServer
+  processor3: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  lsbminordistrelease: '6'
+  mtu_lo: '65536'
+  interfaces: eth0,eth1,lo
+  ipaddress_eth0: 10.1.1.1
+  sshfp_dsa: |-
+    SSHFP 2 1 8c28a98be5332541730268f65e28773b17edc18c
+    SSHFP 2 2 8ccf40e2c1735b005b6f969fdeb17d96ead6f4f60a341b0b32fd5cab578e3dc2
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  sshrsakey: redacted
+  os: lsbminordistrelease6distrelease6.6release:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchdistcodenamen/amajdistrelease6distdescriptionOracle
+    Linux Server release 6.6distidOracleServerfamilyRedHatreleaseminor6major6full6.6nameOracleLinux
+  uptime_days: '62'
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  rubyversion: 1.8.7
+  netmask_lo: 255.0.0.0
+  clientversion: 3.8.6
+  user_exists_infraadm: ''
+  partitions: sda1size2097152mount/bootuuid1a669bd9-df54-4e37-94c9-c56939e7a79cfilesystemext4sda2size312473600filesystemLVM2_membersdb1size314568702filesystemLVM2_member
+  boardproductname: 440BX Desktop Reference Platform
+  virtual: vmware
+  netmask_eth1: 255.255.255.0
+  bios_vendor: Phoenix Technologies LTD
+  netmask: 255.255.255.0
+  puppet_vardir: "/var/lib/puppet"
+  blockdevices: fd0,sda,sdb,sr0
+  root_home: "/root"
+  facterversion: 2.4.1
+  gid: root
+  lsbmajdistrelease: '6'
+  augeasversion: 1.0.0
+  rubyplatform: x86_64-linux
+  user_exists_oracle: '500'
+  sudoversion: 1.8.6p3
+  network_lo: 127.0.0.0
+  kernel: Linux
+  lsbdistrelease: '6.6'
+  uniqueid: 100aaf43
+  physicalprocessorcount: '4'
+  mtu_eth1: '1500'
+  macaddress: DE:AD:BE:EF:CA:FE
+  ps: ps -ef
+  network_eth0: 10.1.1.0
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  clientcert: dwodiappstage1.example.com
+  ipaddress_eth1: 10.16.73.175
+  macaddress_eth1: 00:50:56:AC:41:F7
+  id: root
+  blockdevice_sr0_model: VMware IDE CDR10
+  memoryfree: 30.41 GB
+  is_virtual: 'true'
+  swapsize: 8.00 GB
+  swapfree_mb: '8192.00'
+  blockdevice_sda_model: Virtual disk
+  kernelmajversion: '3.8'
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  fqdn: dwodiappstage1.example.com
+  hardwaremodel: x86_64
+  osfamily: RedHat
+  lsbdistdescription: Oracle Linux Server release 6.6
+  blockdevice_sdb_size: '161061273600'
+  operatingsystem: OracleLinux
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  blockdevice_sr0_vendor: NECVMWar
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  uptime_seconds: '5423422'
+  swapsize_mb: '8192.00'
+  clientnoop: 'false'
+  operatingsystemmajrelease: '6'
+  blockdevice_sr0_size: '1073741312'
+  sshdsakey: redacted
+  operatingsystemrelease: '6.6'
+  puppetversion: 3.8.6
+  serialnumber: redacted
+  ipaddress: 10.16.67.175
+  network_eth1: 10.16.73.0
+  swapfree: 8.00 GB
+  memorysize_mb: '31919.70'
+  concat_basedir: "/var/lib/puppet/concat"
+  productname: VMware Virtual Platform
+  is_pe: 'false'
+  processor2: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  boardmanufacturer: Intel Corporation
+  uptime: 62 days
+  processorcount: '4'
+  kernelversion: 3.8.13
+  processors: physicalcount4count4modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  filesystems: ext4,iso9660
+  sshfp_rsa: |-
+    SSHFP 1 1 e30aa42f61ce7b3f978c720264e342e09c901baa
+    SSHFP 1 2 e6a3358c13c563f295abd73d509a82895c8ec3b35b35a15c7284445bedabe491
+  architecture: x86_64
+  bios_version: '6.00'
+  ipaddress_lo: 127.0.0.1
+  uptime_hours: '1506'
+  uuid: 422C0EAC-8F27-A65E-A974-B00523B49D8C
+  blockdevice_sda_size: '161061273600'
+  netmask_eth0: 255.255.255.0
+  hardwareisa: x86_64
+  memorysize: 31.17 GB
+  timezone: MST
+  type: Other
+  blockdevice_sdb_vendor: VMware
+  system_uptime: hours1506seconds5423422days62uptime62 days
+  lsbdistcodename: n/a
+  bios_release_date: 04/14/2014
+  blockdevice_sda_vendor: VMware
+  hostname: dwodiappstage1
+  memoryfree_mb: '31143.86'
+  user_exists_splex: ''
+timestamp: '2016-02-17T11:14:27.922042000-08:00'
+expiration: '2016-02-17T11:43:14.914249000-08:00'

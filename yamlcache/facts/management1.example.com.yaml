@@ -1,0 +1,128 @@
+--- !ruby/object:Puppet::Node::Facts
+name: management1.example.com
+values:
+  selinux: 'false'
+  netmask_eth4: 255.255.255.0
+  clientversion: 3.8.6
+  netmask_eth1: 255.255.255.0
+  netmask: 255.255.255.0
+  boardmanufacturer: Intel Corporation
+  network_eth0: 10.1.1.0
+  blockdevice_sdb_vendor: VMware
+  ipaddress_eth4: 10.2.188.254
+  uniqueid: 100a642f
+  user_exists_oracle: ''
+  ipaddress_eth1: 10.16.35.252
+  processors: modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU
+    E5-2670 v2 @ 2.50GHzcount2physicalcount2
+  blockdevice_sdb_model: Virtual disk
+  swapfree_mb: '8192.00'
+  osfamily: RedHat
+  os: nameCentOSfamilyRedHatreleasefull6.7minor7major6
+  blockdevice_sda_vendor: VMware
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  boardserialnumber: None
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  mtu_eth0: '1500'
+  is_pe: 'false'
+  system_uptime: uptime48 daysdays48hours1153seconds4150853
+  facterversion: 2.4.4
+  nr_ruby_found: 'true'
+  user_exists_infraadm: ''
+  manufacturer: VMware, Inc.
+  blockdevice_sr0_model: VMware IDE CDR10
+  kernelrelease: 2.6.32-573.12.1.el6.x86_64
+  macaddress: DE:AD:BE:EF:CA:FE
+  memoryfree: 5.41 GB
+  network_eth4: 10.2.188.0
+  hostname: management1
+  domain: example.com
+  operatingsystemmajrelease: '6'
+  network_eth1: 10.16.35.0
+  netmask_eth2: 255.255.255.0
+  filesystems: ext3,ext4,iso9660
+  sshdsakey: redacted
+  architecture: x86_64
+  fqdn: management1.example.com
+  hardwaremodel: x86_64
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  virtual: vmware
+  partitions: sdb1size209712447filesystemLVM2_membersda1uuid4147a68c-aabe-4901-b393-f1a7a0b00d6dsize2097152filesystemext4mount/bootsda2size207616000filesystemLVM2_member
+  kernelversion: 2.6.32
+  mtu_lo: '65536'
+  kernel: Linux
+  gid: root
+  swapfree: 8.00 GB
+  clientcert: management1.example.com
+  kernelmajversion: '2.6'
+  ipaddress_eth2: 10.16.171.60
+  ps: ps -ef
+  sshrsakey: redacted
+  blockdevice_sda_model: Virtual disk
+  interfaces: eth0,eth1,eth2,eth4,lo
+  root_home: "/root"
+  nr_java_found: 'false'
+  macaddress_eth4: 00:50:56:AC:B7:A4
+  mtu_eth4: '1500'
+  bios_version: '6.00'
+  id: root
+  bios_release_date: 04/14/2014
+  timezone: MDT
+  macaddress_eth1: 00:50:56:AC:C7:BD
+  mtu_eth1: '1500'
+  rubyversion: 1.8.7
+  augeasversion: 1.0.0
+  swapsize_mb: '8192.00'
+  ipaddress_lo: 127.0.0.1
+  swapsize: 8.00 GB
+  operatingsystemrelease: '6.7'
+  user_exists_weblogic: ''
+  netmask_lo: 255.0.0.0
+  blockdevice_sr0_vendor: NECVMWar
+  uuid: 422CEC34-B16C-D8CC-9229-51369BC5CE1B
+  clientnoop: 'false'
+  staging_http_get: curl
+  blockdevice_sr0_size: '1073741312'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  serialnumber: redacted
+  concat_basedir: "/var/lib/puppet/concat"
+  bios_vendor: Phoenix Technologies LTD
+  boardproductname: 440BX Desktop Reference Platform
+  processorcount: '2'
+  network_eth2: 10.16.171.0
+  puppet_vardir: "/var/lib/puppet"
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  uptime: 48 days
+  uptime_hours: '1153'
+  user_exists_splex: ''
+  netmask_eth0: 255.255.255.0
+  memorysize_mb: '7872.51'
+  memoryfree_mb: '5540.36'
+  physicalprocessorcount: '2'
+  uptime_days: '48'
+  memorysize: 7.69 GB
+  ipaddress_eth0: 10.1.1.1
+  ipaddress: 10.16.47.100
+  blockdevice_sda_size: '107374182400'
+  is_virtual: 'true'
+  blockdevices: sda,sdb,sr0
+  rubyplatform: x86_64-linux
+  sshfp_dsa: |-
+    SSHFP 2 1 0e688bd84266d4379e9dc0d1b5ef9490b0126799
+    SSHFP 2 2 7d50c528e4ca441b62d750a9e3ad13756a3f2ad3325d204a78fb557129bd4bab
+  sshfp_rsa: |-
+    SSHFP 1 1 fa31c06c47749af855780df57bd22b24059c1d85
+    SSHFP 1 2 fa882ca034c7ca16a1383fdc3e7eacb6ffa0c91a0d63d7ba4e27677ed7ab7586
+  macaddress_eth2: 00:50:56:AC:F5:79
+  mtu_eth2: '1500'
+  type: Other
+  productname: VMware Virtual Platform
+  network_lo: 127.0.0.0
+  uptime_seconds: '4150853'
+  operatingsystem: CentOS
+  hardwareisa: x86_64
+  blockdevice_sdb_size: '107374182400'
+  sudoversion: 1.8.6p3
+  puppetversion: 3.8.6
+timestamp: '2016-05-04T09:28:26.818174000-07:00'
+expiration: '2016-05-04T09:57:49.012676000-07:00'

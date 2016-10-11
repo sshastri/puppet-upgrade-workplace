@@ -1,0 +1,130 @@
+--- !ruby/object:Puppet::Node::Facts
+name: boboprod1.pni.b1p3f3dc.example.com
+values:
+  selinux: 'false'
+  lsbminordistrelease: '11'
+  clientversion: 3.8.6
+  processor5: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  netmask: 255.255.255.0
+  processor2: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  ipaddress_vlan741: 10.16.41.168
+  lsbdistdescription: Enterprise Linux Enterprise Linux Server release 5.11 (Carthage)
+  lsbdistid: EnterpriseEnterpriseServer
+  uniqueid: 100aa823
+  mtu_vlan741: '1500'
+  user_exists_oracle: ''
+  processors: modelsIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzIntel(R) Xeon(R)
+    CPU           E5640  @ 2.67GHzIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzIntel(R)
+    Xeon(R) CPU           E5640  @ 2.67GHzIntel(R) Xeon(R) CPU           E5640  @
+    2.67GHzIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzIntel(R) Xeon(R) CPU           E5640  @
+    2.67GHzIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzcount8physicalcount1
+  mtu_vlan735: '1500'
+  swapfree_mb: '34175.84'
+  osfamily: RedHat
+  os: releasemajor5full5.11minor11lsbrelease:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchminordistrelease11distdescriptionEnterprise
+    Linux Enterprise Linux Server release 5.11 (Carthage)majdistrelease5distidEnterpriseEnterpriseServerdistcodenameCarthagedistrelease5.11familyRedHatnameOracleLinux
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  macaddress_vlan741: D8:D3:85:BE:14:24
+  macaddress_vlan735: D8:D3:85:BE:14:20
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  mtu_eth0: '1500'
+  system_uptime: hours981seconds3534916days40uptime40 days
+  facterversion: 2.4.6
+  is_pe: 'false'
+  nr_ruby_found: 'true'
+  user_exists_infraadm: ''
+  manufacturer: HP
+  lsbmajdistrelease: '5'
+  kernelrelease: 2.6.18-408.0.0.0.1.el5
+  macaddress: DE:AD:BE:EF:CA:FE
+  memoryfree: 26.55 GB
+  processor6: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  hostname: boboprod1
+  processor3: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  blockdevice_cciss!c0d0_model: LOGICAL VOLUME
+  domain: pni.b1p3f3dc.example.com
+  operatingsystemmajrelease: '5'
+  filesystems: ext2,ext3,iso9660
+  sshdsakey: redacted
+  fqdn: boboprod1.pni.b1p3f3dc.example.com
+  architecture: x86_64
+  hardwaremodel: x86_64
+  processor0: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  virtual: physical
+  partitions: cciss!c0d0p2cciss!c0d0p1
+  kernelversion: 2.6.18
+  mtu_lo: '16436'
+  kernel: Linux
+  clientcert: boboprod1.pni.b1p3f3dc.example.com
+  gid: root
+  swapfree: 33.37 GB
+  ipaddress_vlan735: 10.16.35.168
+  kernelmajversion: '2.6'
+  netmask_vlan735: 255.255.255.0
+  ps: ps -ef
+  netmask_vlan741: 255.255.255.0
+  lsbdistrelease: '5.11'
+  sshrsakey: redacted
+  interfaces: eth0,eth1,lo,vlan735,vlan741
+  nr_java_found: 'false'
+  root_home: "/root"
+  bios_version: I24
+  id: root
+  bios_release_date: 08/16/2010
+  timezone: MDT
+  macaddress_eth1: D8:D3:85:BE:14:24
+  mtu_eth1: '1500'
+  rubyversion: 1.8.7
+  augeasversion: 1.2.0
+  swapsize_mb: '34175.99'
+  blockdevice_cciss!c0d0_size: '299966445568'
+  swapsize: 33.37 GB
+  ipaddress_lo: 127.0.0.1
+  operatingsystemrelease: '5.11'
+  user_exists_weblogic: ''
+  netmask_lo: 255.0.0.0
+  clientnoop: 'false'
+  uuid: 37373035-3038-5533-5631-303132355059
+  staging_http_get: curl
+  processor7: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  serialnumber: redacted
+  concat_basedir: "/var/lib/puppet/concat"
+  processor4: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  bios_vendor: HP
+  processorcount: '8'
+  blockdevice_cciss!c0d0_vendor: HP
+  puppet_vardir: "/var/lib/puppet"
+  processor1: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  uptime: 40 days
+  uptime_hours: '981'
+  user_exists_splex: ''
+  lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+  memorysize_mb: '32183.10'
+  memoryfree_mb: '27183.07'
+  physicalprocessorcount: '1'
+  uptime_days: '40'
+  network_vlan741: 10.16.41.0
+  memorysize: 31.43 GB
+  lsbdistcodename: Carthage
+  ipaddress: 10.16.35.168
+  network_vlan735: 10.16.35.0
+  is_virtual: 'false'
+  blockdevices: cciss!c0d0
+  rubyplatform: x86_64-linux
+  sshfp_dsa: |-
+    SSHFP 2 1 871214970fb8449abb3028cd34a9e692e865eca8
+    SSHFP 2 2 279049f748caaaec6a7c5d28e3d08a1b32620eb612854874fcc757dac9fab22f
+  type: Rack Mount Chassis
+  sshfp_rsa: |-
+    SSHFP 1 1 73cbf680f2f60ac916d456ab13eec040dd20efd5
+    SSHFP 1 2 31e217b9da9e3b04aa4eadc09b8f62cc6916afd1f26d2f4f9ef04621df3bf2d1
+  productname: ProLiant BL460c G6
+  network_lo: 127.0.0.0
+  uptime_seconds: '3534916'
+  operatingsystem: OracleLinux
+  hardwareisa: x86_64
+  sudoversion: 1.7.2p1
+  puppetversion: 3.8.6
+timestamp: '2016-05-04T09:48:37.080088000-07:00'
+expiration: '2016-05-04T10:17:58.778432000-07:00'

@@ -1,0 +1,107 @@
+--- !ruby/object:Puppet::Node::Facts
+name: agiledbtest2
+values:
+  blockdevice_sda_vendor: VMware
+  selinux: 'false'
+  rubyplatform: x86_64-linux
+  physicalprocessorcount: '4'
+  network_eth0: 10.1.1.0
+  processor3: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  blockdevice_sda_size: '107374182400'
+  interfaces: eth0,lo
+  osfamily: RedHat
+  uuid: 422CD067-DAEC-4EE3-6AA6-D3A4947BADBE
+  bios_release_date: 08/16/2013
+  rubyversion: 1.8.7
+  gid: root
+  concat_basedir: "/var/lib/puppet/concat"
+  blockdevice_fd0_size: '0'
+  netmask_eth0: 255.255.255.0
+  domain: example.com
+  swapsize: 8.00 GB
+  ipaddress_lo: 127.0.0.1
+  filesystems: ext4,iso9660
+  system_uptime: hours0seconds1817days0uptime0:30 hours
+  clientversion: 3.7.4
+  swapsize_mb: '8192.00'
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  sudoversion: 1.8.6p3
+  is_virtual: 'true'
+  hardwaremodel: x86_64
+  sshfp_rsa: |-
+    SSHFP 1 1 2bc0a3108686dce3d590bd6db545a6f08b391b57
+    SSHFP 1 2 ab105958b32ccf00279ac54ed2ad720e6d4408e9b3a3d5fdc9c1c94c3385355f
+  blockdevice_sr0_vendor: NECVMWar
+  mtu_lo: '65536'
+  partitions: sda1mount/bootfilesystemext4uuidc90f492e-290f-496c-b18e-61f03a6a6860size2097152sda2filesystemLVM2_membersize207616000
+  kernelrelease: 3.8.13-55.1.8.el6uek.x86_64
+  facterversion: 2.4.1
+  puppetversion: 3.7.4
+  memorysize_mb: '7728.74'
+  sshrsakey: redacted
+  blockdevices: fd0,sda,sr0
+  augeasversion: 1.0.0
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  puppet_vardir: "/var/lib/puppet"
+  os: familyRedHatnameOracleLinuxreleasefull6.6major6minor6
+  boardproductname: 440BX Desktop Reference Platform
+  kernelmajversion: '3.8'
+  operatingsystemmajrelease: '6'
+  bios_vendor: Phoenix Technologies LTD
+  blockdevice_sda_model: Virtual disk
+  swapfree: 8.00 GB
+  manufacturer: VMware, Inc.
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  uptime_hours: '0'
+  id: root
+  ps: ps -ef
+  sshfp_dsa: |-
+    SSHFP 2 1 2b2b6458f0db127d2e2042f4509774b3204df676
+    SSHFP 2 2 a79e93f286a225ee6f37d24f26cc934244dddc49ea7615bf2d5065e086e12def
+  architecture: x86_64
+  ipaddress: 10.16.102.171
+  processor2: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  ipaddress_eth0: 10.1.1.1
+  fqdn: agiledbtest2.example.com
+  processors: modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzcount4physicalcount4
+  mtu_eth0: '1500'
+  processorcount: '4'
+  clientcert: agiledbtest2
+  hardwareisa: x86_64
+  memoryfree_mb: '7427.57'
+  uptime: 0:30 hours
+  productname: VMware Virtual Platform
+  memorysize: 7.55 GB
+  operatingsystem: OracleLinux
+  blockdevice_sr0_size: '236978176'
+  serialnumber: redacted
+  is_pe: 'false'
+  blockdevice_sr0_model: VMware IDE CDR10
+  operatingsystemrelease: '6.6'
+  clientnoop: 'false'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  root_home: "/root"
+  boardserialnumber: None
+  swapfree_mb: '8192.00'
+  type: Other
+  sshdsakey: redacted
+  memoryfree: 7.25 GB
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  uptime_days: '0'
+  macaddress: DE:AD:BE:EF:CA:FE
+  uptime_seconds: '1817'
+  kernelversion: 3.8.13
+  hostname: agiledbtest2
+  network_lo: 127.0.0.0
+  timezone: MDT
+  netmask_lo: 255.0.0.0
+  boardmanufacturer: Intel Corporation
+  uniqueid: 100aab66
+  virtual: vmware
+  kernel: Linux
+  netmask: 255.255.255.0
+  bios_version: '6.00'
+timestamp: '2015-03-25T09:03:26.125972000-07:00'
+expiration: '2015-03-25T09:34:27.191165000-07:00'

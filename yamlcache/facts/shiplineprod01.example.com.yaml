@@ -1,0 +1,122 @@
+--- !ruby/object:Puppet::Node::Facts
+name: shiplineprod01.example.com
+values:
+  root_home: "/root"
+  system_uptime: seconds29291215hours8136days339uptime339 days
+  sshfp_dsa: |-
+    SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+    SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+  macaddress: DE:AD:BE:EF:CA:FE
+  blockdevice_sdb_vendor: VMware
+  os: nameCentOSreleaseminor4full6.4major6familyRedHat
+  rubyplatform: x86_64-linux
+  kernel: Linux
+  swapsize: 24.00 GB
+  clientversion: 3.8.6
+  processor7: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  nr_ruby_found: 'true'
+  puppet_vardir: "/var/lib/puppet"
+  blockdevice_sdc_size: '21474836480'
+  facterversion: 2.4.4
+  gid: root
+  bios_release_date: 06/22/2012
+  user_exists_infraadm: ''
+  is_virtual: 'true'
+  architecture: x86_64
+  ps: ps -ef
+  uptime_hours: '8136'
+  clientcert: shiplineprod01.example.com
+  id: root
+  fqdn: shiplineprod01.example.com
+  augeasversion: 1.0.0
+  ipaddress_lo: 127.0.0.1
+  processor4: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  filesystems: ext4,iso9660
+  kernelversion: 2.6.32
+  hardwareisa: x86_64
+  blockdevice_sdb_model: Virtual disk
+  ipaddress_eth0: 10.1.1.1
+  operatingsystemrelease: '6.4'
+  timezone: MDT
+  selinux: 'false'
+  swapfree: 21.80 GB
+  productname: VMware Virtual Platform
+  serialnumber: redacted
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  memoryfree: 11.00 GB
+  blockdevice_sdc_vendor: VMware
+  sshdsakey: redacted
+  hostname: shiplineprod01
+  netmask: 255.255.255.0
+  operatingsystemmajrelease: '6'
+  boardserialnumber: None
+  blockdevice_sda_model: Virtual disk
+  partitions: sda1uuidf94fe77a-f1c8-436e-a749-871add45f92fmount/bootsize786432filesystemext4sda2size67108864filesystemLVM2_membersdc1size41929587filesystemLVM2_member
+  user_exists_splex: ''
+  sshrsakey: redacted
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  processorcount: '8'
+  memoryfree_mb: '11268.65'
+  domain: example.com
+  sshfp_rsa: |-
+    SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+    SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+  processor6: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  kernelrelease: 2.6.32-504.8.1.el6.x86_64
+  blockdevice_sdb_size: '214748364800'
+  kernelmajversion: '2.6'
+  network_eth0: 10.1.1.0
+  concat_basedir: "/var/lib/puppet/concat"
+  mtu_eth0: '1500'
+  is_pe: 'false'
+  memorysize_mb: '19990.78'
+  type: Other
+  boardproductname: 440BX Desktop Reference Platform
+  processor3: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  network_lo: 127.0.0.0
+  bios_vendor: Phoenix Technologies LTD
+  nr_java_found: 'false'
+  swapsize_mb: '24575.99'
+  boardmanufacturer: Intel Corporation
+  hardwaremodel: x86_64
+  osfamily: RedHat
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  rubyversion: 1.8.7
+  blockdevices: sda,sdb,sdc
+  blockdevice_sdc_model: Virtual disk
+  netmask_eth0: 255.255.255.0
+  uniqueid: 010a1678
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  uptime: 339 days
+  uptime_seconds: '29291215'
+  virtual: vmware
+  clientnoop: 'false'
+  bios_version: '6.00'
+  netmask_lo: 255.0.0.0
+  ipaddress: 10.1.120.22
+  physicalprocessorcount: '2'
+  user_exists_oracle: ''
+  swapfree_mb: '22319.65'
+  manufacturer: VMware, Inc.
+  processor5: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  uptime_days: '339'
+  staging_http_get: curl
+  user_exists_weblogic: ''
+  uuid: 42300A31-285B-FAA7-2E75-716043670815
+  interfaces: eth0,lo
+  blockdevice_sda_vendor: VMware
+  operatingsystem: CentOS
+  blockdevice_sda_size: '42949672960'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  processor2: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  puppetversion: 3.8.6
+  memorysize: 19.52 GB
+  processors: physicalcount2modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzcount8
+  mtu_lo: '65536'
+  sudoversion: 1.8.6p3
+timestamp: '2016-05-04T09:38:29.068209000-07:00'
+expiration: '2016-05-04T10:07:51.245478000-07:00'

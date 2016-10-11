@@ -1,0 +1,128 @@
+--- !ruby/object:Puppet::Node::Facts
+name: management1
+values:
+  blockdevices: sda,sdb,sr0
+  serialnumber: redacted
+  fqdn: management1.example.com
+  id: root
+  blockdevice_sda_model: Virtual disk
+  clientversion: 3.8.4
+  blockdevice_sdb_size: '107374182400'
+  macaddress_eth2: 00:50:56:AC:F5:79
+  user_exists_weblogic: ''
+  timezone: MST
+  blockdevice_sda_vendor: VMware
+  physicalprocessorcount: '2'
+  swapfree: 8.00 GB
+  blockdevice_sr0_size: '1073741312'
+  netmask_eth2: 255.255.255.0
+  selinux: 'false'
+  nr_java_found: 'false'
+  sshdsakey: redacted
+  uptime_seconds: '3405635'
+  blockdevice_sdb_vendor: VMware
+  netmask_lo: 255.0.0.0
+  rubyversion: 1.8.7
+  mtu_eth0: '1500'
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  uptime_days: '39'
+  hostname: management1
+  gid: root
+  virtual: vmware
+  memoryfree: 6.28 GB
+  ipaddress_eth2: 10.16.171.60
+  clientcert: management1
+  operatingsystemmajrelease: '6'
+  network_eth0: 10.1.1.0
+  hardwareisa: x86_64
+  blockdevice_sdb_model: Virtual disk
+  swapfree_mb: '8192.00'
+  macaddress: DE:AD:BE:EF:CA:FE
+  ipaddress: 10.16.47.100
+  netmask: 255.255.255.0
+  bios_vendor: Phoenix Technologies LTD
+  memorysize_mb: '7872.51'
+  swapsize: 8.00 GB
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  sshfp_dsa: |-
+    SSHFP 2 1 0e688bd84266d4379e9dc0d1b5ef9490b0126799
+    SSHFP 2 2 7d50c528e4ca441b62d750a9e3ad13756a3f2ad3325d204a78fb557129bd4bab
+  uniqueid: 100a642f
+  manufacturer: VMware, Inc.
+  sshfp_rsa: |-
+    SSHFP 1 1 fa31c06c47749af855780df57bd22b24059c1d85
+    SSHFP 1 2 fa882ca034c7ca16a1383fdc3e7eacb6ffa0c91a0d63d7ba4e27677ed7ab7586
+  netmask_eth0: 255.255.255.0
+  kernelversion: 2.6.32
+  boardmanufacturer: Intel Corporation
+  interfaces: eth0,eth1,eth2,eth4,lo
+  operatingsystem: CentOS
+  blockdevice_sr0_model: VMware IDE CDR10
+  architecture: x86_64
+  uptime_hours: '946'
+  mtu_eth4: '1500'
+  clientnoop: 'false'
+  system_uptime: days39seconds3405635uptime39 dayshours946
+  augeasversion: 1.0.0
+  mtu_eth1: '1500'
+  network_eth4: 10.2.188.0
+  puppet_vardir: "/var/lib/puppet"
+  staging_http_get: curl
+  network_eth1: 10.16.35.0
+  hardwaremodel: x86_64
+  osfamily: RedHat
+  root_home: "/root"
+  kernelmajversion: '2.6'
+  ipaddress_eth0: 10.1.1.1
+  rubyplatform: x86_64-linux
+  partitions: sdb1size209712447filesystemLVM2_membersda1size2097152uuid4147a68c-aabe-4901-b393-f1a7a0b00d6dmount/bootfilesystemext4sda2size207616000filesystemLVM2_member
+  uptime: 39 days
+  processors: physicalcount2count2modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  blockdevice_sr0_vendor: NECVMWar
+  ipaddress_lo: 127.0.0.1
+  os: familyRedHatnameCentOSreleasefull6.7minor7major6
+  operatingsystemrelease: '6.7'
+  memoryfree_mb: '6428.39'
+  macaddress_eth4: 00:50:56:AC:B7:A4
+  productname: VMware Virtual Platform
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  macaddress_eth1: 00:50:56:AC:C7:BD
+  type: Other
+  memorysize: 7.69 GB
+  netmask_eth4: 255.255.255.0
+  processorcount: '2'
+  ps: ps -ef
+  netmask_eth1: 255.255.255.0
+  boardserialnumber: None
+  blockdevice_sda_size: '107374182400'
+  user_exists_infraadm: ''
+  network_lo: 127.0.0.0
+  user_exists_oracle: ''
+  puppetversion: 3.8.4
+  kernel: Linux
+  sshrsakey: redacted
+  bios_release_date: 04/14/2014
+  boardproductname: 440BX Desktop Reference Platform
+  bios_version: '6.00'
+  facterversion: 2.4.4
+  filesystems: ext3,ext4,iso9660
+  domain: example.com
+  mtu_eth2: '1500'
+  concat_basedir: "/var/lib/puppet/concat"
+  is_virtual: 'true'
+  nr_ruby_found: 'true'
+  is_pe: 'false'
+  swapsize_mb: '8192.00'
+  uuid: 422CEC34-B16C-D8CC-9229-51369BC5CE1B
+  user_exists_splex: ''
+  network_eth2: 10.16.171.0
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  ipaddress_eth4: 10.2.188.254
+  sudoversion: 1.8.6p3
+  ipaddress_eth1: 10.16.35.252
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  kernelrelease: 2.6.32-573.7.1.el6.x86_64
+  mtu_lo: '65536'
+timestamp: '2016-02-14T05:53:20.671140000-08:00'
+expiration: '2016-02-14T06:22:09.750887000-08:00'

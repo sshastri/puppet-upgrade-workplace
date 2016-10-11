@@ -1,0 +1,122 @@
+--- !ruby/object:Puppet::Node::Facts
+name: webdbprod2.example.com
+values:
+  blockdevice_sdb_model: Virtual disk
+  is_pe: 'false'
+  gid: root
+  processor7: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  domain: example.com
+  swapfree_mb: '8192.00'
+  rubyplatform: x86_64-linux
+  blockdevice_sdd_vendor: VMware
+  network_lo: 127.0.0.0
+  ipaddress: 10.16.38.186
+  blockdevice_sdc_model: Virtual disk
+  processor4: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  operatingsystemmajrelease: '6'
+  system_uptime: hours62seconds225147days2uptime2 days
+  serialnumber: redacted
+  mtu_lo: '65536'
+  swapsize_mb: '8192.00'
+  blockdevice_sdc_vendor: VMware
+  uptime_days: '2'
+  os: familyRedHatreleasefull6.6minor6major6nameOracleLinux
+  uuid: 422C382E-E2B9-E567-9D50-9308014AB259
+  blockdevice_fd0_size: '4096'
+  uniqueid: 100aba26
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  architecture: x86_64
+  root_home: "/root"
+  operatingsystem: OracleLinux
+  fqdn: webdbprod2.example.com
+  ps: ps -ef
+  filesystems: ext4,iso9660
+  augeasversion: 1.0.0
+  uptime_hours: '62'
+  osfamily: RedHat
+  hardwaremodel: x86_64
+  blockdevice_sr0_size: '1073741312'
+  memorysize: 62.67 GB
+  kernelrelease: 3.8.13-68.1.3.el6uek.x86_64
+  blockdevice_sda_model: Virtual disk
+  clientcert: webdbprod2.example.com
+  hostname: webdbprod2
+  operatingsystemrelease: '6.6'
+  processorcount: '8'
+  macaddress: DE:AD:BE:EF:CA:FE
+  blockdevice_sr0_vendor: NECVMWar
+  processor6: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  hardwareisa: x86_64
+  netmask_lo: 255.0.0.0
+  clientnoop: 'false'
+  blockdevice_sdd_size: '268435456000'
+  id: root
+  swapfree: 8.00 GB
+  blockdevice_sda_size: '128849018880'
+  swapsize: 8.00 GB
+  physicalprocessorcount: '2'
+  puppet_vardir: "/var/lib/puppet"
+  blockdevice_sdd_model: Virtual disk
+  boardserialnumber: None
+  processor3: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  boardproductname: 440BX Desktop Reference Platform
+  memorysize_mb: '64173.06'
+  puppetversion: 3.7.5
+  concat_basedir: "/var/lib/puppet/concat"
+  blockdevices: fd0,sda,sdb,sdc,sdd,sr0
+  memoryfree: 62.04 GB
+  blockdevice_sdc_size: '268435456000'
+  sudoversion: 1.8.6p3
+  blockdevice_sda_vendor: VMware
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  clientversion: 3.7.5
+  type: Other
+  netmask_eth0: 255.255.255.0
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  kernelmajversion: '3.8'
+  rubyversion: 1.8.7
+  ipaddress_lo: 127.0.0.1
+  bios_vendor: Phoenix Technologies LTD
+  boardmanufacturer: Intel Corporation
+  sshdsakey: redacted
+  ipaddress_eth0: 10.1.1.1
+  partitions: sdb1size524281212filesystemLVM2_membersdd1size524281212filesystemLVM2_membersda1mount/bootuuid9627542f-7ffb-47a7-811d-f41ec805b9d6size2097152filesystemext4sda2size249559040filesystemLVM2_membersdc1size524281212filesystemLVM2_member
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  bios_version: '6.00'
+  processor5: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  sshfp_rsa: |-
+    SSHFP 1 1 88dd1f310eafe5e89e69ee502c5d4e0472bf57aa
+    SSHFP 1 2 7ae825b6001f3657b53b70155d5a114f36f7f0ae51bea6b8f3104610f456d848
+  kernel: Linux
+  sshrsakey: redacted
+  uptime_seconds: '225147'
+  interfaces: eth0,lo
+  netmask: 255.255.255.0
+  bios_release_date: 06/22/2012
+  productname: VMware Virtual Platform
+  memoryfree_mb: '63524.77'
+  blockdevice_sdb_size: '268435456000'
+  processor2: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  mtu_eth0: '1500'
+  facterversion: 2.4.3
+  blockdevice_sr0_model: VMware IDE CDR10
+  uptime: 2 days
+  network_eth0: 10.1.1.0
+  is_virtual: 'true'
+  manufacturer: VMware, Inc.
+  sshfp_dsa: |-
+    SSHFP 2 1 0d5e8e8c648e5cf9b0e8aa1fe1bc0d6c67dad18d
+    SSHFP 2 2 3b858d333d93825deb3fe84a34571f9c182c3654b8fc962f8a92c0157e332714
+  processors: physicalcount2count8modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  timezone: MDT
+  virtual: vmware
+  selinux: 'false'
+  blockdevice_sdb_vendor: VMware
+  kernelversion: 3.8.13
+timestamp: '2015-05-31T00:49:35.037383000-07:00'
+expiration: '2015-05-31T01:21:49.928321000-07:00'

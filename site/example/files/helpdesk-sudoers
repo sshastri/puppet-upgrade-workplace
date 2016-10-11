@@ -1,0 +1,2 @@
+# Allow helpdesk to run scripts
+%Helpdesk	ALL=(oracle)	NOPASSWD: /home/oracle/scripts/helpdesk/

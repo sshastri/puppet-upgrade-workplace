@@ -1,0 +1,123 @@
+--- !ruby/object:Puppet::Node::Facts
+name: demantradbdev1.example.com
+values:
+  memorysize_mb: '16050.71'
+  bios_version: '6.00'
+  netmask: 255.255.255.0
+  processor2: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  blockdevice_hdc_size: '4294965248'
+  interfaces: eth0,lo
+  swapfree_mb: '16383.99'
+  lsbmajdistrelease: '5'
+  clientnoop: 'false'
+  operatingsystemmajrelease: '5'
+  processors: modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzphysicalcount6count6
+  sudoversion: 1.7.2p1
+  fqdn: demantradbdev1.example.com
+  uptime_hours: '3961'
+  uptime_days: '165'
+  user_exists_weblogic: ''
+  clientversion: 3.8.4
+  type: Other
+  hardwaremodel: x86_64
+  memoryfree_mb: '15225.97'
+  productname: VMware Virtual Platform
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  manufacturer: VMware, Inc.
+  boardmanufacturer: Intel Corporation
+  processor4: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  physicalprocessorcount: '6'
+  sshdsakey: redacted
+  operatingsystemrelease: '5.8'
+  ipaddress: 10.16.131.92
+  os: lsbdistrelease5.8distidEnterpriseEnterpriseServerminordistrelease8distcodenameCarthagerelease:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchmajdistrelease5distdescriptionEnterprise
+    Linux Enterprise Linux Server release 5.8 (Carthage)nameOracleLinuxfamilyRedHatreleaseminor8major5full5.8
+  blockdevices: fd0,hdc,sda,sdb
+  root_home: "/root"
+  lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+  ps: ps -ef
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  gid: root
+  osfamily: RedHat
+  selinux: 'false'
+  blockdevice_sdb_model: Virtual disk
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  processorcount: '6'
+  kernelversion: 2.6.18
+  system_uptime: seconds14259998hours3961uptime165 daysdays165
+  swapsize: 16.00 GB
+  blockdevice_sda_model: Virtual disk
+  boardserialnumber: None
+  memorysize: 15.67 GB
+  kernel: Linux
+  uniqueid: 100a5c83
+  kernelrelease: 2.6.18-308.el5
+  operatingsystem: OracleLinux
+  bios_release_date: 08/16/2013
+  user_exists_splex: ''
+  lsbdistrelease: '5.8'
+  lsbdistid: EnterpriseEnterpriseServer
+  puppet_vardir: "/var/lib/puppet"
+  swapsize_mb: '16383.99'
+  sshfp_rsa: |-
+    SSHFP 1 1 dd482255240cfb888e3d4c141b27bbab84f1bf74
+    SSHFP 1 2 e6d294daf18ab006612840ff4402f35bee81a835ab5a203db94f31144e658a11
+  facterversion: 2.4.1
+  uptime: 165 days
+  uptime_seconds: '14259998'
+  hardwareisa: x86_64
+  lsbdistdescription: Enterprise Linux Enterprise Linux Server release 5.8 (Carthage)
+  processor3: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  partitions: sda2size41399505sda1label/bootfilesystemext2mount/bootuuid03776b22-f64b-44f8-a95a-35ae8d6fa47dsize530082sdb1size41929587
+  boardproductname: 440BX Desktop Reference Platform
+  lsbminordistrelease: '8'
+  hostname: demantradbdev1
+  swapfree: 16.00 GB
+  network_eth0: 10.1.1.0
+  lsbdistcodename: Carthage
+  mtu_eth0: '1500'
+  user_exists_oracle: '500'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  augeasversion: 1.2.0
+  filesystems: ext2,ext3,iso9660
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  virtual: vmware
+  mtu_lo: '16436'
+  memoryfree: 14.87 GB
+  blockdevice_sdb_size: '21474836480'
+  ipaddress_lo: 127.0.0.1
+  network_lo: 127.0.0.0
+  puppetversion: 3.8.4
+  kernelmajversion: '2.6'
+  is_pe: 'false'
+  sshfp_dsa: |-
+    SSHFP 2 1 216d12bb8f3d89309e8a99cd95f3a9fea7b618d3
+    SSHFP 2 2 3b01cd8662fbbb7ddce432f59d73d22ab2e61545d90be65962fc1981cf184695
+  blockdevice_sda_vendor: VMware
+  rubyversion: 1.8.7
+  uuid: 422CF2CE-C9AE-C8FB-EFC9-292CCD378F6B
+  sshrsakey: redacted
+  domain: example.com
+  serialnumber: redacted
+  architecture: x86_64
+  blockdevice_sdb_vendor: VMware
+  user_exists_infraadm: ''
+  id: root
+  blockdevice_sda_size: '21474836480'
+  clientcert: demantradbdev1.example.com
+  timezone: MST
+  is_virtual: 'true'
+  concat_basedir: "/var/lib/puppet/concat"
+  bios_vendor: Phoenix Technologies LTD
+  netmask_eth0: 255.255.255.0
+  processor5: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  netmask_lo: 255.0.0.0
+  blockdevice_fd0_size: '4096'
+  ipaddress_eth0: 10.1.1.1
+  rubyplatform: x86_64-linux
+  macaddress: DE:AD:BE:EF:CA:FE
+timestamp: '2015-11-12T09:52:05.179205000-08:00'
+expiration: '2015-11-12T10:21:58.320504000-08:00'

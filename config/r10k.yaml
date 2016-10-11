@@ -1,0 +1,8 @@
+---
+cachedir: '/var/cache/r10k'
+sources:
+  puppet:
+    remote: '/vagrant'
+    basedir: '/etc/puppetlabs/puppet/environments'
+git:
+  provider: 'rugged'

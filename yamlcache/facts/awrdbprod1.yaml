@@ -1,0 +1,107 @@
+--- !ruby/object:Puppet::Node::Facts
+name: awrdbprod1
+values:
+  boardserialnumber: None
+  swapfree_mb: '8192.00'
+  kernel: Linux
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  timezone: MST
+  operatingsystemmajrelease: '6'
+  hardwareisa: x86_64
+  blockdevice_sr0_size: '3853516800'
+  staging_http_get: curl
+  blockdevice_sr0_vendor: NECVMWar
+  bios_vendor: Phoenix Technologies LTD
+  fqdn: awrdbprod1
+  productname: VMware Virtual Platform
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  blockdevice_fd0_size: '4096'
+  uuid: 422C3231-EFF5-BB20-3276-D4A5DE57F00A
+  serialnumber: redacted
+  processorcount: '2'
+  boardproductname: 440BX Desktop Reference Platform
+  interfaces: eth0,lo
+  partitions: sda1uuidf8936037-6595-47c5-a2d6-a7f5fa5b79fcmount/bootsize2097152filesystemext4sda2size207616000filesystemLVM2_member
+  is_pe: 'false'
+  blockdevice_sda_size: '107374182400'
+  network_eth0: 10.1.1.0
+  selinux: 'true'
+  physicalprocessorcount: '2'
+  kernelrelease: 2.6.32-504.el6.x86_64
+  uniqueid: '00000000'
+  user_exists_infraadm: ''
+  blockdevice_sr0_model: VMware SATA CD00
+  selinux_enforced: 'false'
+  os: familyRedHatreleaseminor6major6full6.6nameOracleLinux
+  processors: physicalcount2count2modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  user_exists_splex: ''
+  memorysize: 7.81 GB
+  user_exists_oracle: ''
+  root_home: "/root"
+  is_virtual: 'true'
+  swapsize_mb: '8192.00'
+  augeasversion: 1.0.0
+  mtu_eth0: '1500'
+  ps: ps -ef
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  bios_version: '6.00'
+  memoryfree: 7.02 GB
+  memorysize_mb: '8001.62'
+  nr_java_found: 'false'
+  ipaddress_eth0: 10.1.1.1
+  macaddress: DE:AD:BE:EF:CA:FE
+  selinux_policyversion: '24'
+  boardmanufacturer: Intel Corporation
+  network_lo: 127.0.0.0
+  swapsize: 8.00 GB
+  user_exists_weblogic: ''
+  uptime_hours: '0'
+  operatingsystemrelease: '6.6'
+  filesystems: cramfs,ext4,iso9660,squashfs
+  id: root
+  uptime: 0:12 hours
+  architecture: x86_64
+  manufacturer: VMware, Inc.
+  netmask_lo: 255.0.0.0
+  osfamily: RedHat
+  sudoversion: 1.8.6p3
+  clientcert: awrdbprod1
+  operatingsystem: OracleLinux
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  kernelversion: 2.6.32
+  nr_ruby_found: 'true'
+  path: "/tmp/product:/tmp/updates:/usr/bin:/bin:/sbin:/usr/sbin:/mnt/sysimage/bin:/mnt/sysimage/usr/bin:/mnt/sysimage/usr/sbin:/mnt/sysimage/sbin:/mnt/sysimage/usr/X11R6/bin:/tmp/DD/bin:/tmp/DD/sbin:/tmp/DD/usr/bin:/tmp/DD/usr/bin:/sbin:/usr/sbin"
+  kernelmajversion: '2.6'
+  facterversion: 2.4.4
+  mtu_lo: '65536'
+  ipaddress_lo: 127.0.0.1
+  clientversion: 3.8.1
+  blockdevice_sda_model: Virtual disk
+  uptime_seconds: '737'
+  bios_release_date: 04/14/2014
+  clientnoop: 'false'
+  selinux_config_mode: enforcing
+  swapfree: 8.00 GB
+  netmask: 255.255.255.0
+  gid: root
+  type: Other
+  rubyversion: 1.8.7
+  hardwaremodel: x86_64
+  selinux_current_mode: permissive
+  blockdevices: fd0,sda,sr0
+  virtual: vmware
+  blockdevice_sda_vendor: VMware
+  puppetversion: 3.8.1
+  selinux_config_policy: targeted
+  uptime_days: '0'
+  system_uptime: hours0uptime0:12 hoursdays0seconds737
+  ipaddress: 10.16.38.160
+  concat_basedir: "/var/lib/puppet/concat"
+  netmask_eth0: 255.255.255.0
+  memoryfree_mb: '7192.40'
+  rubyplatform: x86_64-linux
+  puppet_vardir: "/var/lib/puppet"
+  hostname: awrdbprod1
+timestamp: '2015-10-25T22:30:43.231544000-07:00'
+expiration: '2015-11-02T16:25:58.575980000-08:00'

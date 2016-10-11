@@ -1,0 +1,101 @@
+--- !ruby/object:Puppet::Node::Facts
+name: webdbdev1.example.com.example.com
+values:
+  manufacturer: VMware, Inc.
+  uuid: 422C3A0A-3F30-09E6-771A-9C6DF9833B6D
+  uptime_hours: '0'
+  swapsize_mb: '8192.00'
+  blockdevice_sda_vendor: VMware
+  architecture: x86_64
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  hostname: webdbdev1
+  id: root
+  boardmanufacturer: Intel Corporation
+  domain: example.com.example.com
+  virtual: vmware
+  gid: root
+  uptime_days: '0'
+  filesystems: cramfs,ext4,iso9660,squashfs
+  augeasversion: 1.0.0
+  selinux_current_mode: permissive
+  memoryfree_mb: '15243.38'
+  memorysize: 15.70 GB
+  puppetversion: 3.7.5
+  rubyplatform: x86_64-linux
+  puppet_vardir: "/var/lib/puppet"
+  uptime_seconds: '659'
+  partitions: sda1size2097152mount/bootuuidccd0a8f8-77c7-49a4-b5d1-ccc814699936filesystemext4sda2size207616000filesystemLVM2_member
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  facterversion: 2.4.3
+  hardwareisa: x86_64
+  memorysize_mb: '16081.57'
+  kernelrelease: 2.6.32-504.el6.x86_64
+  blockdevice_sda_model: Virtual disk
+  boardserialnumber: None
+  netmask_lo: 255.0.0.0
+  swapfree_mb: '8192.00'
+  ipaddress_eth0: 10.1.1.1
+  clientversion: 3.7.5
+  kernelversion: 2.6.32
+  productname: VMware Virtual Platform
+  netmask: 255.255.255.0
+  blockdevice_sda_size: '107374182400'
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  root_home: "/root"
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  timezone: MDT
+  swapfree: 8.00 GB
+  selinux_config_mode: enforcing
+  system_uptime: seconds659days0uptime0:10 hourshours0
+  network_lo: 127.0.0.0
+  uptime: 0:10 hours
+  kernelmajversion: '2.6'
+  fqdn: webdbdev1.example.com.example.com
+  bios_vendor: Phoenix Technologies LTD
+  sudoversion: 1.8.6p3
+  selinux_config_policy: targeted
+  swapsize: 8.00 GB
+  physicalprocessorcount: '2'
+  ipaddress_lo: 127.0.0.1
+  memoryfree: 14.89 GB
+  clientcert: webdbdev1.example.com.example.com
+  macaddress: DE:AD:BE:EF:CA:FE
+  is_pe: 'false'
+  uniqueid: 100a4520
+  interfaces: eth0,lo
+  clientnoop: 'false'
+  network_eth0: 10.1.1.0
+  bios_version: '6.00'
+  netmask_eth0: 255.255.255.0
+  blockdevice_sr0_size: '236978176'
+  serialnumber: redacted
+  ipaddress: 10.16.134.186
+  processors: modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzcount2physicalcount2
+  mtu_lo: '65536'
+  mtu_eth0: '1500'
+  selinux_enforced: 'false'
+  selinux_policyversion: '24'
+  hardwaremodel: x86_64
+  boardproductname: 440BX Desktop Reference Platform
+  bios_release_date: 08/16/2013
+  is_virtual: 'true'
+  concat_basedir: "/var/lib/puppet/concat"
+  operatingsystemmajrelease: '6'
+  osfamily: RedHat
+  processorcount: '2'
+  type: Other
+  blockdevice_sr0_model: VMware IDE CDR10
+  blockdevice_fd0_size: '4096'
+  os: releasemajor6full6.6minor6nameOracleLinuxfamilyRedHat
+  blockdevices: fd0,sda,sr0
+  kernel: Linux
+  operatingsystemrelease: '6.6'
+  rubyversion: 1.8.7
+  path: "/tmp/product:/tmp/updates:/usr/bin:/bin:/sbin:/usr/sbin:/mnt/sysimage/bin:/mnt/sysimage/usr/bin:/mnt/sysimage/usr/sbin:/mnt/sysimage/sbin:/mnt/sysimage/usr/X11R6/bin:/tmp/DD/bin:/tmp/DD/sbin:/tmp/DD/usr/bin:/tmp/DD/usr/bin:/sbin:/usr/sbin"
+  operatingsystem: OracleLinux
+  blockdevice_sr0_vendor: NECVMWar
+  selinux: 'true'
+  ps: ps -ef
+timestamp: '2015-05-19T14:34:58.407083000-07:00'
+expiration: '2015-05-19T15:06:59.331889000-07:00'

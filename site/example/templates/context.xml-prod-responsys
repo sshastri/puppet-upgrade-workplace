@@ -1,0 +1,14 @@
+<Context>
+    
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    
+    <Environment value="<%= @environment %>" type="java.lang.String" name="deploymentEnvironment"/>
+    <Environment value="<%= @environment %>" type="java.lang.String" name="spring.profiles.active"/>
+    <Environment value="true" type="java.lang.Boolean" name="activeBatchProcessor"/>
+    <Environment name="DBPasswordCreon" type="java.lang.String" value="stroperbew" override="false"/>
+    <Environment name="DBPasswordDlm" type="java.lang.String" value="dlm" override="false"/>
+    <Environment name="DBPasswordEmail" type="java.lang.String" value="email123" override="false"/>
+    <Environment name="DBPasswordOdsy" type="java.lang.String" value="responsys" override="false"/>    
+    <Environment name="DBPasswordResponsys" type="java.lang.String" value="responsys" override="false"/>
+    
+</Context>

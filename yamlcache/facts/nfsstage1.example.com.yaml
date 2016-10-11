@@ -1,0 +1,143 @@
+--- !ruby/object:Puppet::Node::Facts
+name: nfsstage1.example.com
+values:
+  filesystems: ext4,iso9660
+  swapfree_mb: '8164.50'
+  user_exists_oracle: ''
+  uptime_seconds: '15543050'
+  rubyversion: 1.8.7
+  blockdevice_sdf_size: '1099511627776'
+  bios_vendor: Phoenix Technologies LTD
+  hardwareisa: x86_64
+  is_virtual: 'true'
+  mtu_lo: '65536'
+  blockdevice_sr0_model: VMware IDE CDR10
+  type: Other
+  sshrsakey: redacted
+  blockdevice_sdh_vendor: VMware
+  blockdevice_sdi_model: Virtual disk
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  ps: ps -ef
+  virtual: vmware
+  blockdevice_sdi_size: '1099511627776'
+  swapsize_mb: '8192.00'
+  blockdevice_sdj_vendor: VMware
+  blockdevice_sdh_model: Virtual disk
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  ipaddress_lo: 127.0.0.1
+  blockdevice_sdg_vendor: VMware
+  sudoversion: 1.8.6p3
+  blockdevice_sdf_vendor: VMware
+  osfamily: RedHat
+  blockdevice_sr0_vendor: NECVMWar
+  operatingsystemmajrelease: '6'
+  network_eth0: 10.1.1.0
+  blockdevice_sdc_vendor: VMware
+  gid: root
+  blockdevice_sdc_size: '1099511627776'
+  manufacturer: VMware, Inc.
+  blockdevice_sde_size: '1099511627776'
+  netmask_lo: 255.0.0.0
+  augeasversion: 1.0.0
+  blockdevice_sdg_size: '1099511627776'
+  puppetversion: 3.8.6
+  blockdevice_sdl_model: Virtual disk
+  blockdevice_sda_size: '64424509440'
+  boardproductname: 440BX Desktop Reference Platform
+  clientnoop: 'false'
+  hostname: nfsstage1
+  user_exists_infraadm: ''
+  uniqueid: 100a9143
+  blockdevice_sde_vendor: VMware
+  blockdevice_sdb_vendor: VMware
+  blockdevice_sdk_model: Virtual disk
+  architecture: x86_64
+  blockdevice_sdd_size: '1099511627776'
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  netmask_eth0: 255.255.255.0
+  blockdevice_sdk_size: '1099511627776'
+  rubyplatform: x86_64-linux
+  blockdevice_sdd_model: Virtual disk
+  uptime: 179 days
+  kernelmajversion: '2.6'
+  processors: count4modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzphysicalcount4
+  blockdevice_sde_model: Virtual disk
+  blockdevice_sda_model: Virtual disk
+  sshfp_dsa: |-
+    SSHFP 2 1 a28ebbd9709e0b1bdea2500006cef5ba4cfb19c8
+    SSHFP 2 2 4f0c4265451fd3b7e569175a582cdce4dc6fc3e08b7ae2ef6b72244a96d8bdbf
+  physicalprocessorcount: '4'
+  is_pe: 'false'
+  boardserialnumber: None
+  productname: VMware Virtual Platform
+  blockdevice_sdg_model: Virtual disk
+  id: root
+  sshfp_rsa: |-
+    SSHFP 1 1 e576fda868d5b6379ec0d5cdd0f1bc20b414cd6b
+    SSHFP 1 2 33a39c7b6244927e7e8f5884f4791e236b02251333f65d567f433917f305672c
+  blockdevice_sdk_vendor: VMware
+  blockdevice_sdj_size: '1099511627776'
+  ipaddress_eth0: 10.1.1.1
+  uptime_hours: '4317'
+  blockdevice_sdh_size: '1099511627776'
+  netmask: 255.255.255.0
+  puppet_vardir: "/var/lib/puppet"
+  blockdevice_sdl_size: '1099511627776'
+  fqdn: nfsstage1.example.com
+  root_home: "/root"
+  network_lo: 127.0.0.0
+  processorcount: '4'
+  clientversion: 3.8.6
+  blockdevice_sdi_vendor: VMware
+  hardwaremodel: x86_64
+  sshdsakey: redacted
+  partitions: sdf1size2147472747filesystemLVM2_membersdc1size2147472747filesystemLVM2_membersdk1size2147472747filesystemLVM2_membersdh1size2147472747filesystemLVM2_membersde1size2147472747filesystemLVM2_membersdb1size2147472747filesystemLVM2_membersdj1size2147472747filesystemLVM2_membersdg1size2147472747filesystemLVM2_membersdd1size2147472747filesystemLVM2_membersda1size2097152mount/bootfilesystemext4uuid56eb72f7-3c5c-4951-b8b7-2c79aeaf917csda2size123729920filesystemLVM2_membersdl1size2147472747filesystemLVM2_membersdi1size2147472747filesystemLVM2_member
+  blockdevice_sr0_size: '1073741312'
+  mtu_eth0: '1500'
+  timezone: MDT
+  system_uptime: seconds15543050days179hours4317uptime179 days
+  user_exists_splex: ''
+  bios_version: '6.00'
+  boardmanufacturer: Intel Corporation
+  domain: example.com
+  swapfree: 7.97 GB
+  blockdevice_sdj_model: Virtual disk
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  kernelversion: 2.6.32
+  clientcert: nfsstage1.example.com
+  macaddress: DE:AD:BE:EF:CA:FE
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  serialnumber: redacted
+  memoryfree: 3.17 GB
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  kernelrelease: 2.6.32-504.16.2.el6.x86_64
+  bios_release_date: 08/16/2013
+  os: familyRedHatnameCentOSreleaseminor6full6.6major6
+  ipaddress: 10.16.67.145
+  blockdevice_sdc_model: Virtual disk
+  blockdevices: sda,sdb,sdc,sdd,sde,sdf,sdg,sdh,sdi,sdj,sdk,sdl,sr0
+  memorysize_mb: '3828.95'
+  memoryfree_mb: '3249.98'
+  blockdevice_sdb_model: Virtual disk
+  blockdevice_sdl_vendor: VMware
+  facterversion: 2.4.4
+  swapsize: 8.00 GB
+  uuid: 422C2C94-62E2-CB53-3D1D-5BC0F4DBE87C
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  blockdevice_sdd_vendor: VMware
+  memorysize: 3.74 GB
+  user_exists_weblogic: ''
+  blockdevice_sdb_size: '1099511627776'
+  selinux: 'false'
+  kernel: Linux
+  concat_basedir: "/var/lib/puppet/concat"
+  operatingsystem: CentOS
+  blockdevice_sda_vendor: VMware
+  uptime_days: '179'
+  operatingsystemrelease: '6.6'
+  interfaces: eth0,lo
+  blockdevice_sdf_model: Virtual disk
+timestamp: '2016-05-04T09:29:18.122603000-07:00'
+expiration: '2016-05-04T09:58:40.307768000-07:00'

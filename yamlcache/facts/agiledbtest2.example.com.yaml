@@ -1,0 +1,125 @@
+--- !ruby/object:Puppet::Node::Facts
+name: agiledbtest2.example.com
+values:
+  macaddress: DE:AD:BE:EF:CA:FE
+  root_home: "/root"
+  sshfp_dsa: |-
+    SSHFP 2 1 2b2b6458f0db127d2e2042f4509774b3204df676
+    SSHFP 2 2 a79e93f286a225ee6f37d24f26cc934244dddc49ea7615bf2d5065e086e12def
+  system_uptime: days97uptime97 dayshours2348seconds8454678
+  lsbdistid: OracleServer
+  blockdevice_sdb_vendor: VMware
+  swapsize: 8.00 GB
+  clientversion: 3.8.6
+  gid: root
+  puppet_vardir: "/var/lib/puppet"
+  kernel: Linux
+  rubyplatform: x86_64-linux
+  blockdevice_sdc_size: '214748364800'
+  facterversion: 2.4.1
+  os: nameOracleLinuxfamilyRedHatreleaseminor6full6.6major6lsbminordistrelease6distrelease6.6majdistrelease6release:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchdistcodenamen/adistdescriptionOracle
+    Linux Server release 6.6distidOracleServer
+  bios_release_date: 04/14/2014
+  uptime_hours: '2348'
+  id: root
+  user_exists_infraadm: ''
+  is_virtual: 'true'
+  architecture: x86_64
+  ps: ps -ef
+  clientcert: agiledbtest2.example.com
+  lsbdistdescription: Oracle Linux Server release 6.6
+  filesystems: ext4,iso9660
+  kernelversion: 3.8.13
+  fqdn: agiledbtest2.example.com
+  augeasversion: 1.0.0
+  ipaddress_lo: 127.0.0.1
+  hardwareisa: x86_64
+  ipaddress_eth0: 10.1.1.1
+  blockdevice_sdb_model: Virtual disk
+  operatingsystemrelease: '6.6'
+  timezone: MDT
+  memoryfree: 6.54 GB
+  swapfree: 8.00 GB
+  productname: VMware Virtual Platform
+  selinux: 'false'
+  serialnumber: redacted
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  boardserialnumber: None
+  blockdevice_sr0_size: '1073741312'
+  hostname: agiledbtest2
+  blockdevice_sdc_vendor: VMware
+  blockdevice_sda_model: Virtual disk
+  partitions: sda1filesystemext4mount/bootsize2097152uuidc90f492e-290f-496c-b18e-61f03a6a6860sda2filesystemLVM2_membersize207616000sdc1filesystemLVM2_membersize419424957sdb1filesystemLVM2_membersize419424957
+  operatingsystemmajrelease: '6'
+  sshdsakey: redacted
+  netmask: 255.255.255.0
+  memoryfree_mb: '6699.10'
+  sshrsakey: redacted
+  lsbmajdistrelease: '6'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  processorcount: '4'
+  user_exists_splex: ''
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  lsbdistcodename: n/a
+  kernelrelease: 3.8.13-55.1.8.el6uek.x86_64
+  sshfp_rsa: |-
+    SSHFP 1 1 2bc0a3108686dce3d590bd6db545a6f08b391b57
+    SSHFP 1 2 ab105958b32ccf00279ac54ed2ad720e6d4408e9b3a3d5fdc9c1c94c3385355f
+  domain: example.com
+  blockdevice_sdb_size: '214748364800'
+  concat_basedir: "/var/lib/puppet/concat"
+  is_pe: 'false'
+  kernelmajversion: '3.8'
+  blockdevice_sr0_vendor: NECVMWar
+  mtu_eth0: '1500'
+  network_eth0: 10.1.1.0
+  boardproductname: 440BX Desktop Reference Platform
+  lsbdistrelease: '6.6'
+  bios_vendor: Phoenix Technologies LTD
+  network_lo: 127.0.0.0
+  swapsize_mb: '8192.00'
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  type: Other
+  memorysize_mb: '7728.80'
+  netmask_eth0: 255.255.255.0
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  hardwaremodel: x86_64
+  osfamily: RedHat
+  boardmanufacturer: Intel Corporation
+  rubyversion: 1.8.7
+  blockdevices: fd0,sda,sdb,sdc,sr0
+  blockdevice_sdc_model: Virtual disk
+  uptime_seconds: '8454678'
+  lsbminordistrelease: '6'
+  uniqueid: 100aab66
+  uptime: 97 days
+  virtual: vmware
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  bios_version: '6.00'
+  clientnoop: 'false'
+  netmask_lo: 255.0.0.0
+  ipaddress: 10.16.102.171
+  physicalprocessorcount: '4'
+  user_exists_oracle: '500'
+  swapfree_mb: '8192.00'
+  blockdevice_fd0_size: '4096'
+  manufacturer: VMware, Inc.
+  uptime_days: '97'
+  uuid: 422CD067-DAEC-4EE3-6AA6-D3A4947BADBE
+  interfaces: eth0,lo
+  user_exists_weblogic: ''
+  blockdevice_sda_size: '107374182400'
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  puppetversion: 3.8.6
+  memorysize: 7.55 GB
+  operatingsystem: OracleLinux
+  blockdevice_sr0_model: VMware IDE CDR10
+  blockdevice_sda_vendor: VMware
+  processors: count4modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzphysicalcount4
+  sudoversion: 1.8.6p3
+  mtu_lo: '65536'
+timestamp: '2016-05-04T09:40:32.343081000-07:00'
+expiration: '2016-05-04T10:09:54.485693000-07:00'

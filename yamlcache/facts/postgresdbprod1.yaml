@@ -1,0 +1,120 @@
+--- !ruby/object:Puppet::Node::Facts
+name: postgresdbprod1
+values:
+  is_pe: 'false'
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  blockdevice_sdb_model: Virtual disk
+  gid: root
+  selinux_config_policy: targeted
+  rubyplatform: x86_64-linux
+  domain: example.com
+  swapfree_mb: '8192.00'
+  blockdevice_sdd_vendor: VMware
+  network_lo: 127.0.0.0
+  serialnumber: redacted
+  ipaddress: 10.16.37.200
+  mtu_lo: '65536'
+  operatingsystemmajrelease: '6'
+  system_uptime: hours2290uptime95 daysseconds8246268days95
+  blockdevice_sdc_model: Virtual disk
+  blockdevice_sde_size: '53687091200'
+  swapsize_mb: '8192.00'
+  blockdevice_sdc_vendor: VMware
+  uptime_days: '95'
+  os: releasefull6.6minor6major6familyRedHatnameCentOS
+  selinux_enforced: 'false'
+  uuid: 422C78F5-6D07-8A0B-3FAD-D7540DFFBA53
+  uniqueid: 100ac825
+  operatingsystem: CentOS
+  root_home: "/root"
+  fqdn: postgresdbprod1.example.com
+  ps: ps -ef
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  architecture: x86_64
+  filesystems: ext4,iso9660
+  blockdevice_sr0_size: '401604608'
+  uptime_hours: '2290'
+  hardwaremodel: x86_64
+  augeasversion: 1.0.0
+  osfamily: RedHat
+  blockdevice_sr0_vendor: NECVMWar
+  blockdevice_sda_model: Virtual disk
+  clientcert: postgresdbprod1
+  macaddress: DE:AD:BE:EF:CA:FE
+  memorysize: 7.69 GB
+  operatingsystemrelease: '6.6'
+  processorcount: '2'
+  hostname: postgresdbprod1
+  kernelrelease: 2.6.32-504.8.1.el6.x86_64
+  clientnoop: 'false'
+  blockdevice_sdd_size: '53687091200'
+  swapfree: 8.00 GB
+  netmask_lo: 255.0.0.0
+  selinux_current_mode: permissive
+  id: root
+  hardwareisa: x86_64
+  blockdevice_sda_size: '107374182400'
+  puppet_vardir: "/var/lib/puppet"
+  blockdevice_sdd_model: Virtual disk
+  physicalprocessorcount: '2'
+  boardserialnumber: None
+  swapsize: 8.00 GB
+  boardproductname: 440BX Desktop Reference Platform
+  memorysize_mb: '7872.63'
+  concat_basedir: "/var/lib/puppet/concat"
+  puppetversion: 3.7.4
+  blockdevices: sda,sdb,sdc,sdd,sde,sr0
+  memoryfree: 7.34 GB
+  clientversion: 3.7.4
+  type: Other
+  sudoversion: 1.8.6p3
+  blockdevice_sdc_size: '53687091200'
+  blockdevice_sda_vendor: VMware
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  netmask_eth0: 255.255.255.0
+  rubyversion: 1.8.7
+  kernelmajversion: '2.6'
+  ipaddress_lo: 127.0.0.1
+  blockdevice_sde_model: Virtual disk
+  bios_vendor: Phoenix Technologies LTD
+  partitions: sdb1size104857568filesystemLVM2_membersdd1size104857568filesystemLVM2_membersda1uuidd68a3b32-ebaa-4d58-866d-e8331b626993size2097152filesystemext4mount/bootsda2size207616000filesystemLVM2_membersdc1size104857568filesystemLVM2_membersde1size104857568filesystemLVM2_member
+  ipaddress_eth0: 10.1.1.1
+  boardmanufacturer: Intel Corporation
+  sshdsakey: redacted
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  bios_version: '6.00'
+  uptime_seconds: '8246268'
+  kernel: Linux
+  selinux_config_mode: disabled
+  interfaces: eth0,lo
+  sshfp_rsa: |-
+    SSHFP 1 1 7c9997b278bb776a7f2beb0e1cabeeea19a14243
+    SSHFP 1 2 e947315617b5c816db14254e4cde67ec2edf063cfe8392e6fbebbba8c9d09c6b
+  sshrsakey: redacted
+  netmask: 255.255.255.0
+  productname: VMware Virtual Platform
+  blockdevice_sdb_size: '53687091200'
+  memoryfree_mb: '7515.67'
+  bios_release_date: 06/22/2012
+  facterversion: 2.4.1
+  blockdevice_sr0_model: VMware IDE CDR10
+  mtu_eth0: '1500'
+  uptime: 95 days
+  processors: physicalcount2modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzcount2
+  sshfp_dsa: |-
+    SSHFP 2 1 a1c196f106b13024d26c8739eb20d3c44211ea8d
+    SSHFP 2 2 fc9ee89bfa6e7dfd35edc317381a61c2027342d889ccea55e1dadc6a37d530dd
+  network_eth0: 10.1.1.0
+  blockdevice_sde_vendor: VMware
+  is_virtual: 'true'
+  manufacturer: VMware, Inc.
+  timezone: MDT
+  selinux: 'true'
+  selinux_policyversion: '24'
+  virtual: vmware
+  blockdevice_sdb_vendor: VMware
+  kernelversion: 2.6.32
+timestamp: '2015-05-31T00:59:08.172908000-07:00'
+expiration: '2015-05-31T01:31:23.068724000-07:00'

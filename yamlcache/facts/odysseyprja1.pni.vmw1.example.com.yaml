@@ -1,0 +1,110 @@
+--- !ruby/object:Puppet::Node::Facts
+name: odysseyprja1.pni.vmw1.example.com
+values:
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  virtual: vmware
+  network_eth0: 10.1.1.0
+  uniqueid: 100a7c83
+  timezone: MDT
+  physicalprocessorcount: '4'
+  is_pe: 'false'
+  interfaces: eth0,lo
+  kernelmajversion: '2.6'
+  uptime_seconds: '4388426'
+  swapsize_mb: '8191.99'
+  swapfree_mb: '8191.99'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  operatingsystemrelease: '6.2'
+  clientversion: 3.8.6
+  user_exists_splex: ''
+  sshdsakey: redacted
+  blockdevice_sda_vendor: VMware
+  productname: VMware Virtual Platform
+  bios_release_date: 04/14/2014
+  netmask_eth0: 255.255.255.0
+  blockdevice_sda_model: Virtual disk
+  uptime_hours: '1219'
+  filesystems: ext4,iso9660
+  network_lo: 127.0.0.0
+  augeasversion: 1.0.0
+  processor2: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  mtu_eth0: '1500'
+  blockdevice_sr0_size: '1073741312'
+  kernel: Linux
+  hostname: odysseyprja1
+  sshrsakey: redacted
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  os: nameCentOSreleasefull6.2major6minor2familyRedHat
+  user_exists_weblogic: ''
+  type: Other
+  uptime: 50 days
+  memoryfree_mb: '3380.57'
+  processors: physicalcount4count4modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  processorcount: '4'
+  ps: ps -ef
+  bios_vendor: Phoenix Technologies LTD
+  boardproductname: 440BX Desktop Reference Platform
+  boardmanufacturer: Intel Corporation
+  memoryfree: 3.30 GB
+  puppetversion: 3.8.6
+  is_virtual: 'true'
+  macaddress: DE:AD:BE:EF:CA:FE
+  sshfp_dsa: |-
+    SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+    SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+  osfamily: RedHat
+  rubyplatform: x86_64-linux
+  user_exists_oracle: ''
+  blockdevice_sda_size: '42949672960'
+  id: root
+  mtu_lo: '16436'
+  kernelversion: 2.6.32
+  blockdevices: sda,sr0
+  clientcert: odysseyprja1.pni.vmw1.example.com
+  swapsize: 8.00 GB
+  ipaddress_lo: 127.0.0.1
+  uuid: 42304E6E-03C0-D612-1F6E-92452D16AAA2
+  ipaddress: 10.16.131.124
+  clientnoop: 'false'
+  operatingsystemmajrelease: '6'
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  domain: pni.vmw1.example.com
+  netmask: 255.255.255.0
+  facterversion: 2.4.4
+  netmask_lo: 255.0.0.0
+  blockdevice_sr0_vendor: NECVMWar
+  operatingsystem: CentOS
+  swapfree: 8.00 GB
+  manufacturer: VMware, Inc.
+  rubyversion: 1.8.7
+  hardwaremodel: x86_64
+  root_home: "/root"
+  user_exists_infraadm: ''
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  partitions: sda1mount/bootsize786432uuidf94fe77a-f1c8-436e-a749-871add45f92ffilesystemext4sda2size67108864filesystemLVM2_member
+  bios_version: '6.00'
+  gid: root
+  hardwareisa: x86_64
+  ipaddress_eth0: 10.1.1.1
+  kernelrelease: 2.6.32-220.17.1.el6.x86_64
+  boardserialnumber: None
+  serialnumber: redacted
+  sshfp_rsa: |-
+    SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+    SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+  system_uptime: seconds4388426days50hours1219uptime50 days
+  concat_basedir: "/var/lib/puppet/concat"
+  processor3: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  memorysize_mb: '3832.92'
+  memorysize: 3.74 GB
+  fqdn: odysseyprja1.pni.vmw1.example.com
+  sudoversion: 1.7.4p5
+  architecture: x86_64
+  puppet_vardir: "/var/lib/puppet"
+  blockdevice_sr0_model: VMware IDE CDR00
+  selinux: 'false'
+  uptime_days: '50'
+timestamp: '2016-05-04T09:45:35.368276000-07:00'
+expiration: '2016-05-04T10:14:57.543147000-07:00'

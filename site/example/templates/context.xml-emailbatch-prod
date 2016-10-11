@@ -1,0 +1,12 @@
+<Context>
+    
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    
+    <Environment value="<%= @environment %>" type="java.lang.String" name="deploymentEnvironment"/>
+    <Environment value="<%= @environment %>" type="java.lang.String" name="spring.profiles.active"/>
+    <Environment value="stroperbew" type="java.lang.String" name="DBPasswordCreon"/>
+    <Environment value="dlm" type="java.lang.String" name="DBPasswordDLM"/>
+    <Environment value="email123" type="java.lang.String" name="DBPasswordEmail"/>
+    <Environment value="true" type="java.lang.Boolean" name="activeBatchProcessor"/>
+    
+</Context>

@@ -1,0 +1,113 @@
+--- !ruby/object:Puppet::Node::Facts
+name: sbprod02.example.com
+values:
+  blockdevice_sdb_vendor: VMware
+  system_uptime: hours2992uptime124 daysdays124seconds10771256
+  sshfp_dsa: |-
+    SSHFP 2 1 6864a5fbc0282be7936c0fec8736ab789cbbaf3b
+    SSHFP 2 2 b1ff2e3b0a9299997782e9e04f4bfe347e01183ea996c305e94b3c1a27210f31
+  root_home: "/root"
+  macaddress: DE:AD:BE:EF:CA:FE
+  os: familyRedHatnameCentOSreleasefull6.2minor2major6
+  nr_ruby_found: 'true'
+  facterversion: 2.4.4
+  gid: root
+  kernel: Linux
+  swapsize: 8.00 GB
+  clientversion: 3.8.6
+  rubyplatform: x86_64-linux
+  puppet_vardir: "/var/lib/puppet"
+  bios_release_date: 04/14/2014
+  user_exists_infraadm: ''
+  uptime_hours: '2992'
+  architecture: x86_64
+  is_virtual: 'true'
+  ps: ps -ef
+  clientcert: sbprod02.example.com
+  id: root
+  fqdn: sbprod02.example.com
+  filesystems: ext4,iso9660
+  augeasversion: 1.0.0
+  kernelversion: 2.6.32
+  ipaddress_lo: 127.0.0.1
+  ipaddress_eth0: 10.1.1.1
+  blockdevice_sdb_model: Virtual disk
+  operatingsystemrelease: '6.2'
+  hardwareisa: x86_64
+  timezone: MDT
+  selinux: 'false'
+  productname: VMware Virtual Platform
+  serialnumber: redacted
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  memoryfree: 7.25 GB
+  swapfree: 8.00 GB
+  netmask: 255.255.255.0
+  boardserialnumber: None
+  blockdevice_sda_model: Virtual disk
+  partitions: sdb1size41929587filesystemLVM2_membersda1size786432mount/bootfilesystemext4uuidf94fe77a-f1c8-436e-a749-871add45f92fsda2size67108864filesystemLVM2_member
+  operatingsystemmajrelease: '6'
+  sshdsakey: redacted
+  hostname: sbprod02
+  sshrsakey: redacted
+  memoryfree_mb: '7428.09'
+  user_exists_splex: ''
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  processorcount: '4'
+  kernelrelease: 2.6.32-220.2.1.el6.x86_64
+  sshfp_rsa: |-
+    SSHFP 1 1 010f823312fa3d3133e0709187858110d02b6317
+    SSHFP 1 2 6fd0e52517bdc3df92b8e22fecf2df5e92af17214b1f13dbc2ee8af98e5034e5
+  domain: example.com
+  blockdevice_sdb_size: '21474836480'
+  mtu_eth0: '1500'
+  is_pe: 'false'
+  concat_basedir: "/var/lib/puppet/concat"
+  kernelmajversion: '2.6'
+  network_eth0: 10.1.1.0
+  memorysize_mb: '7872.90'
+  swapsize_mb: '8191.99'
+  nr_java_found: 'false'
+  network_lo: 127.0.0.0
+  bios_vendor: Phoenix Technologies LTD
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  boardproductname: 440BX Desktop Reference Platform
+  type: Other
+  osfamily: RedHat
+  hardwaremodel: x86_64
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  boardmanufacturer: Intel Corporation
+  rubyversion: 1.8.7
+  blockdevices: sda,sdb
+  netmask_eth0: 255.255.255.0
+  uptime: 124 days
+  virtual: vmware
+  uptime_seconds: '10771256'
+  uniqueid: 100a6d23
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  clientnoop: 'false'
+  bios_version: '6.00'
+  netmask_lo: 255.0.0.0
+  ipaddress: 10.16.35.109
+  swapfree_mb: '8191.99'
+  user_exists_oracle: ''
+  physicalprocessorcount: '4'
+  manufacturer: VMware, Inc.
+  uuid: 422C7E95-D618-DC26-0D26-CA783240B5C6
+  uptime_days: '124'
+  staging_http_get: curl
+  interfaces: eth0,lo
+  user_exists_weblogic: ''
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  blockdevice_sda_size: '42949672960'
+  operatingsystem: CentOS
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  blockdevice_sda_vendor: VMware
+  puppetversion: 3.8.6
+  memorysize: 7.69 GB
+  sudoversion: 1.7.4p5
+  processors: count4modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzphysicalcount4
+  mtu_lo: '16436'
+timestamp: '2016-05-04T09:42:24.081847000-07:00'
+expiration: '2016-05-04T10:11:46.241256000-07:00'

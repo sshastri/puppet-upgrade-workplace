@@ -1,0 +1,10 @@
+agiledbtest2.example.com
+monprod1.example.com
+pocdbtest1.example.com
+obiaappstage2.example.com
+obiaapptest1.example.com
+obiadbtest1.example.com
+obiadbstage1.example.com
+agiledbprod2.example.com
+odsysrvsdbprod1.example.com
+agiledbstage1.example.com

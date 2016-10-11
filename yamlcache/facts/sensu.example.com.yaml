@@ -1,0 +1,102 @@
+--- !ruby/object:Puppet::Node::Facts
+name: sensu.example.com
+values:
+  operatingsystem: CentOS
+  kernelversion: 2.6.32
+  swapfree: 8.00 GB
+  facterversion: 2.4.4
+  id: root
+  osfamily: RedHat
+  hardwareisa: x86_64
+  hardwaremodel: x86_64
+  serialnumber: redacted
+  uptime: 19:00 hours
+  blockdevice_sr0_size: '401604608'
+  blockdevice_sr0_model: VMware IDE CDR10
+  virtual: vmware
+  processorcount: '1'
+  root_home: "/root"
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  sudoversion: 1.8.6p3
+  uptime_seconds: '68425'
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  is_pe: 'false'
+  ipaddress_eth0: 10.1.1.1
+  network_eth0: 10.1.1.0
+  gid: root
+  sshfp_rsa: |-
+    SSHFP 1 1 549b56c9b1da2b6a34d04c4943378fd8bc254181
+    SSHFP 1 2 ddbcb7d62c7e9d9e87b975fb1bf30361f5d77044080cb75b08c4ba40fd31dd67
+  swapfree_mb: '8192.00'
+  memoryfree: 1.46 GB
+  timezone: MDT
+  rubyversion: 1.8.7
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  partitions: sda1filesystemext4uuidb849920f-7bd6-4c95-a473-8285218333afsize2097152mount/bootsda2filesystemLVM2_membersize123729920
+  bios_release_date: 08/16/2013
+  netmask_lo: 255.0.0.0
+  uptime_hours: '19'
+  mtu_lo: '65536'
+  boardmanufacturer: Intel Corporation
+  uptime_days: '0'
+  memorysize: 1.83 GB
+  uuid: 422CC80A-C6DD-BBA2-FAA0-C00AE93559C8
+  rubyplatform: x86_64-linux
+  kernel: Linux
+  memorysize_mb: '1877.32'
+  puppet_vardir: "/var/lib/puppet"
+  fqdn: sensu.example.com
+  netmask_eth0: 255.255.255.0
+  domain: example.com
+  processors: count1physicalcount1modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  blockdevice_sda_size: '64424509440'
+  concat_basedir: "/var/lib/puppet/concat"
+  system_uptime: seconds68425days0uptime19:00 hourshours19
+  netmask: 255.255.255.0
+  hostname: sensu
+  physicalprocessorcount: '1'
+  sshdsakey: redacted
+  manufacturer: VMware, Inc.
+  os: releasefull6.6minor6major6familyRedHatnameCentOS
+  memoryfree_mb: '1493.57'
+  ps: ps -ef
+  uniqueid: '00000000'
+  operatingsystemrelease: '6.6'
+  boardproductname: 440BX Desktop Reference Platform
+  sshrsakey: redacted
+  blockdevice_sda_vendor: VMware
+  blockdevices: sda,sr0
+  macaddress: DE:AD:BE:EF:CA:FE
+  clientnoop: 'false'
+  productname: VMware Virtual Platform
+  selinux: 'false'
+  is_virtual: 'true'
+  operatingsystemmajrelease: '6'
+  blockdevice_sr0_vendor: NECVMWar
+  clientversion: 3.8.1
+  ipaddress_lo: 127.0.0.1
+  clientcert: sensu.example.com
+  network_lo: 127.0.0.0
+  kernelrelease: 2.6.32-504.16.2.el6.x86_64
+  sshfp_dsa: |-
+    SSHFP 2 1 c3102facaf295a540f3194653f8b5759de798bdb
+    SSHFP 2 2 242b3b82d5a452bd44056eb95fb270926d3d7544670ca042222a2985e3c5f983
+  ipaddress: 10.16.47.252
+  architecture: x86_64
+  boardserialnumber: None
+  type: Other
+  bios_vendor: Phoenix Technologies LTD
+  kernelmajversion: '2.6'
+  swapsize: 8.00 GB
+  blockdevice_sda_model: Virtual disk
+  augeasversion: 1.0.0
+  interfaces: eth0,lo
+  filesystems: ext4,iso9660
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  bios_version: '6.00'
+  puppetversion: 3.8.1
+  mtu_eth0: '1500'
+  staging_http_get: curl
+  swapsize_mb: '8192.00'
+timestamp: '2015-08-19T14:08:06.098872000-07:00'
+expiration: '2015-08-19T14:40:24.405676000-07:00'

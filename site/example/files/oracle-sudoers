@@ -1,0 +1,2 @@
+# Oracle run as splex user
+oracle	ALL=(splex)	NOPASSWD: /u00/shareplex7/scripts/clonesplex.sh

@@ -1,0 +1,142 @@
+--- !ruby/object:Puppet::Node::Facts
+name: hypdbstage1.example.com
+values:
+  processors: modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU
+    E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R)
+    CPU E5-2670 v2 @ 2.50GHzphysicalcount8count8
+  bios_version: '6.00'
+  swapfree_mb: '17407.80'
+  augeasversion: 1.2.0
+  selinux: 'false'
+  hardwareisa: x86_64
+  lsbdistdescription: Enterprise Linux Enterprise Linux Server release 5.7 (Carthage)
+  uptime_days: '97'
+  rubyplatform: x86_64-linux
+  clientversion: 3.8.6
+  blockdevice_sda_model: Virtual disk
+  blockdevice_sda_size: '21474836480'
+  macaddress: DE:AD:BE:EF:CA:FE
+  ipaddress_eth0: 10.1.1.1
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  mtu_eth1: '1500'
+  blockdevice_sdf_vendor: VMware
+  puppet_vardir: "/var/lib/puppet"
+  os: releaseminor7major5full5.7nameOracleLinuxfamilyRedHatlsbminordistrelease7distdescriptionEnterprise
+    Linux Enterprise Linux Server release 5.7 (Carthage)release:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchmajdistrelease5distcodenameCarthagedistrelease5.7distidEnterpriseEnterpriseServer
+  blockdevice_sdc_vendor: VMware
+  memorysize_mb: '32186.69'
+  is_pe: 'false'
+  network_eth1: 10.16.137.0
+  netmask: 255.255.255.0
+  operatingsystem: OracleLinux
+  swapsize: 17.00 GB
+  processor6: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  ipaddress_lo: 127.0.0.1
+  physicalprocessorcount: '8'
+  system_uptime: hours2348seconds8455058uptime97 daysdays97
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  kernelmajversion: '2.6'
+  netmask_lo: 255.0.0.0
+  sshfp_dsa: |-
+    SSHFP 2 1 32556e54abcffcb15db683498ffa96af5a349abd
+    SSHFP 2 2 f436efcbff78bf4a6ed9c84bdea6bb733d8f3ddaadc9869d9077de0227c36256
+  operatingsystemmajrelease: '5'
+  timezone: MDT
+  lsbminordistrelease: '7'
+  lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+  rubyversion: 1.8.7
+  virtual: vmware
+  user_exists_weblogic: '54328'
+  productname: VMware Virtual Platform
+  hostname: hypdbstage1
+  sshfp_rsa: |-
+    SSHFP 1 1 78e4f0f8d4f06fea94ebc7eea115c6b68ecf915e
+    SSHFP 1 2 69a34bf21c5ea379ebe0ab25ff56eff6af14c93c9ee67f220464e93bbedfb29e
+  root_home: "/root"
+  user_exists_oracle: '54321'
+  filesystems: ext2,ext3,ext4,ext4dev,iso9660
+  uptime_hours: '2348'
+  uptime_seconds: '8455058'
+  memorysize: 31.43 GB
+  uniqueid: 100a8f86
+  swapsize_mb: '17407.99'
+  ipaddress_eth1: 10.16.137.143
+  type: Other
+  blockdevice_sdd_vendor: VMware
+  lsbmajdistrelease: '5'
+  operatingsystemrelease: '5.7'
+  ps: ps -ef
+  macaddress_eth1: 00:50:56:B0:01:AA
+  network_lo: 127.0.0.0
+  blockdevice_sdb_size: '21474836480'
+  lsbdistcodename: Carthage
+  fqdn: hypdbstage1.example.com
+  bios_release_date: 04/14/2014
+  bios_vendor: Phoenix Technologies LTD
+  blockdevice_sdb_vendor: VMware
+  blockdevice_sdd_size: '21474836480'
+  processor7: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  blockdevice_sdd_model: Virtual disk
+  blockdevice_sde_size: '171798691840'
+  processor4: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  boardserialnumber: None
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  memoryfree: 28.33 GB
+  hardwaremodel: x86_64
+  domain: example.com
+  sudoversion: 1.7.2p1
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  blockdevice_sda_vendor: VMware
+  mtu_lo: '16436'
+  netmask_eth0: 255.255.255.0
+  user_exists_splex: ''
+  blockdevice_sdf_model: Virtual disk
+  blockdevice_sdc_size: '53687091200'
+  blockdevice_sdc_model: Virtual disk
+  lsbdistid: EnterpriseEnterpriseServer
+  serialnumber: redacted
+  concat_basedir: "/var/lib/puppet/concat"
+  puppetversion: 3.8.6
+  partitions: sdc1size104857599sdb1size41929587sdd1size41929587sda2size41399505sda1label/bootmount/bootfilesystemext2size530082uuidc2089a00-2f7c-41f1-9e41-bc2f5a99e23csdf1size629137467
+  blockdevice_sde_vendor: VMware
+  swapfree: 17.00 GB
+  uptime: 97 days
+  ipaddress: 10.16.134.143
+  blockdevice_sdf_size: '322122547200'
+  lsbdistrelease: '5.7'
+  gid: root
+  clientcert: hypdbstage1.example.com
+  architecture: x86_64
+  blockdevice_sde_model: Virtual disk
+  sshrsakey: redacted
+  kernelversion: 2.6.18
+  mtu_eth0: '1500'
+  kernelrelease: 2.6.18-274.el5
+  boardproductname: 440BX Desktop Reference Platform
+  memoryfree_mb: '29007.21'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  processorcount: '8'
+  network_eth0: 10.1.1.0
+  kernel: Linux
+  processor5: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  uuid: 4230A62E-64AB-6405-1015-E82A99A49EC3
+  sshdsakey: redacted
+  blockdevices: fd0,sda,sdb,sdc,sdd,sde,sdf
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  id: root
+  boardmanufacturer: Intel Corporation
+  interfaces: eth0,eth1,lo
+  is_virtual: 'true'
+  blockdevice_sdb_model: Virtual disk
+  netmask_eth1: 255.255.255.0
+  user_exists_infraadm: ''
+  clientnoop: 'false'
+  facterversion: 2.4.4
+  osfamily: RedHat
+  manufacturer: VMware, Inc.
+  blockdevice_fd0_size: '4096'
+timestamp: '2016-05-04T09:43:57.882135000-07:00'
+expiration: '2016-05-04T10:13:19.258300000-07:00'

@@ -1,0 +1,128 @@
+--- !ruby/object:Puppet::Node::Facts
+name: erpappvis1.example.com
+values:
+  os: lsbmajdistrelease5distcodenameCarthagerelease:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchdistidEnterpriseEnterpriseServerminordistrelease8distrelease5.8distdescriptionEnterprise
+    Linux Enterprise Linux Server release 5.8 (Carthage)releasemajor5minor8full5.8familyRedHatnameOracleLinux
+  uptime_days: '127'
+  bios_vendor: Phoenix Technologies LTD
+  clientversion: 3.8.4
+  mtu_lo: '16436'
+  memoryfree_mb: '6731.98'
+  processors: physicalcount4count4modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  user_exists_splex: ''
+  blockdevice_fd0_size: '4096'
+  netmask_eth0: 255.255.255.0
+  kernelmajversion: '2.6'
+  uuid: 4230D286-DA66-B05D-5106-487ABCED9C7A
+  puppet_vardir: "/var/lib/puppet"
+  blockdevice_sda_model: Virtual disk
+  clientnoop: 'false'
+  memorysize_mb: '7982.81'
+  domain: example.com
+  lsbminordistrelease: '8'
+  processorcount: '4'
+  network_lo: 127.0.0.0
+  virtual: vmware
+  memoryfree: 6.57 GB
+  network_eth0: 10.1.1.0
+  is_pe: 'false'
+  ipaddress_lo: 127.0.0.1
+  sudoversion: 1.7.2p1
+  blockdevice_hdc_size: '4294965248'
+  clientcert: erpappvis1.example.com
+  boardproductname: 440BX Desktop Reference Platform
+  sshdsakey: redacted
+  memorysize: 7.80 GB
+  uniqueid: 100a7183
+  gid: root
+  staging_http_get: curl
+  ipaddress_eth0: 10.1.1.1
+  puppetversion: 3.8.4
+  mtu_eth0: '1500'
+  concat_basedir: "/var/lib/puppet/concat"
+  processor3: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  partitions: sda2size41399505sda1label/bootuuid03776b22-f64b-44f8-a95a-35ae8d6fa47dmount/bootfilesystemext2size530082sdb1size41929587
+  ps: ps -ef
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  rubyversion: 1.8.7
+  hardwareisa: x86_64
+  lsbmajdistrelease: '5'
+  netmask_eth1: 255.255.255.0
+  blockdevice_sda_size: '21474836480'
+  blockdevice_sdb_vendor: VMware
+  lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+  network_eth1: 10.16.137.0
+  boardserialnumber: None
+  kernelversion: 2.6.18
+  id: root
+  uptime: 127 days
+  sshfp_rsa: |-
+    SSHFP 1 1 dd482255240cfb888e3d4c141b27bbab84f1bf74
+    SSHFP 1 2 e6d294daf18ab006612840ff4402f35bee81a835ab5a203db94f31144e658a11
+  operatingsystem: OracleLinux
+  kernelrelease: 2.6.18-308.el5
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  manufacturer: VMware, Inc.
+  sshrsakey: redacted
+  swapsize_mb: '16383.99'
+  fqdn: erpappvis1.example.com
+  swapfree_mb: '16383.99'
+  blockdevice_sdb_size: '21474836480'
+  nr_java_found: 'false'
+  ipaddress_eth1: 10.16.137.113
+  bios_release_date: 08/16/2013
+  mtu_eth1: '1500'
+  serialnumber: redacted
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  kernel: Linux
+  swapfree: 16.00 GB
+  lsbdistrelease: '5.8'
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  uptime_hours: '3069'
+  operatingsystemrelease: '5.8'
+  type: Other
+  netmask_lo: 255.0.0.0
+  timezone: MST
+  architecture: x86_64
+  augeasversion: 1.2.0
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  swapsize: 16.00 GB
+  bios_version: '6.00'
+  is_virtual: 'true'
+  filesystems: ext2,ext3,iso9660
+  lsbdistid: EnterpriseEnterpriseServer
+  selinux: 'false'
+  blockdevice_sda_vendor: VMware
+  uptime_seconds: '11050726'
+  blockdevice_sdb_model: Virtual disk
+  physicalprocessorcount: '4'
+  productname: VMware Virtual Platform
+  user_exists_weblogic: ''
+  macaddress: DE:AD:BE:EF:CA:FE
+  user_exists_infraadm: ''
+  sshfp_dsa: |-
+    SSHFP 2 1 216d12bb8f3d89309e8a99cd95f3a9fea7b618d3
+    SSHFP 2 2 3b01cd8662fbbb7ddce432f59d73d22ab2e61545d90be65962fc1981cf184695
+  system_uptime: seconds11050726hours3069days127uptime127 days
+  nr_ruby_found: 'true'
+  interfaces: eth0,eth1,lo
+  root_home: "/root"
+  blockdevices: fd0,hdc,sda,sdb
+  netmask: 255.255.255.0
+  user_exists_oracle: '500'
+  hostname: erpappvis1
+  facterversion: 2.4.4
+  hardwaremodel: x86_64
+  lsbdistcodename: Carthage
+  lsbdistdescription: Enterprise Linux Enterprise Linux Server release 5.8 (Carthage)
+  osfamily: RedHat
+  rubyplatform: x86_64-linux
+  macaddress_eth1: 00:50:56:B0:01:6A
+  boardmanufacturer: Intel Corporation
+  ipaddress: 10.16.131.113
+  operatingsystemmajrelease: '5'
+  processor2: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+timestamp: '2015-11-12T10:01:51.891537000-08:00'
+expiration: '2015-11-12T10:31:44.867303000-08:00'

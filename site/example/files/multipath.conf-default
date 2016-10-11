@@ -1,0 +1,25 @@
+defaults {
+	user_friendly_names yes
+#	find_multipaths yes	
+}
+
+devices {
+    device {
+        vendor "Nimble"
+        product "Server"
+        path_grouping_policy group_by_serial
+        path_selector "round-robin 0"
+        features "1 queue_if_no_path"
+        path_checker tur
+	rr_min_io 10
+        rr_weight priorities
+        failback immediate
+    }
+}
+multipaths {
+   multipath {
+#      wwid scsi-2b65c0207cd34f8ba6c9ce900dcc88fc3
+#      alias redo
+   }
+}
+

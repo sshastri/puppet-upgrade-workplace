@@ -1,0 +1,128 @@
+--- !ruby/object:Puppet::Node::Facts
+name: obiadbstage1.example.com
+values:
+  swapfree_mb: '24418.73'
+  user_exists_oracle: '500'
+  uptime_seconds: '23409116'
+  filesystems: ext4,iso9660
+  rubyversion: 1.8.7
+  bios_vendor: Phoenix Technologies LTD
+  lsbdistcodename: n/a
+  hardwareisa: x86_64
+  is_virtual: 'true'
+  mtu_lo: '65536'
+  blockdevice_sr0_model: VMware IDE CDR10
+  type: Other
+  sshrsakey: redacted
+  processor1: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  ps: ps -ef
+  virtual: vmware
+  swapsize_mb: '24418.73'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  ipaddress_lo: 127.0.0.1
+  sudoversion: 1.8.6p3
+  osfamily: RedHat
+  blockdevice_sr0_vendor: NECVMWar
+  operatingsystemmajrelease: '6'
+  lsbdistid: OracleServer
+  network_eth0: 10.1.1.0
+  blockdevice_sdc_vendor: VMware
+  gid: root
+  blockdevice_sdc_size: '295279001600'
+  manufacturer: VMware, Inc.
+  netmask_lo: 255.0.0.0
+  augeasversion: 1.0.0
+  puppetversion: 3.8.6
+  blockdevice_sda_size: '85899345920'
+  lsbminordistrelease: '6'
+  boardproductname: 440BX Desktop Reference Platform
+  clientnoop: 'false'
+  hostname: obiadbstage1
+  user_exists_infraadm: ''
+  uniqueid: 100aa446
+  lsbdistrelease: '6.6'
+  blockdevice_sdb_vendor: VMware
+  architecture: x86_64
+  processor2: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  netmask_eth0: 255.255.255.0
+  blockdevice_sdd_size: '17179869184'
+  blockdevice_sdd_model: Virtual disk
+  uptime: 270 days
+  rubyplatform: x86_64-linux
+  processors: modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640
+    0 @ 2.50GHzcount4physicalcount4
+  blockdevice_fd0_size: '4096'
+  kernelmajversion: '3.8'
+  blockdevice_sda_model: Virtual disk
+  physicalprocessorcount: '4'
+  is_pe: 'false'
+  boardserialnumber: None
+  productname: VMware Virtual Platform
+  sshfp_dsa: |-
+    SSHFP 2 1 8316c01e01ec8c2487e1535e7780eb186f5ccc98
+    SSHFP 2 2 7ef1acdb3d4702ad69867084a84054076b6ebb8261cc5ac84c6d4122bcbb6cc0
+  sshfp_rsa: |-
+    SSHFP 1 1 7d0b2066165fdacead771af36591f54b6cf2efd1
+    SSHFP 1 2 e7b8daae5a4fed754b209aab910a8b947bf4e5518d5a01f2fc4e2c08a2868b99
+  ipaddress_eth0: 10.1.1.1
+  id: root
+  uptime_hours: '6502'
+  netmask: 255.255.255.0
+  puppet_vardir: "/var/lib/puppet"
+  fqdn: obiadbstage1.example.com
+  root_home: "/root"
+  clientversion: 3.8.6
+  network_lo: 127.0.0.0
+  processorcount: '4'
+  hardwaremodel: x86_64
+  partitions: sdb1size167766732filesystemLVM2_membersdd1uuid9c259bef-22fb-4784-b1b2-92a6323ab517size33543657filesystemswapsda1uuid4e5db963-283d-4509-9703-c8831c44f59fsize1024000mount/bootfilesystemext4sda2size166746112filesystemLVM2_membersdc1size576701307filesystemLVM2_member
+  sshdsakey: redacted
+  blockdevice_sr0_size: '1073741312'
+  mtu_eth0: '1500'
+  timezone: MDT
+  system_uptime: uptime270 dayshours6502days270seconds23409116
+  bios_version: '6.00'
+  boardmanufacturer: Intel Corporation
+  domain: example.com
+  user_exists_splex: ''
+  processor3: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  swapfree: 23.85 GB
+  kernelversion: 3.8.13
+  clientcert: obiadbstage1.example.com
+  macaddress: DE:AD:BE:EF:CA:FE
+  processor0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+  memoryfree: 26.52 GB
+  serialnumber: redacted
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  kernelrelease: 3.8.13-44.1.4.el6uek.x86_64
+  lsbdistdescription: Oracle Linux Server release 6.6
+  bios_release_date: 08/16/2013
+  os: nameOracleLinuxreleasefull6.6minor6major6familyRedHatlsbminordistrelease6majdistrelease6distdescriptionOracle
+    Linux Server release 6.6distidOracleServerrelease:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchdistcodenamen/adistrelease6.6
+  ipaddress: 10.16.70.164
+  blockdevice_sdc_model: Virtual disk
+  blockdevices: fd0,sda,sdb,sdc,sdd,sr0
+  memorysize_mb: '32171.06'
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  memoryfree_mb: '27156.74'
+  blockdevice_sdb_model: Virtual disk
+  swapsize: 23.85 GB
+  facterversion: 2.4.1
+  uuid: 422C1504-9E32-7643-A985-A767E1956795
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  memorysize: 31.42 GB
+  blockdevice_sdd_vendor: VMware
+  user_exists_weblogic: ''
+  blockdevice_sdb_size: '85899345920'
+  selinux: 'false'
+  kernel: Linux
+  operatingsystem: OracleLinux
+  concat_basedir: "/var/lib/puppet/concat"
+  blockdevice_sda_vendor: VMware
+  uptime_days: '270'
+  lsbmajdistrelease: '6'
+  operatingsystemrelease: '6.6'
+  interfaces: eth0,lo
+timestamp: '2016-05-04T09:32:13.058436000-07:00'
+expiration: '2016-05-04T10:01:35.219861000-07:00'

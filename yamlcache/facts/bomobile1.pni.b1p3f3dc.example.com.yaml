@@ -1,0 +1,130 @@
+--- !ruby/object:Puppet::Node::Facts
+name: bomobile1.pni.b1p3f3dc.example.com
+values:
+  processors: count8physicalcount1modelsIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzIntel(R)
+    Xeon(R) CPU           E5640  @ 2.67GHzIntel(R) Xeon(R) CPU           E5640  @
+    2.67GHzIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzIntel(R) Xeon(R) CPU           E5640  @
+    2.67GHzIntel(R) Xeon(R) CPU           E5640  @ 2.67GHzIntel(R) Xeon(R) CPU           E5640  @
+    2.67GHzIntel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  bios_version: I24
+  swapfree_mb: '34175.84'
+  augeasversion: 1.2.0
+  selinux: 'false'
+  hardwareisa: x86_64
+  macaddress_vlan773: F4:CE:46:BB:0B:34
+  lsbdistdescription: Red Hat Enterprise Linux Server release 5.6 (Tikanga)
+  macaddress_vlan767: F4:CE:46:BB:0B:30
+  uptime_days: '260'
+  clientversion: 3.8.6
+  rubyplatform: x86_64-linux
+  network_vlan773: 10.16.73.0
+  network_vlan767: 10.16.67.0
+  macaddress: DE:AD:BE:EF:CA:FE
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  mtu_eth1: '1500'
+  puppet_vardir: "/var/lib/puppet"
+  os: lsbmajdistrelease5distdescriptionRed Hat Enterprise Linux Server release 5.6
+    (Tikanga)distrelease5.6minordistrelease6release:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchdistcodenameTikangadistidRedHatEnterpriseServerfamilyRedHatreleasemajor5minor6full5.6nameRedHat
+  memorysize_mb: '32183.16'
+  is_pe: 'false'
+  netmask: 255.255.255.0
+  netmask_vlan773: 255.255.255.0
+  operatingsystem: RedHat
+  mtu_vlan767: '1500'
+  swapsize: 33.37 GB
+  netmask_vlan767: 255.255.255.0
+  processor6: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  mtu_vlan773: '1500'
+  processor3: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  blockdevice_cciss!c0d0_vendor: HP
+  ipaddress_lo: 127.0.0.1
+  physicalprocessorcount: '1'
+  processor0: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  system_uptime: days260seconds22465671hours6240uptime260 days
+  blockdevice_cciss!c0d0_size: '299966445568'
+  kernelmajversion: '2.6'
+  netmask_lo: 255.0.0.0
+  timezone: MDT
+  lsbminordistrelease: '6'
+  blockdevice_cciss!c0d0_model: LOGICAL VOLUME
+  rubyversion: 1.8.7
+  lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+  sshfp_dsa: |-
+    SSHFP 2 1 526bb3942cf222d5a8df6e249200dde7b3d0a267
+    SSHFP 2 2 340e97125ffbfd973c54d7cbd0594c862230310450518f84510f1482e9dbace8
+  operatingsystemmajrelease: '5'
+  virtual: physical
+  user_exists_weblogic: ''
+  productname: ProLiant BL460c G6
+  hostname: bomobile1
+  sshfp_rsa: |-
+    SSHFP 1 1 a48f8b5f777c1c9780d1d72614cb52107a1171bd
+    SSHFP 1 2 df1d2e6eb29d21747e31e76ca76cbd693d8df9fc51311d0531d150beeba1aa72
+  root_home: "/root"
+  user_exists_oracle: ''
+  filesystems: ext2,ext3,iso9660
+  uptime_hours: '6240'
+  uptime_seconds: '22465671'
+  memorysize: 31.43 GB
+  uniqueid: 100aa843
+  swapsize_mb: '34175.99'
+  nr_java_found: 'false'
+  type: Rack Mount Chassis
+  lsbmajdistrelease: '5'
+  operatingsystemrelease: '5.6'
+  ps: ps -ef
+  macaddress_eth1: F4:CE:46:BB:0B:34
+  network_lo: 127.0.0.0
+  lsbdistcodename: Tikanga
+  bios_release_date: 08/16/2010
+  fqdn: bomobile1.pni.b1p3f3dc.example.com
+  nr_ruby_found: 'true'
+  bios_vendor: HP
+  processor7: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  processor4: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  memoryfree: 25.15 GB
+  hardwaremodel: x86_64
+  domain: pni.b1p3f3dc.example.com
+  sudoversion: 1.7.2p1
+  ipaddress_vlan773: 10.16.73.168
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  processor1: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  ipaddress_vlan767: 10.16.67.168
+  mtu_lo: '16436'
+  user_exists_splex: ''
+  lsbdistid: RedHatEnterpriseServer
+  serialnumber: redacted
+  concat_basedir: "/var/lib/puppet/concat"
+  staging_http_get: curl
+  puppetversion: 3.8.6
+  partitions: cciss!c0d0p2cciss!c0d0p1
+  swapfree: 33.37 GB
+  ipaddress: 10.16.67.168
+  uptime: 260 days
+  gid: root
+  lsbdistrelease: '5.6'
+  clientcert: bomobile1.pni.b1p3f3dc.example.com
+  architecture: x86_64
+  kernelversion: 2.6.18
+  mtu_eth0: '1500'
+  sshrsakey: redacted
+  kernelrelease: 2.6.18-238.el5
+  memoryfree_mb: '25754.42'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  processorcount: '8'
+  kernel: Linux
+  processor5: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  uuid: 37373035-3038-5533-5631-303138375036
+  blockdevices: cciss!c0d0
+  processor2: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+  id: root
+  sshdsakey: redacted
+  interfaces: eth0,eth1,lo,vlan767,vlan773
+  is_virtual: 'false'
+  user_exists_infraadm: ''
+  manufacturer: HP
+  clientnoop: 'false'
+  osfamily: RedHat
+  facterversion: 2.4.4
+timestamp: '2016-05-04T09:48:08.216023000-07:00'
+expiration: '2016-05-04T10:17:30.046412000-07:00'

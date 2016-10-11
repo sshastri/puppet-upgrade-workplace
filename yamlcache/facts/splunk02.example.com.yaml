@@ -1,0 +1,127 @@
+--- !ruby/object:Puppet::Node::Facts
+name: splunk02.example.com
+values:
+  user_exists_oracle: ''
+  swapfree_mb: '7935.59'
+  uptime_seconds: '2854868'
+  filesystems: ext3,ext4,iso9660
+  processor7: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  rubyversion: 1.8.7
+  bios_vendor: Phoenix Technologies LTD
+  hardwareisa: x86_64
+  processor4: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  is_virtual: 'true'
+  mtu_lo: '65536'
+  type: Other
+  sshrsakey: redacted
+  processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  ps: ps -ef
+  virtual: vmware
+  swapsize_mb: '8192.00'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  ipaddress_lo: 127.0.0.1
+  sudoversion: 1.8.6p3
+  osfamily: RedHat
+  operatingsystemmajrelease: '6'
+  network_eth0: 10.1.1.0
+  blockdevice_sdc_vendor: VMware
+  blockdevice_sdc_size: '1099511627776'
+  gid: root
+  manufacturer: VMware, Inc.
+  netmask_lo: 255.0.0.0
+  augeasversion: 1.0.0
+  puppetversion: 3.8.6
+  blockdevice_sda_size: '42949672960'
+  boardproductname: 440BX Desktop Reference Platform
+  staging_http_get: curl
+  clientnoop: 'false'
+  hostname: splunk02
+  user_exists_infraadm: ''
+  uniqueid: 100a222f
+  nr_java_found: 'true'
+  blockdevice_sdb_vendor: VMware
+  processor5: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  architecture: x86_64
+  processor2: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  netmask_eth0: 255.255.255.0
+  uptime: 33 days
+  rubyplatform: x86_64-linux
+  macaddress_eth1: 00:50:56:AC:9F:E9
+  processors: count8physicalcount8modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  kernelmajversion: '2.6'
+  blockdevice_sda_model: Virtual disk
+  physicalprocessorcount: '8'
+  is_pe: 'false'
+  boardserialnumber: None
+  productname: VMware Virtual Platform
+  network_eth1: 10.16.173.0
+  sshfp_dsa: |-
+    SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+    SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+  sshfp_rsa: |-
+    SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+    SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+  ipaddress_eth0: 10.1.1.1
+  id: root
+  uptime_hours: '793'
+  netmask: 255.255.255.0
+  puppet_vardir: "/var/lib/puppet"
+  fqdn: splunk02.example.com
+  root_home: "/root"
+  network_lo: 127.0.0.0
+  processorcount: '8'
+  clientversion: 3.8.6
+  hardwaremodel: x86_64
+  sshdsakey: redacted
+  partitions: sdb1filesystemLVM2_membersize2147483585sda1filesystemext4size786432mount/bootuuidf94fe77a-f1c8-436e-a749-871add45f92fsda2filesystemLVM2_membersize67108864sdc1filesystemLVM2_membersize2147472747
+  mtu_eth0: '1500'
+  timezone: MDT
+  system_uptime: uptime33 daysseconds2854868hours793days33
+  bios_version: '6.00'
+  boardmanufacturer: Intel Corporation
+  domain: example.com
+  processor6: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  user_exists_splex: ''
+  processor3: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  swapfree: 7.75 GB
+  netmask_eth1: 255.255.255.0
+  kernelversion: 2.6.32
+  clientcert: splunk02.example.com
+  macaddress: DE:AD:BE:EF:CA:FE
+  processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  memoryfree: 21.64 GB
+  serialnumber: redacted
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  kernelrelease: 2.6.32-504.8.1.el6.x86_64
+  os: familyRedHatreleasefull6.6minor6major6nameCentOS
+  bios_release_date: 06/22/2012
+  nr_ruby_found: 'true'
+  ipaddress: 10.16.47.34
+  blockdevices: sda,sdb,sdc
+  blockdevice_sdc_model: Virtual disk
+  memorysize_mb: '24030.76'
+  memoryfree_mb: '22161.03'
+  blockdevice_sdb_model: Virtual disk
+  facterversion: 2.4.1
+  swapsize: 8.00 GB
+  uuid: 423038A4-E922-770D-9DAA-46ED8B693ACC
+  ipaddress_eth1: 10.16.173.34
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  memorysize: 23.47 GB
+  user_exists_weblogic: ''
+  blockdevice_sdb_size: '1099511627776'
+  selinux: 'false'
+  kernel: Linux
+  operatingsystem: CentOS
+  concat_basedir: "/var/lib/puppet/concat"
+  blockdevice_sda_vendor: VMware
+  uptime_days: '33'
+  operatingsystemrelease: '6.6'
+  interfaces: eth0,eth1,lo
+  mtu_eth1: '1500'
+timestamp: '2016-05-04T09:32:37.169646000-07:00'
+expiration: '2016-05-04T10:01:59.335426000-07:00'

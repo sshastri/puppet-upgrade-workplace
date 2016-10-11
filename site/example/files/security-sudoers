@@ -1,0 +1,2 @@
+# Security Users
+troy.fitzgerald	ALL=(ALL)	NOPASSWD: ALL

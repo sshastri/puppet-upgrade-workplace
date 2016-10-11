@@ -1,0 +1,15 @@
+# Execute access on scripts:
+%erp	ALL=(oracle) NOPASSWD: /home/oracle/scripts/start_agent
+%erp    ALL=(oracle) NOPASSWD: /home/oracle/scripts/stop_agent
+# Read access on the host:
+Cmnd_Alias	DBLOGS = /usr/bin/tail /home/oracle/scripts/nohup.out, /bin/more * /home/oracle/scripts/nohup.out, /bin/cat * /home/oracle/scripts/nohup.out, /bin/grep * /home/oracle/scripts/nohup.out
+%erp	ALL = NOPASSWD: DBLOGS
+
+# Execute access on scripts:
+%erp	ALL=(oracle) NOPASSWD: /home/oracle/scripts/obiee_start_stop.sh
+%erp	ALL=(oracle) NOPASSWD: /u00/oracle/obieemiddleware/instances/instance1/bifoundation/OracleBIApplication/coreapplication/setup/*.sh
+
+#Read access on the host:
+Cmnd_Alias	APPLOGS = /usr/bin/tail /home/oracle/logs, /bin/more * /home/oracle/logs, /bin/cat * /home/oracle/logs, /bin/grep * /home/oracle/logs
+%erp	ALL = NOPASSWD: APPLOGS
+

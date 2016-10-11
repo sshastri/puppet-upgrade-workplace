@@ -1,0 +1,125 @@
+--- !ruby/object:Puppet::Node::Facts
+name: proxy1.example.com
+values:
+  network_eth0: 10.1.1.0
+  physicalprocessorcount: '6'
+  virtual: vmware
+  timezone: MDT
+  uniqueid: 100a282f
+  processor0: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  is_pe: 'false'
+  interfaces: eth0,lo
+  lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+  blockdevice_fd0_size: '4096'
+  uptime_seconds: '29290437'
+  kernelmajversion: '2.6'
+  operatingsystemrelease: '5.6'
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  swapfree_mb: '16383.87'
+  processor5: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  swapsize_mb: '16383.99'
+  blockdevice_sda_vendor: VMware
+  sshdsakey: redacted
+  clientversion: 3.8.6
+  productname: VMware Virtual Platform
+  user_exists_splex: ''
+  netmask_eth0: 255.255.255.0
+  bios_release_date: 06/22/2012
+  network_lo: 127.0.0.0
+  augeasversion: 1.2.0
+  filesystems: ext2,ext3,iso9660
+  blockdevice_sda_model: Virtual disk
+  uptime_hours: '8136'
+  processor2: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  mtu_eth0: '1500'
+  hostname: proxy1
+  kernel: Linux
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  processorcount: '6'
+  memoryfree_mb: '12512.11'
+  type: Other
+  lsbminordistrelease: '6'
+  user_exists_weblogic: ''
+  sshrsakey: redacted
+  os: familyRedHatnameCentOSlsbdistdescriptionCentOS release 5.6 (Final)distidCentOSdistrelease5.6distcodenameFinalrelease:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchmajdistrelease5minordistrelease6releaseminor6major5full5.6
+  uptime: 339 days
+  processors: count6physicalcount6modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R)
+    Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @
+    2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  memoryfree: 12.22 GB
+  blockdevice_sdb_model: Virtual disk
+  lsbdistid: CentOS
+  bios_vendor: Phoenix Technologies LTD
+  ps: ps -ef
+  boardproductname: 440BX Desktop Reference Platform
+  boardmanufacturer: Intel Corporation
+  osfamily: RedHat
+  is_virtual: 'true'
+  macaddress: DE:AD:BE:EF:CA:FE
+  blockdevice_sdb_size: '51539607552'
+  puppetversion: 3.8.6
+  sshfp_dsa: |-
+    SSHFP 2 1 5315ec01bca7c5bc61589a98ca82f78e842b63d5
+    SSHFP 2 2 a88b8c9a27b455c616c928d3c7cc5b1238b36884862d1a2c732a1986a6980d6f
+  lsbmajdistrelease: '5'
+  rubyplatform: x86_64-linux
+  kernelversion: 2.6.18
+  blockdevices: fd0,hdc,sda,sdb
+  mtu_lo: '16436'
+  blockdevice_sda_size: '68719476736'
+  processor4: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  clientcert: proxy1.example.com
+  user_exists_oracle: ''
+  id: root
+  swapsize: 16.00 GB
+  ipaddress_lo: 127.0.0.1
+  lsbdistcodename: Final
+  domain: example.com
+  processor1: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  ipaddress: 10.16.47.40
+  staging_http_get: curl
+  clientnoop: 'false'
+  operatingsystemmajrelease: '5'
+  uuid: 4230B726-313D-BD08-79EA-5940BF440513
+  blockdevice_sdb_vendor: VMware
+  facterversion: 2.4.4
+  netmask_lo: 255.0.0.0
+  netmask: 255.255.255.0
+  operatingsystem: CentOS
+  manufacturer: VMware, Inc.
+  swapfree: 16.00 GB
+  hardwaremodel: x86_64
+  rubyversion: 1.8.7
+  bios_version: '6.00'
+  hardwareisa: x86_64
+  ipaddress_eth0: 10.1.1.1
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  partitions: sdb1size100663227sda2size100663290sda1label/bootfilesystemext3uuide2a14b4f-5f62-4712-8470-f7ec84adb327size530082mount/boot
+  root_home: "/root"
+  user_exists_infraadm: ''
+  gid: root
+  lsbdistdescription: CentOS release 5.6 (Final)
+  serialnumber: redacted
+  lsbdistrelease: '5.6'
+  sshfp_rsa: |-
+    SSHFP 1 1 200e2782ec32c154c9f7aa69d2b202e2091fb7aa
+    SSHFP 1 2 64bebcfee7efdcada83b29233ad141de43af6af72a993f7b33e5bc4200e75ebf
+  boardserialnumber: None
+  kernelrelease: 2.6.18-238.12.1.el5
+  nr_java_found: 'false'
+  system_uptime: days339uptime339 daysseconds29290437hours8136
+  concat_basedir: "/var/lib/puppet/concat"
+  processor3: Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz
+  blockdevice_hdc_size: '4294965248'
+  memorysize_mb: '16050.77'
+  selinux: 'false'
+  memorysize: 15.67 GB
+  nr_ruby_found: 'true'
+  architecture: x86_64
+  fqdn: proxy1.example.com
+  puppet_vardir: "/var/lib/puppet"
+  sudoversion: 1.7.2p1
+  uptime_days: '339'
+timestamp: '2016-05-04T09:54:55.297054000-07:00'
+expiration: '2016-05-04T10:24:17.176101000-07:00'

@@ -1,0 +1,19 @@
+{
+  "CHANGELOG.md": "d3db617040bbd87d2b9cbacd2b22d2ec",
+  "Gemfile": "ad47c82d4715caf3be9db88282d7dbed",
+  "LICENSE": "0e5ccf641e613489e66aa98271dbe798",
+  "README.md": "3299fca3f05e959b9d91044e37214f1f",
+  "Rakefile": "458a422c4bef6fe49df580ba9ac4b5ab",
+  "lib/puppet/parser/functions/augeas.rb": "f1fb3fe6ed9a59527a84d21d525ee0a7",
+  "manifests/files.pp": "055b48afdcaee39bbd3ce8471768ff2f",
+  "manifests/init.pp": "e200fa25ee8053172cdb430a7f0978e8",
+  "manifests/lens.pp": "5e49e44cd6c129ba2ba534734bd1fa0a",
+  "manifests/packages.pp": "8e9091338bdab4187e5cb5793188adde",
+  "manifests/params.pp": "7e0089cb58a35998a6a8fab3a5dca55a",
+  "metadata.json": "5a2857744d5ad3c6f1beb8f060a9f7c8",
+  "spec/classes/augeas_spec.rb": "89d773e8b0af1e13856ff2c0b2857b1b",
+  "spec/defines/augeas_lens_spec.rb": "dd4cc63f3c062c69578c2a12d0e2f15e",
+  "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+  "spec/spec_helper.rb": "4223db1c6382fc51906cca4492470024",
+  "spec/unit/puppet/parser/functions/augeas_spec.rb": "91d1a97222e760893dfa7615e5b33018"
+}

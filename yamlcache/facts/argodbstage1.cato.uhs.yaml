@@ -1,0 +1,122 @@
+--- !ruby/object:Puppet::Node::Facts
+name: argodbstage1.cato.uhs
+values:
+  hostname: argodbstage1
+  user_exists_splex: ''
+  blockdevice_sdb_model: Virtual disk
+  type: Other
+  lsbmajdistrelease: '6'
+  productname: VMware Virtual Platform
+  clientcert: argodbstage1.cato.uhs
+  interfaces: eth0,lo
+  architecture: x86_64
+  bios_vendor: Phoenix Technologies LTD
+  rubyversion: 1.8.7
+  swapfree_mb: '8181.48'
+  lsbdistid: OracleServer
+  mtu_lo: '16436'
+  blockdevice_sda_vendor: VMware
+  clientnoop: 'false'
+  rubysitedir: "/usr/lib/ruby/site_ruby/1.8"
+  blockdevice_sr0_model: VMware IDE CDR10
+  os: nameOracleLinuxlsbmajdistrelease6distrelease6.6distdescriptionOracle Linux Server
+    release 6.6minordistrelease6distcodenamen/adistidOracleServerrelease:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchreleasemajor6minor6full6.6familyRedHat
+  mtu_eth0: '1500'
+  blockdevice_sdc_vendor: VMware
+  blockdevices: fd0,sda,sdb,sdc,sr0
+  sshfp_dsa: |-
+    SSHFP 2 1 df3b078e5931b77a2832ee27f8bbe1d96d9e6a2e
+    SSHFP 2 2 797d9b8377dd0e60489a61c158fe00accdede5a8959b4782298c7ebc062ff995
+  lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+  bios_version: '6.00'
+  processor0: Intel(R) Xeon(R) CPU E5-2450 v2 @ 2.50GHz
+  root_home: "/root"
+  ps: ps -ef
+  boardserialnumber: None
+  uptime_seconds: '6283181'
+  gid: root
+  sshrsakey: redacted
+  uuid: 422C3A84-F28A-1DD4-8169-2DEF0C494248
+  uptime_hours: '1745'
+  user_exists_infraadm: ''
+  sudoversion: 1.8.6p3
+  processorcount: '2'
+  uptime: 72 days
+  user_exists_weblogic: ''
+  boardmanufacturer: Intel Corporation
+  blockdevice_sdb_vendor: VMware
+  operatingsystemrelease: '6.6'
+  blockdevice_sdc_model: Virtual disk
+  lsbdistdescription: Oracle Linux Server release 6.6
+  osfamily: RedHat
+  kernel: Linux
+  is_virtual: 'true'
+  operatingsystem: OracleLinux
+  blockdevice_sr0_vendor: NECVMWar
+  memoryfree_mb: '5652.12'
+  uptime_days: '72'
+  rubyplatform: x86_64-linux
+  clientversion: 3.8.6
+  partitions: sdc1filesystemLVM2_membersize67108832sda1mount/bootfilesystemext3uuid9150aa15-34fe-4073-a02a-e0e37f66a8f4size524288sda2filesystemLVM2_membersize66582528sdb1filesystemLVM2_membersize67108832
+  operatingsystemmajrelease: '6'
+  blockdevice_sda_model: Virtual disk
+  processors: count2physicalcount1modelsIntel(R) Xeon(R) CPU E5-2450 v2 @ 2.50GHzIntel(R)
+    Xeon(R) CPU E5-2450 v2 @ 2.50GHz
+  memoryfree: 5.52 GB
+  puppet_vardir: "/var/lib/puppet"
+  path: "/usr/bin:/sbin:/bin:/usr/sbin"
+  domain: cato.uhs
+  puppetversion: 3.8.6
+  boardproductname: 440BX Desktop Reference Platform
+  kernelmajversion: '2.6'
+  blockdevice_fd0_size: '4096'
+  netmask_lo: 255.0.0.0
+  swapsize_mb: '8192.00'
+  virtual: vmware
+  blockdevice_sr0_size: '1073741312'
+  concat_basedir: "/var/lib/puppet/concat"
+  swapsize: 8.00 GB
+  is_pe: 'false'
+  id: root
+  blockdevice_sdb_size: '34359738368'
+  user_exists_oracle: '500'
+  memorysize: 5.84 GB
+  augeasversion: 1.0.0
+  blockdevice_sda_size: '34359738368'
+  memorysize_mb: '5982.25'
+  serialnumber: redacted
+  uniqueid: 0a0a5350
+  selinux: 'false'
+  filesystems: ext3,ext4,iso9660
+  hardwareisa: x86_64
+  bios_release_date: 04/14/2014
+  network_lo: 127.0.0.0
+  fqdn: argodbstage1.cato.uhs
+  lsbdistcodename: n/a
+  processor1: Intel(R) Xeon(R) CPU E5-2450 v2 @ 2.50GHz
+  macaddress: DE:AD:BE:EF:CA:FE
+  lsbminordistrelease: '6'
+  ipaddress: 10.10.80.83
+  netmask_eth0: 255.255.255.0
+  sshdsakey: redacted
+  manufacturer: VMware, Inc.
+  lsbdistrelease: '6.6'
+  ipaddress_lo: 127.0.0.1
+  kernelversion: 2.6.39
+  netmask: 255.255.255.0
+  physicalprocessorcount: '1'
+  macaddress_eth0: DE:AD:BE:EF:CA:FE
+  system_uptime: days72hours1745seconds6283181uptime72 days
+  kernelrelease: 2.6.39-400.17.1.el6uek.x86_64
+  network_eth0: 10.1.1.0
+  sshfp_rsa: |-
+    SSHFP 1 1 c2f2412ea80f7fa0b2e172f65020316a2bc29e9f
+    SSHFP 1 2 e59d744010385408ccde53870d494a6c5a5ea6fdf79304287f715ec00345dca6
+  blockdevice_sdc_size: '34359738368'
+  timezone: MST
+  facterversion: 2.4.1
+  swapfree: 7.99 GB
+  hardwaremodel: x86_64
+  ipaddress_eth0: 10.1.1.1
+timestamp: '2016-02-18T07:34:28.312325000-08:00'
+expiration: '2016-02-18T08:03:13.554659000-08:00'
