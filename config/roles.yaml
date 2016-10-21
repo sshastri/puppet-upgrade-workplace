@@ -42,6 +42,11 @@ roles:
     provisioners:
       - {type: pe_bootstrap, role: !ruby/sym agent, master: 'pe-386-master', version: '3.8.6'}
 
+  fix_resolv_conf:
+    provisioners:
+      - type: shell
+        inline: "sed -e '/domain/d' -e '/search/d' -i /etc/resolv.conf"
+
 # Generic Roles for all VM's
 # =================
 

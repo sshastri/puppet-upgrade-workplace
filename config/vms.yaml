@@ -16,6 +16,7 @@ vms:
       - pe-memory-tuning2
       - el-stop-firewall
       - el-fix-path
+      - fix_resolv_conf
       - 2gb-memory
       - base
 
@@ -32,6 +33,7 @@ vms:
       - pe-memory-tuning
       - el-stop-firewall
       - el-fix-path
+      - fix_resolv_conf
       - 2gb-memory
       - base
 
@@ -42,6 +44,7 @@ vms:
       - pe-386-agent
       - el-stop-firewall
       - el-fix-path
+      - fix_resolv_conf
       - base
 
 # vim: set ft=yaml:
