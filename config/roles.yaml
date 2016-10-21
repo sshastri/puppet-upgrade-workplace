@@ -30,9 +30,9 @@ roles:
         inline: '/opt/puppet/bin/puppet config set noop true --section main'
         type: shell
 
-  pe-201621-master:
+  pe-201640-master:
     provisioners:
-      - {type: pe_bootstrap, role: !ruby/sym master, version: '2016.2.1'}
+      - {type: pe_bootstrap, role: !ruby/sym master, version: '2016.4.0'}
 
   pe-386-master:
     provisioners:
