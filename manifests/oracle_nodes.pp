@@ -284,13 +284,13 @@ node /agiledbtest2/ {
   include example::base::config
   include example::dba::users
   include example::oracle::db
-  file { 'u01':
-    path     => '/u01',
-    ensure   => directory,
-    owner    => oracle,
-    group    => dba,
-    mode     => 775,
-  }
+  #file { 'u01':
+  #  path     => '/u01',
+  #  ensure   => directory,
+  #  owner    => oracle,
+  #  group    => dba,
+  #  mode     => 775,
+  #}
 }
 node 'odysseydbtest1.example.com' {
   include example::base::config
