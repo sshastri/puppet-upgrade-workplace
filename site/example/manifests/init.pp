@@ -5,7 +5,7 @@ class example::base::users {
     ensure    => absent,
   }
   user { root:
-    password  => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
+    password  => '$1$xyz$cEUv8aN9ehjhMXG/kSFnM1',
   }
   if $::user_exists_oracle {
     user { oracle:
