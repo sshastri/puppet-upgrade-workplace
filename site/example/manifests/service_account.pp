@@ -1,4 +1,4 @@
-class example::service-account {
+class example::service_account {
   # User account 
   user { "hadoop":
     ensure     => present,
