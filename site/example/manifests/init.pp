@@ -7,23 +7,23 @@ class example::base::users {
   user { root:
     password  => '$1$xyz$cEUv8aN9ehjhMXG/kSFnM1',
   }
-  if $::user_exists_oracle {
+  if $::user_exists_oracle != '' and $::user_exists_oracle != undef {
     user { oracle:
       managehome => true,
       password  => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
     }
   }
-  if $::user_exists_weblogic {
+  if $::user_exists_weblogic != '' and $::user_exists_weblogic != undef {
     user { weblogic:
       password  => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
     }
   }
-  if $::user_exists_splex {
+  if $::user_exists_splex != '' and $::user_exists_splex != undef {
     user { splex:
       password  => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
     }
   }
-  if $::user_exists_infraadm {
+  if $::user_exists_infraadm != '' and $::user_exists_infraadm != undef {
     user { infraadm:
       password  => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
     }
