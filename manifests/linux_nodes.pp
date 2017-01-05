@@ -178,7 +178,7 @@ node /bomobile1/ {
     source    => "puppet:///modules/example/bomobile-sudoers",
     owner     => root,
     group     => root,
-    mode      => 0440,
+    mode      => '0440',
   }
 }
 
@@ -272,7 +272,7 @@ node /shiplinetest/ {
     ensure   => file,
     owner    => root,
     group    => root,
-    mode     => 644,
+    mode     => '0644',
     source   => "puppet:///modules/example/qcsoftware-sudoers",
   }
 }

@@ -87,7 +87,7 @@ node /shopprod/ {
     ensure => file,
     owner  => root,
     group  => root,
-    mode   => 0440,
+    mode   => '0440',
     source => "puppet:///modules/example/security-sudoers",
   }
 

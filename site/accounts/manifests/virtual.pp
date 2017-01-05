@@ -40,7 +40,7 @@ define accounts::virtual ($uid,$gid,$realname,$pass,$sshkeytype,$sshkey,$groups)
     ensure          => directory,
     owner           => $title,
     group           => $title,
-    mode            => 0750,
+    mode            => '0750',
     require         => [ User[$title], Group[$title] ],
   }
 

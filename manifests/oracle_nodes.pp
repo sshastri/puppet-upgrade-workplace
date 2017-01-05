@@ -6,7 +6,7 @@ node 'owas2.example.com' {
     path      => '/etc/sudoers.d/40-oracle',
     ensure    => file,
     source    => "puppet:///modules/example/owas-sudoers",
-    mode      => 440,
+    mode      => '0440',
   }
 }
 node /iapps1/ {
@@ -48,7 +48,7 @@ node 'dbops1.example.com' {
     path      => '/etc/sudoers.d/40-helpdesk',
     ensure    => file,
     source    => "puppet:///modules/example/helpdesk-sudoers",
-    mode      => 440,
+    mode      => '0440',
   }
 }
 
@@ -123,7 +123,7 @@ node 'soaappdev1.example.com' {
     path      => '/etc/sudoers.d/devsudoers',
     ensure    => file,
     source    => "puppet:///modules/example/soaappdev1-sudoers",
-    mode      => 0440,
+    mode      => '0440',
   }
 }
 node 'pocdbdev1.example.com' {
@@ -134,7 +134,7 @@ node 'pocdbdev1.example.com' {
     ensure    => present,
     owner     => root,
     group     => root,
-    mode      => 440,
+    mode      => '0440',
     source    => "puppet:///modules/example/poc-oracle-sudoers",
   }
 
@@ -305,7 +305,7 @@ node 'pocdbtest1.example.com' {
     ensure    => present,
     owner     => root,
     group     => root,
-    mode      => 440,
+    mode      => '0440',
     source    => "puppet:///modules/example/poc-oracle-sudoers",
   }
 }

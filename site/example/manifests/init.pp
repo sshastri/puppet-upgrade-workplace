@@ -135,14 +135,14 @@ class example::erp::users {
     ensure  => "present",
   }
   file { "/etc/sudoers.d/erp-sudoers":
-    mode    => 440,
+    mode    => '0440',
     owner   => root,
     group   => root,
     source  => "puppet:///modules/example/erp-sudoers"
   }
   if $hostname =~ /obie/ {
     file { "/etc/sudoers.d/60-erp":
-      mode    => 440,
+      mode    => '0440',
       owner   => root,
       group   => root,
       source  => "puppet:///modules/sudo/60-erp"
